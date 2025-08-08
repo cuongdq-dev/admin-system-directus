@@ -1,0 +1,608 @@
+[
+  {
+    "id": 1,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:04.192Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 2,
+    "action": "create",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:04.769Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_flows",
+    "item": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+    "origin": null,
+    "revisions": [
+      1
+    ]
+  },
+  {
+    "id": 3,
+    "action": "create",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:04.779Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_flows",
+    "item": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
+    "origin": null,
+    "revisions": [
+      2
+    ]
+  },
+  {
+    "id": 4,
+    "action": "create",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:04.784Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_flows",
+    "item": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+    "origin": null,
+    "revisions": [
+      3
+    ]
+  },
+  {
+    "id": 5,
+    "action": "create",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:04.789Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_flows",
+    "item": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+    "origin": null,
+    "revisions": [
+      4
+    ]
+  },
+  {
+    "id": 6,
+    "action": "create",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:04.792Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_flows",
+    "item": "69e87d0b-df14-4779-bdc8-abc05f2f1e97",
+    "origin": null,
+    "revisions": [
+      5
+    ]
+  },
+  {
+    "id": 7,
+    "action": "create",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:04.797Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_flows",
+    "item": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+    "origin": null,
+    "revisions": [
+      6
+    ]
+  },
+  {
+    "id": 8,
+    "action": "create",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:04.800Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_flows",
+    "item": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+    "origin": null,
+    "revisions": [
+      7
+    ]
+  },
+  {
+    "id": 9,
+    "action": "create",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:04.805Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_flows",
+    "item": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+    "origin": null,
+    "revisions": [
+      8
+    ]
+  },
+  {
+    "id": 10,
+    "action": "create",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:04.810Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_flows",
+    "item": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+    "origin": null,
+    "revisions": [
+      9
+    ]
+  },
+  {
+    "id": 13,
+    "action": "create",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:04.890Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_translations",
+    "item": "8be74450-2f67-4c3c-a179-8b388222aa98",
+    "origin": null,
+    "revisions": [
+      12
+    ]
+  },
+  {
+    "id": 14,
+    "action": "create",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:04.897Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_folders",
+    "item": "7304d56d-8c53-49cd-9815-d8188cec22db",
+    "origin": null,
+    "revisions": [
+      13
+    ]
+  },
+  {
+    "id": 15,
+    "action": "create",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:04.899Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_folders",
+    "item": "d0f67ad6-abbb-45d6-8d3e-b499a4c74d80",
+    "origin": null,
+    "revisions": [
+      14
+    ]
+  },
+  {
+    "id": 16,
+    "action": "create",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:04.900Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_folders",
+    "item": "e6308546-92fb-4b10-b586-eefaf1d97f7f",
+    "origin": null,
+    "revisions": [
+      15
+    ]
+  },
+  {
+    "id": 17,
+    "action": "create",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:04.901Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_folders",
+    "item": "ece7bab9-5433-4a63-b9f7-bde8b517d6d9",
+    "origin": null,
+    "revisions": [
+      16
+    ]
+  },
+  {
+    "id": 18,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:18.677Z",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": "http://localhost:8055",
+    "revisions": []
+  },
+  {
+    "id": 19,
+    "action": "update",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:20.560Z",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "collection": "directus_settings",
+    "item": "1",
+    "origin": "http://localhost:8055",
+    "revisions": [
+      17
+    ]
+  },
+  {
+    "id": 20,
+    "action": "create",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:25:31.864Z",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "collection": "directus_collections",
+    "item": "posts",
+    "origin": "http://localhost:8055",
+    "revisions": [
+      18
+    ]
+  },
+  {
+    "id": 21,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:29:19.438Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 24,
+    "action": "update",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:29:20.074Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_settings",
+    "item": "1",
+    "origin": null,
+    "revisions": [
+      21
+    ]
+  },
+  {
+    "id": 25,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:30:02.408Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 28,
+    "action": "update",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:30:03.044Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_settings",
+    "item": "1",
+    "origin": null,
+    "revisions": [
+      24
+    ]
+  },
+  {
+    "id": 29,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:30:43.480Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 32,
+    "action": "update",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:30:44.126Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_settings",
+    "item": "1",
+    "origin": null,
+    "revisions": [
+      27
+    ]
+  },
+  {
+    "id": 33,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:31:34.655Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 36,
+    "action": "update",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:31:35.293Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_settings",
+    "item": "1",
+    "origin": null,
+    "revisions": [
+      30
+    ]
+  },
+  {
+    "id": 37,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:32:33.600Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 41,
+    "action": "update",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:32:34.219Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_settings",
+    "item": "1",
+    "origin": null,
+    "revisions": [
+      34
+    ]
+  },
+  {
+    "id": 42,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:33:49.109Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 45,
+    "action": "update",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:33:49.731Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_settings",
+    "item": "1",
+    "origin": null,
+    "revisions": [
+      37
+    ]
+  },
+  {
+    "id": 46,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:36:36.318Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 47,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:37:58.687Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 48,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:42:22.123Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 49,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:42:48.970Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 50,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:42:52.327Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 51,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:43:08.422Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 54,
+    "action": "update",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:43:09.167Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_settings",
+    "item": "1",
+    "origin": null,
+    "revisions": [
+      40
+    ]
+  },
+  {
+    "id": 55,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:43:18.919Z",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": "http://localhost:8055",
+    "revisions": []
+  },
+  {
+    "id": 56,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:43:32.273Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 59,
+    "action": "update",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:43:32.953Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_settings",
+    "item": "1",
+    "origin": null,
+    "revisions": [
+      43
+    ]
+  },
+  {
+    "id": 60,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:44:33.202Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 63,
+    "action": "update",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:44:33.903Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_settings",
+    "item": "1",
+    "origin": null,
+    "revisions": [
+      46
+    ]
+  },
+  {
+    "id": 64,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:44:45.192Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  },
+  {
+    "id": 67,
+    "action": "update",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-06T12:44:45.900Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_settings",
+    "item": "1",
+    "origin": null,
+    "revisions": [
+      49
+    ]
+  },
+  {
+    "id": 68,
+    "action": "update",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-07T07:08:42.224Z",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "collection": "directus_settings",
+    "item": "1",
+    "origin": "http://localhost:8055",
+    "revisions": [
+      50
+    ]
+  },
+  {
+    "id": 69,
+    "action": "login",
+    "user": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "timestamp": "2025-08-07T07:09:08.616Z",
+    "ip": "127.0.0.1",
+    "user_agent": "node",
+    "collection": "directus_users",
+    "item": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+    "origin": null,
+    "revisions": []
+  }
+]

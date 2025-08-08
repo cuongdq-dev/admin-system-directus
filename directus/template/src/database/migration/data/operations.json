@@ -1,0 +1,319 @@
+[
+  {
+    "id": "0beeeb1a-2338-4ab4-95f5-0757bf3e43be",
+    "name": "Log Error",
+    "key": "log_error",
+    "type": "log",
+    "position_x": 37,
+    "position_y": 17,
+    "options": {
+      "message": "Trigger did NOT include a `to` address. "
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+    "date_created": "2025-08-08T08:30:36.184Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "2adf33da-7fd7-42f7-a6fe-48409463d51b",
+    "name": "Update",
+    "key": "update",
+    "type": "item-update",
+    "position_x": 92,
+    "position_y": 1,
+    "options": {
+      "collection": "posts",
+      "payload": {
+        "image": "{{import.data.data.id}}"
+      },
+      "key": "{{$trigger.body.keys}}",
+      "permissions": "$full"
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+    "date_created": "2025-08-08T08:30:36.207Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "396d13ef-af98-49c1-8237-2070549a8cd0",
+    "name": "Create Page",
+    "key": "create_page",
+    "type": "item-create",
+    "position_x": 73,
+    "position_y": 1,
+    "options": {
+      "permissions": "$trigger",
+      "emitEvents": false,
+      "collection": "{{$trigger.body.collection}}",
+      "payload": "{{payload}}"
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+    "date_created": "2025-08-08T08:30:36.221Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "78f34568-e64e-457b-b680-59d9a40a1a22",
+    "name": "No Change",
+    "key": "no_change",
+    "type": "log",
+    "position_x": 37,
+    "position_y": 18,
+    "options": {
+      "message": "No redirect was created. The item `slug` or `permalink` did not change."
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+    "date_created": "2025-08-08T08:30:36.257Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "8673740a-f7f8-44dd-9abd-5a714e0d6c74",
+    "name": "Send Email",
+    "key": "send_email",
+    "type": "mail",
+    "position_x": 37,
+    "position_y": 1,
+    "options": {
+      "to": "{{$trigger.to}}",
+      "subject": "{{$trigger.subject}}",
+      "type": "wysiwyg",
+      "body": "<p>{{$trigger.body}}</p>"
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+    "date_created": "2025-08-08T08:30:36.270Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "9039e7fa-8dcb-4a2f-935c-b0d8dec7bd61",
+    "name": "Not Published",
+    "key": "not_published",
+    "type": "log",
+    "position_x": 73,
+    "position_y": 18,
+    "options": {
+      "message": "No redirect was created. The item `status` was not `published`."
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+    "date_created": "2025-08-08T08:30:36.282Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "aecbd95c-e882-4ceb-acef-b806eaa25770",
+    "name": "Format Payload",
+    "key": "payload",
+    "type": "exec",
+    "position_x": 55,
+    "position_y": 1,
+    "options": {
+      "code": "/**\n* Page Duplication Flow Function\n* \n* This function handles the duplication of a Directus page, including all its content blocks.\n* It allows specifying a new title and permalink, or automatically creates them with \"-Copy\" suffix.\n* The duplicated page is always set to draft status for review before publishing.\n* \n* @param {Object} data - Data object from Directus Flow\n* @param {Object} data.$trigger.body - Optional data passed to the flow (new title/permalink)\n* @param {Object} data.item - The original page being duplicated with all its properties\n* @returns {Object} Modified page data for creating the duplicate\n*/\nmodule.exports = function(data) {\n   // Get the data submitted with the flow trigger (if any)\n   const triggerData = data.$trigger.body;\n   \n   // Get the full data of the existing page to duplicate\n   const existingData = data.item;\n   \n   // Set the title for the duplicate:\n   // - Use the provided title if it exists in the trigger data\n   // - Otherwise, append \"- Copy\" to the original page title\n   existingData.title = triggerData.title ?? existingData.title + ' - Copy';\n   \n   // Set the permalink for the duplicate:\n   // - Use the provided permalink if it exists in the trigger data\n   // - Otherwise, append \"-copy\" to the original permalink\n   existingData.permalink = triggerData.permalink ?? existingData.permalink + '-copy';\n   \n   // Always set the duplicate page to draft status\n   // This prevents accidental publishing of duplicate content\n   existingData.status = 'draft';\n   \n   // Return the modified data to create the duplicate page\n   // Note: Directus will handle copying all related blocks/components\n   return existingData;\n}"
+    },
+    "resolve": "396d13ef-af98-49c1-8237-2070549a8cd0",
+    "reject": null,
+    "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+    "date_created": "2025-08-08T08:30:36.294Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "bc71ca4e-d979-4ef9-a449-af100a7e1b3b",
+    "name": "Import",
+    "key": "import",
+    "type": "request",
+    "position_x": 74,
+    "position_y": 1,
+    "options": {
+      "method": "POST",
+      "url": "{{globals.directus_url}}/files/import",
+      "body": "{\n  \"url\": \"{{image}}\"\n}",
+      "headers": [
+        {
+          "header": "Authorization",
+          "value": "Bearer fT6_R5in_QUpUSXlLqGIhYtbRlBnopFe"
+        }
+      ]
+    },
+    "resolve": "2adf33da-7fd7-42f7-a6fe-48409463d51b",
+    "reject": null,
+    "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+    "date_created": "2025-08-08T08:30:36.348Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "c02bfa07-a395-48df-a0c9-e5acace6da40",
+    "name": "Item",
+    "key": "item",
+    "type": "item-read",
+    "position_x": 37,
+    "position_y": 1,
+    "options": {
+      "permissions": "$trigger",
+      "emitEvents": false,
+      "query": {
+        "fields": "{{duplication_fields.item_duplication_fields}}"
+      },
+      "key": "{{$trigger.body.keys}}",
+      "collection": "{{$trigger.body.collection}}"
+    },
+    "resolve": "aecbd95c-e882-4ceb-acef-b806eaa25770",
+    "reject": null,
+    "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+    "date_created": "2025-08-08T08:30:36.363Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "d6f73e98-19ef-47d6-8d1f-99d77137d36b",
+    "name": "Image",
+    "key": "image",
+    "type": "directus-labs-ai-image-generation",
+    "position_x": 56,
+    "position_y": 1,
+    "options": {
+      "apiKey": "{{globals.openai_api_key}}",
+      "quality": "hd",
+      "size": "landscape",
+      "prompt": "{{prompt}}"
+    },
+    "resolve": "bc71ca4e-d979-4ef9-a449-af100a7e1b3b",
+    "reject": null,
+    "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+    "date_created": "2025-08-08T08:30:36.375Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "e12b95db-a408-4e7e-b30b-264f7fa8baa3",
+    "name": "Send",
+    "key": "send",
+    "type": "trigger",
+    "position_x": 59,
+    "position_y": 1,
+    "options": {
+      "flow": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+      "payload": "{{ render }}"
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+    "date_created": "2025-08-08T08:30:36.397Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "e6c50f84-e229-4f15-8119-c7708256e825",
+    "name": "Update",
+    "key": "update",
+    "type": "item-update",
+    "position_x": 73,
+    "position_y": 1,
+    "options": {
+      "collection": "posts",
+      "permissions": "$full",
+      "key": [
+        "{{$trigger.body.keys}}"
+      ],
+      "payload": "{{format}}"
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+    "date_created": "2025-08-08T08:30:36.404Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "edc5e1ae-a3ed-45af-ae77-10409a66cd03",
+    "name": "Format",
+    "key": "format",
+    "type": "exec",
+    "position_x": 37,
+    "position_y": 1,
+    "options": {
+      "code": "module.exports = function(data) {\n\treturn {\n        ...data.$trigger,\n        body: data.render.template\n    }\n}"
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
+    "date_created": "2025-08-08T08:30:36.411Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "f6ae03f7-014d-43d1-8d69-cf122da302c0",
+    "name": "Send Email",
+    "key": "send_email",
+    "type": "mail",
+    "position_x": 37,
+    "position_y": 19,
+    "options": {
+      "to": [
+        "{{get_editor.email}}"
+      ],
+      "subject": "🧐 Review Request: {{get_post.title}} from {{get_user.first_name}} {{ get_user.last_name}}",
+      "body": "Hi {{ get_editor.first_name }},\n\n{{ get_user.first_name }} {{ get_user.last_name}} has requested your review on the following content:\n\n[{{ $trigger.body.collection }} – **{{ get_post.title }}**]({{globals.directus_url}}/admin/content/{{$trigger.body.collection}}/{{$trigger.body.keys[0]}})\n\n**Comments:**\n{{ $trigger.body.comments }}\n\n---\n\nPlease review to schedule for publishing or request changes.",
+      "replyTo": [
+        "{{get_user.email}}"
+      ]
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+    "date_created": "2025-08-08T08:30:36.423Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "f6b8abc3-20bd-4d05-9bec-b7c759559e13",
+    "name": "Create Redirect",
+    "key": "create_redirect",
+    "type": "item-create",
+    "position_x": 91,
+    "position_y": 1,
+    "options": {
+      "permissions": "$trigger",
+      "emitEvents": false,
+      "collection": "redirects",
+      "payload": "{{format_payload}}"
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+    "date_created": "2025-08-08T08:30:36.430Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "fbf696ea-c6af-4230-8f62-c663beebd6d9",
+    "name": "Render",
+    "key": "render",
+    "type": "trigger",
+    "position_x": 41,
+    "position_y": 1,
+    "options": {
+      "flow": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
+      "payload": "{{ format }}"
+    },
+    "resolve": "e12b95db-a408-4e7e-b30b-264f7fa8baa3",
+    "reject": null,
+    "flow": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+    "date_created": "2025-08-08T08:30:36.438Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  },
+  {
+    "id": "fd271542-fac2-42d8-aa10-a02520c3753f",
+    "name": "Format",
+    "key": "format",
+    "type": "exec",
+    "position_x": 37,
+    "position_y": 1,
+    "options": {
+      "code": "module.exports = async function(data) {\n    return data.read_globals[0]\n}"
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "69e87d0b-df14-4779-bdc8-abc05f2f1e97",
+    "date_created": "2025-08-08T08:30:36.446Z",
+    "user_created": "db0b3c20-275b-4eab-aeec-c3fce050c910"
+  }
+]

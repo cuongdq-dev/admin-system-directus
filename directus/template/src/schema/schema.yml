@@ -1,0 +1,1268 @@
+version: 1
+directus: 11.10.0
+vendor: postgres
+collections:
+  - collection: posts
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: status
+      archive_value: archived
+      collapse: open
+      collection: posts
+      color: null
+      display_template: '{{title}}'
+      group: null
+      hidden: false
+      icon: article
+      item_duplication_fields:
+        - title
+        - slug
+        - author
+        - status
+        - image
+        - description
+        - content
+        - seo
+      note: Individual blog posts
+      preview_url: http://localhost:3000/blog/{{slug}}?preview=true&version={{$version}}
+      singleton: false
+      sort: 1
+      sort_field: sort
+      translations: null
+      unarchive_value: draft
+      versioning: true
+    schema:
+      name: posts
+fields:
+  - collection: directus_settings
+    field: command_palette_settings
+    type: json
+    meta:
+      collection: directus_settings
+      conditions: null
+      display: raw
+      display_options: null
+      field: command_palette_settings
+      group: null
+      hidden: true
+      interface: input-code
+      note: Settings for the Command Palette Module.
+      options: null
+      readonly: false
+      required: false
+      sort: 1
+      special:
+        - cast-json
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: command_palette_settings
+      table: directus_settings
+      data_type: json
+      default_value: {}
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: directus_users
+    field: posts
+    type: alias
+    meta:
+      collection: directus_users
+      conditions: null
+      display: related-values
+      display_options: null
+      field: posts
+      group: null
+      hidden: false
+      interface: list-o2m
+      note: Blog posts this user has authored.
+      options:
+        template: '{{title}}'
+      readonly: false
+      required: false
+      sort: 1
+      special:
+        - o2m
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+  - collection: posts
+    field: id
+    type: uuid
+    meta:
+      collection: posts
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 1
+      special:
+        - uuid
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: id
+      table: posts
+      data_type: uuid
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: false
+      is_unique: true
+      is_indexed: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: posts
+    field: sort
+    type: integer
+    meta:
+      collection: posts
+      conditions: null
+      display: null
+      display_options: null
+      field: sort
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 2
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: sort
+      table: posts
+      data_type: integer
+      default_value: null
+      max_length: null
+      numeric_precision: 32
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: posts
+    field: meta_header_posts
+    type: alias
+    meta:
+      collection: posts
+      conditions: null
+      display: null
+      display_options: null
+      field: meta_header_posts
+      group: null
+      hidden: false
+      interface: super-header
+      note: null
+      options:
+        actions:
+          - actionType: link
+            icon: arrow_outward
+            label: View on Website
+            type: normal
+            url: http://localhost:3000/blog/{{slug}}
+          - actionType: link
+            icon: edit
+            label: Open in Visual Editor
+            type: normal
+            url: >-
+              /admin/visual/http://localhost:3000/blog/{{slug}}?visual-editing=true
+          - actionType: flow
+            flow:
+              collection: directus_flows
+              key: 3172d021-0b0f-4d4d-bcca-c5c46eb8fadf
+            icon: approval_delegation
+            label: Request Review
+            type: normal
+        help: >-
+          <h2>Managing Blog Posts</h2>
+
+          <p>Blog posts are a powerful way to share your content, news, and
+          updates with your audience. Each post can include rich text content,
+          images, and metadata to help with organization and discovery.</p>
+
+          <h3>Post Settings</h3>
+
+          <h4>Title</h4>
+
+          <p>The main headline of your blog post. This appears at the top of the
+          post and in preview cards across your site. Make it:</p>
+
+          <ul>
+
+          <li>Engaging and descriptive</li>
+
+          <li>Clear about the post's content</li>
+
+          <li>Optimized for search engines (aim for 50-60 characters)</li>
+
+          </ul>
+
+          <h4>Description</h4>
+
+          <p>A brief preview of your post that appears in blog listings and
+          search results. Write 1-2 compelling sentences that:</p>
+
+          <ul>
+
+          <li>Summarize the main point of your article</li>
+
+          <li>Entice readers to click through</li>
+
+          <li>Include relevant keywords naturally</li>
+
+          </ul>
+
+          <h4>Featured Image</h4>
+
+          <p>The main visual for your post that appears:</p>
+
+          <ul>
+
+          <li>At the top of the post</li>
+
+          <li>In preview cards across your site</li>
+
+          <li>When sharing on social media Use high-quality, relevant images
+          that capture attention and support your content.</li>
+
+          </ul>
+
+          <h4>URL Slug</h4>
+
+          <p>The unique portion of the URL for this post. For example, in
+          "yoursite.com/posts/my-first-post", "my-first-post" is the slug.</p>
+
+          <ul>
+
+          <li>Use lowercase letters and hyphens</li>
+
+          <li>Keep it short but descriptive</li>
+
+          <li>Include relevant keywords when possible</li>
+
+          <li>Avoid special characters</li>
+
+          </ul>
+
+          <h4>Content</h4>
+
+          <p>The main body of your post, supporting rich text formatting
+          including:</p>
+
+          <ul>
+
+          <li>Headings and subheadings</li>
+
+          <li>Paragraphs with formatting (bold, italic, etc.)</li>
+
+          <li>Links to other content</li>
+
+          <li>Bulleted and numbered lists</li>
+
+          <li>Images and media</li>
+
+          </ul>
+
+          <h4>Author</h4>
+
+          <p>Select the team member who wrote the post. This helps:</p>
+
+          <ul>
+
+          <li>Give credit to your writers</li>
+
+          <li>Build authority for your content</li>
+
+          <li>Allow readers to find more posts by the same author</li>
+
+          </ul>
+
+          <h4>Publishing Options</h4>
+
+          <ul>
+
+          <li><strong>Draft</strong>: Work on the post privately</li>
+
+          <li><strong>In Review</strong>: Submit for team review</li>
+
+          <li><strong>Published</strong>: Make the post public</li>
+
+          <li><strong>Schedule</strong>: Set a future publication date and
+          time</li>
+
+          </ul>
+
+          <h3>Best Practices for Blog Posts</h3>
+
+          <h4>Writing Tips</h4>
+
+          <ul>
+
+          <li>Start with a strong opening paragraph</li>
+
+          <li>Use subheadings to break up long content</li>
+
+          <li>Keep paragraphs short (3-4 sentences)</li>
+
+          <li>Include relevant internal and external links</li>
+
+          <li>End with a clear conclusion or call to action</li>
+
+          </ul>
+
+          <h4>SEO Considerations</h4>
+
+          <ul>
+
+          <li>Include your main keyword in the title</li>
+
+          <li>Use descriptive alt text for images</li>
+
+          <li>Write naturally for your audience</li>
+
+          <li>Link to related content on your site</li>
+
+          <li>Use appropriate heading hierarchy</li>
+
+          </ul>
+
+          <h4>Image Guidelines</h4>
+
+          <ul>
+
+          <li>Choose relevant, high-quality featured images</li>
+
+          <li>Optimize images for web performance</li>
+
+          <li>Use consistent image sizes</li>
+
+          <li>Include descriptive alt text</li>
+
+          <li>Consider image placement within content</li>
+
+          </ul>
+        icon: null
+        subtitle: '{{status}} • Published At: {{published_at}}'
+        title: '{{title}}'
+      readonly: false
+      required: false
+      sort: 7
+      special:
+        - alias
+        - no-data
+      translations: null
+      validation: null
+      validation_message: null
+      width: fill
+  - collection: posts
+    field: meta_tabs
+    type: alias
+    meta:
+      collection: posts
+      conditions: null
+      display: null
+      display_options: null
+      field: meta_tabs
+      group: null
+      hidden: false
+      interface: group-tabs
+      note: null
+      options:
+        fillWidth: true
+      readonly: false
+      required: false
+      sort: 8
+      special:
+        - alias
+        - no-data
+        - group
+      translations:
+        - language: en-US
+          translation: Tabs
+      validation: null
+      validation_message: null
+      width: full
+  - collection: posts
+    field: date_created
+    type: timestamp
+    meta:
+      collection: posts
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_created
+      group: null
+      hidden: true
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 3
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: date_created
+      table: posts
+      data_type: timestamp with time zone
+      default_value: CURRENT_TIMESTAMP
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: posts
+    field: user_created
+    type: uuid
+    meta:
+      collection: posts
+      conditions: null
+      display: user
+      display_options: null
+      field: user_created
+      group: null
+      hidden: true
+      interface: select-dropdown-m2o
+      note: null
+      options:
+        template: '{{avatar}} {{first_name}} {{last_name}}'
+      readonly: true
+      required: false
+      sort: 4
+      special:
+        - user-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: user_created
+      table: posts
+      data_type: uuid
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: directus_users
+      foreign_key_column: id
+  - collection: posts
+    field: date_updated
+    type: timestamp
+    meta:
+      collection: posts
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_updated
+      group: null
+      hidden: true
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 5
+      special:
+        - date-updated
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: date_updated
+      table: posts
+      data_type: timestamp with time zone
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: posts
+    field: user_updated
+    type: uuid
+    meta:
+      collection: posts
+      conditions: null
+      display: user
+      display_options: null
+      field: user_updated
+      group: null
+      hidden: true
+      interface: select-dropdown-m2o
+      note: null
+      options:
+        template: '{{avatar}} {{first_name}} {{last_name}}'
+      readonly: true
+      required: false
+      sort: 6
+      special:
+        - user-updated
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: user_updated
+      table: posts
+      data_type: uuid
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: directus_users
+      foreign_key_column: id
+  - collection: posts
+    field: content
+    type: text
+    meta:
+      collection: posts
+      conditions: null
+      display: formatted-value
+      display_options:
+        format: true
+      field: content
+      group: meta_content
+      hidden: false
+      interface: input-rich-text-html
+      note: Rich text content of your blog post.
+      options:
+        folder: ece7bab9-5433-4a63-b9f7-bde8b517d6d9
+        toolbar:
+          - blockquote
+          - bold
+          - bullist
+          - code
+          - customImage
+          - customLink
+          - customMedia
+          - fullscreen
+          - h1
+          - h2
+          - h3
+          - hr
+          - italic
+          - numlist
+          - redo
+          - removeformat
+          - underline
+          - undo
+      readonly: false
+      required: false
+      sort: 11
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: content
+      table: posts
+      data_type: text
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: posts
+    field: image
+    type: uuid
+    meta:
+      collection: posts
+      conditions: null
+      display: image
+      display_options: null
+      field: image
+      group: meta_content
+      hidden: false
+      interface: file-image
+      note: >-
+        Featured image for this post. Used in cards linking to the post and in
+        the post detail page.
+      options:
+        crop: false
+        folder: ece7bab9-5433-4a63-b9f7-bde8b517d6d9
+      readonly: false
+      required: false
+      sort: 9
+      special:
+        - file
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: image
+      table: posts
+      data_type: uuid
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: directus_files
+      foreign_key_column: id
+  - collection: posts
+    field: slug
+    type: string
+    meta:
+      collection: posts
+      conditions: null
+      display: formatted-value
+      display_options:
+        font: monospace
+      field: slug
+      group: meta_content
+      hidden: false
+      interface: extension-wpslug
+      note: Unique URL for this post (e.g., `yoursite.com/posts/{{your-slug}}`)
+      options:
+        font: monospace
+        placeholder: null
+        template: '{{title}}'
+      readonly: false
+      required: false
+      sort: 2
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: slug
+      table: posts
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: posts
+    field: status
+    type: string
+    meta:
+      collection: posts
+      conditions: null
+      display: labels
+      display_options:
+        choices:
+          - color: '#A2B5CD'
+            icon: draft_orders
+            text: $t:draft
+            value: draft
+          - color: '#FFA439'
+            icon: rate_review
+            text: In Review
+            value: in_review
+          - color: '#2ECDA7'
+            icon: check
+            text: $t:published
+            value: published
+      field: status
+      group: meta_content
+      hidden: false
+      interface: select-dropdown
+      note: Is this post published?
+      options:
+        choices:
+          - color: '#A2B5CD'
+            icon: draft_orders
+            text: $t:draft
+            value: draft
+          - color: '#FFA439'
+            icon: rate_review
+            text: In Review
+            value: in_review
+          - color: '#2ECDA7'
+            icon: check
+            text: $t:published
+            value: published
+      readonly: false
+      required: false
+      sort: 4
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: status
+      table: posts
+      data_type: character varying
+      default_value: draft
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: false
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: posts
+    field: title
+    type: string
+    meta:
+      collection: posts
+      conditions: null
+      display: null
+      display_options: null
+      field: title
+      group: meta_content
+      hidden: false
+      interface: input
+      note: Title of the blog post (used in page title and meta tags)
+      options:
+        placeholder: Essential tips for first-time home buyers
+      readonly: false
+      required: true
+      sort: 1
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: title
+      table: posts
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: posts
+    field: description
+    type: text
+    meta:
+      collection: posts
+      conditions: null
+      display: null
+      display_options: null
+      field: description
+      group: meta_content
+      hidden: false
+      interface: input-multiline
+      note: Short summary of the blog post to entice readers.
+      options:
+        placeholder: >-
+          Discover key strategies for navigating the home buying process, from
+          budgeting to closing. Learn how to avoid common pitfalls and make
+          informed decisions.
+      readonly: false
+      required: false
+      sort: 6
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: description
+      table: posts
+      data_type: text
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: posts
+    field: author
+    type: uuid
+    meta:
+      collection: posts
+      conditions: null
+      display: user
+      display_options:
+        circle: true
+      field: author
+      group: meta_content
+      hidden: false
+      interface: select-dropdown-m2o
+      note: Select the team member who wrote this post
+      options:
+        template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
+      readonly: false
+      required: false
+      sort: 7
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: author
+      table: posts
+      data_type: uuid
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: directus_users
+      foreign_key_column: id
+  - collection: posts
+    field: published_at
+    type: timestamp
+    meta:
+      collection: posts
+      conditions:
+        - hidden: false
+          name: Show If Status = Published
+          options:
+            includeSeconds: false
+            use24: true
+          rule:
+            _and:
+              - status:
+                  _eq: published
+      display: datetime
+      display_options:
+        format: short
+        relative: true
+      field: published_at
+      group: meta_content
+      hidden: false
+      interface: datetime
+      note: Publish now or schedule for later.
+      options:
+        relative: true
+        use24: false
+      readonly: false
+      required: false
+      sort: 5
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: published_at
+      table: posts
+      data_type: timestamp with time zone
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: posts
+    field: meta_divider_info
+    type: alias
+    meta:
+      collection: posts
+      conditions: null
+      display: null
+      display_options: null
+      field: meta_divider_info
+      group: meta_content
+      hidden: false
+      interface: presentation-divider
+      note: null
+      options:
+        color: '#A2B5CD'
+        icon: calendar_month
+        inlineTitle: true
+      readonly: false
+      required: false
+      sort: 3
+      special:
+        - alias
+        - no-data
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+  - collection: posts
+    field: meta_header_content
+    type: alias
+    meta:
+      collection: posts
+      conditions: null
+      display: null
+      display_options: null
+      field: meta_header_content
+      group: meta_content
+      hidden: false
+      interface: super-header
+      note: null
+      options:
+        actions:
+          - actionType: flow
+            flow:
+              collection: directus_flows
+              key: 5915dd55-fff8-4d47-b48c-a0e42e5033c1
+            icon: text_increase
+            label: AI Ghostwriter
+            type: normal
+        help: >-
+          <p><strong>Need inspiration?</strong> Use Flows like AI Ghostwriter to
+          help draft your content.</p>
+
+          <p><em>Note: This uses OpenAI so you'll need to add your API key in
+          the&nbsp;<a href="/admin/content/globals">Globals</a> collection
+          first.</em></p>
+        icon: text_snippet
+        title: Content
+      readonly: false
+      required: false
+      sort: 10
+      special:
+        - alias
+        - no-data
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+  - collection: posts
+    field: meta_header_image
+    type: alias
+    meta:
+      collection: posts
+      conditions: null
+      display: null
+      display_options: null
+      field: meta_header_image
+      group: meta_content
+      hidden: false
+      interface: super-header
+      note: null
+      options:
+        actions:
+          - actionType: flow
+            flow:
+              collection: directus_flows
+              key: d4bbac48-a444-49e0-aedb-9af5273b88df
+            icon: image
+            label: AI Image Generator
+            type: normal
+        help: >-
+          <p><strong>Need inspiration?</strong> Use Flows like AI Image
+          Generator to generate on-brand images for your post using AI.</p>
+
+          <p><em>Note: This uses OpenAI so you'll need to add your API key in
+          the&nbsp;<a href="/admin/content/globals">Globals</a> collection
+          first.</em></p>
+        icon: image
+        title: Image
+      readonly: false
+      required: false
+      sort: 8
+      special:
+        - alias
+        - no-data
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+  - collection: posts
+    field: meta_content
+    type: alias
+    meta:
+      collection: posts
+      conditions: null
+      display: null
+      display_options: null
+      field: meta_content
+      group: meta_tabs
+      hidden: false
+      interface: group-raw
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 1
+      special:
+        - alias
+        - no-data
+        - group
+      translations:
+        - language: en-US
+          translation: Content
+      validation: null
+      validation_message: null
+      width: full
+  - collection: posts
+    field: meta_seo
+    type: alias
+    meta:
+      collection: posts
+      conditions: null
+      display: null
+      display_options: null
+      field: meta_seo
+      group: meta_tabs
+      hidden: false
+      interface: group-raw
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 2
+      special:
+        - alias
+        - no-data
+        - group
+      translations:
+        - language: en-US
+          translation: SEO
+      validation: null
+      validation_message: null
+      width: full
+  - collection: posts
+    field: seo
+    type: json
+    meta:
+      collection: posts
+      conditions: null
+      display: seo-display
+      display_options:
+        showSearchPreview: true
+      field: seo
+      group: meta_seo
+      hidden: false
+      interface: seo-interface
+      note: null
+      options:
+        additionalFields: null
+        descriptionTemplate: '{{description}}'
+        showOgImage: true
+        titleTemplate: '{{title}}'
+      readonly: false
+      required: false
+      sort: 1
+      special:
+        - cast-json
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: seo
+      table: posts
+      data_type: json
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+relations:
+  - collection: posts
+    field: image
+    related_collection: directus_files
+    meta:
+      junction_field: null
+      many_collection: posts
+      many_field: image
+      one_allowed_collections: null
+      one_collection: directus_files
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: posts
+      column: image
+      foreign_key_table: directus_files
+      foreign_key_column: id
+      constraint_name: posts_image_foreign
+      on_update: NO ACTION
+      on_delete: NO ACTION
+  - collection: posts
+    field: author
+    related_collection: directus_users
+    meta:
+      junction_field: null
+      many_collection: posts
+      many_field: author
+      one_allowed_collections: null
+      one_collection: directus_users
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: posts
+      sort_field: sort
+    schema:
+      table: posts
+      column: author
+      foreign_key_table: directus_users
+      foreign_key_column: id
+      constraint_name: posts_author_foreign
+      on_update: NO ACTION
+      on_delete: SET NULL
+  - collection: posts
+    field: user_created
+    related_collection: directus_users
+    meta:
+      junction_field: null
+      many_collection: posts
+      many_field: user_created
+      one_allowed_collections: null
+      one_collection: directus_users
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: posts
+      column: user_created
+      foreign_key_table: directus_users
+      foreign_key_column: id
+      constraint_name: posts_user_created_foreign
+      on_update: NO ACTION
+      on_delete: SET NULL
+  - collection: posts
+    field: user_updated
+    related_collection: directus_users
+    meta:
+      junction_field: null
+      many_collection: posts
+      many_field: user_updated
+      one_allowed_collections: null
+      one_collection: directus_users
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: posts
+      column: user_updated
+      foreign_key_table: directus_users
+      foreign_key_column: id
+      constraint_name: posts_user_updated_foreign
+      on_update: NO ACTION
+      on_delete: SET NULL

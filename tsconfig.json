@@ -1,0 +1,6 @@
+
+{
+  "compilerOptions": {
+    "types": ["@directus/extensions/api.d.ts"]
+  }
+}

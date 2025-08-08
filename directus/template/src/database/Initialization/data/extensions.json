@@ -1,0 +1,443 @@
+[
+  {
+    "id": "0669db22-2caf-48f2-9354-541b11e72a18",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "0669db22-2caf-48f2-9354-541b11e72a18",
+      "folder": "directus-extension-display-translations-context",
+      "source": "module",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/Users/cuongdangquoc/Documents/Source-Code-Company.Nosync/Eccom/ADMIN_SYSTEM/directus_cms/node_modules/directus-extension-display-translations-context",
+      "name": "directus-extension-display-translations-context",
+      "version": "1.0.4",
+      "type": "display",
+      "entrypoint": "dist/index.js",
+      "host": "^11.5.1",
+      "local": true
+    }
+  },
+  {
+    "id": "296ad086-433e-4f8a-a85b-3e629208e2f8",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "296ad086-433e-4f8a-a85b-3e629208e2f8",
+      "folder": "@directus-labs/command-palette-module",
+      "source": "module",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/Users/cuongdangquoc/Documents/Source-Code-Company.Nosync/Eccom/ADMIN_SYSTEM/directus_cms/node_modules/@directus-labs/command-palette-module",
+      "name": "@directus-labs/command-palette-module",
+      "version": "1.1.0",
+      "type": "module",
+      "entrypoint": "dist/index.js",
+      "host": "^11.0.0",
+      "local": true
+    }
+  },
+  {
+    "id": "38605144-450f-4ab4-a301-b8aa26747655",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "38605144-450f-4ab4-a301-b8aa26747655",
+      "folder": "@directus-labs/inline-repeater-interface",
+      "source": "module",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/Users/cuongdangquoc/Documents/Source-Code-Company.Nosync/Eccom/ADMIN_SYSTEM/directus_cms/node_modules/@directus-labs/inline-repeater-interface",
+      "name": "@directus-labs/inline-repeater-interface",
+      "version": "1.0.0",
+      "type": "interface",
+      "entrypoint": "dist/index.js",
+      "host": "^10.0.0 || ^11.0.0",
+      "local": true
+    }
+  },
+  {
+    "id": "566acc81-487f-4f57-8f38-6e49152e2254",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "566acc81-487f-4f57-8f38-6e49152e2254",
+      "folder": "@directus-labs/experimental-m2a-interface",
+      "source": "module",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/Users/cuongdangquoc/Documents/Source-Code-Company.Nosync/Eccom/ADMIN_SYSTEM/directus_cms/node_modules/@directus-labs/experimental-m2a-interface",
+      "name": "@directus-labs/experimental-m2a-interface",
+      "version": "1.2.1",
+      "type": "interface",
+      "entrypoint": "dist/index.js",
+      "host": "^10.10.0",
+      "local": true
+    }
+  },
+  {
+    "id": "5fe1cc0d-8afa-44d9-8e8d-707c2c3c3b1a",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "5fe1cc0d-8afa-44d9-8e8d-707c2c3c3b1a",
+      "folder": "@directus-labs/seo-plugin",
+      "source": "module",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/Users/cuongdangquoc/Documents/Source-Code-Company.Nosync/Eccom/ADMIN_SYSTEM/directus_cms/node_modules/@directus-labs/seo-plugin",
+      "name": "@directus-labs/seo-plugin",
+      "version": "1.1.0",
+      "type": "bundle",
+      "entrypoint": {
+        "app": "dist/app.js",
+        "api": "dist/api.js"
+      },
+      "entries": [
+        {
+          "name": "seo-interface",
+          "type": "interface"
+        },
+        {
+          "name": "seo-display",
+          "type": "display"
+        }
+      ],
+      "host": "^10.10.0",
+      "local": true
+    }
+  },
+  {
+    "id": "64f111f8-d1ea-4f80-b9b2-51699891ef4d",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "64f111f8-d1ea-4f80-b9b2-51699891ef4d",
+      "folder": "@directus-labs/ai-writer-operation",
+      "source": "module",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/Users/cuongdangquoc/Documents/Source-Code-Company.Nosync/Eccom/ADMIN_SYSTEM/directus_cms/node_modules/@directus-labs/ai-writer-operation",
+      "name": "@directus-labs/ai-writer-operation",
+      "version": "1.4.1",
+      "type": "operation",
+      "entrypoint": {
+        "app": "dist/app.js",
+        "api": "dist/api.js"
+      },
+      "host": "^10.0.0 || ^11.0.0",
+      "sandbox": {
+        "enabled": true,
+        "requestedScopes": {
+          "request": {
+            "urls": [
+              "https://api.openai.com/v1/**",
+              "https://api.anthropic.com/v1/**",
+              "https://api.replicate.com/v1/**"
+            ],
+            "methods": [
+              "POST",
+              "GET"
+            ]
+          },
+          "log": {},
+          "sleep": {}
+        }
+      },
+      "local": true
+    }
+  },
+  {
+    "id": "7aa8bb75-ff72-4ccc-92d7-2b69cc0e965c",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "7aa8bb75-ff72-4ccc-92d7-2b69cc0e965c",
+      "folder": "@directus-labs/ai-image-generation-operation",
+      "source": "module",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/Users/cuongdangquoc/Documents/Source-Code-Company.Nosync/Eccom/ADMIN_SYSTEM/directus_cms/node_modules/@directus-labs/ai-image-generation-operation",
+      "name": "@directus-labs/ai-image-generation-operation",
+      "version": "1.0.2",
+      "type": "operation",
+      "entrypoint": {
+        "app": "dist/app.js",
+        "api": "dist/api.js"
+      },
+      "host": "^10.10.0",
+      "sandbox": {
+        "enabled": true,
+        "requestedScopes": {
+          "request": {
+            "urls": [
+              "https://api.openai.com/v1/**"
+            ],
+            "methods": [
+              "POST"
+            ]
+          },
+          "log": {}
+        }
+      },
+      "local": true
+    }
+  },
+  {
+    "id": "82cc8096-816c-4626-b802-d8cfc000db7a",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "82cc8096-816c-4626-b802-d8cfc000db7a",
+      "folder": "@directus-labs/super-header-interface",
+      "source": "module",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/Users/cuongdangquoc/Documents/Source-Code-Company.Nosync/Eccom/ADMIN_SYSTEM/directus_cms/node_modules/@directus-labs/super-header-interface",
+      "name": "@directus-labs/super-header-interface",
+      "version": "1.2.0",
+      "type": "interface",
+      "entrypoint": "dist/index.js",
+      "host": "^10.0.0 || ^11.0.0",
+      "local": true
+    }
+  },
+  {
+    "id": "910ea0a8-5d61-4aa2-a1ec-a2ea7689d173",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "910ea0a8-5d61-4aa2-a1ec-a2ea7689d173",
+      "folder": "@directus-labs/liquidjs-operation",
+      "source": "module",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/Users/cuongdangquoc/Documents/Source-Code-Company.Nosync/Eccom/ADMIN_SYSTEM/directus_cms/node_modules/@directus-labs/liquidjs-operation",
+      "name": "@directus-labs/liquidjs-operation",
+      "version": "1.2.0",
+      "type": "operation",
+      "entrypoint": {
+        "app": "dist/app.js",
+        "api": "dist/api.js"
+      },
+      "host": "^10.10.0",
+      "sandbox": {
+        "enabled": true,
+        "requestedScopes": {
+          "request": {
+            "urls": [
+              "http://*",
+              "https://*"
+            ],
+            "methods": [
+              "GET"
+            ]
+          },
+          "log": {}
+        }
+      },
+      "local": true
+    }
+  },
+  {
+    "id": "9c7da0d8-0248-4c08-9512-7d6c84c82b0b",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "9c7da0d8-0248-4c08-9512-7d6c84c82b0b",
+      "folder": "directus-extension-group-tabs-interface",
+      "source": "module",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/Users/cuongdangquoc/Documents/Source-Code-Company.Nosync/Eccom/ADMIN_SYSTEM/directus_cms/node_modules/directus-extension-group-tabs-interface",
+      "name": "directus-extension-group-tabs-interface",
+      "version": "2.1.0",
+      "type": "interface",
+      "entrypoint": "dist/index.js",
+      "host": "^10.1.0",
+      "local": true
+    }
+  },
+  {
+    "id": "ac61732a-2cc7-4097-a281-aacdb2d2a203",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "ac61732a-2cc7-4097-a281-aacdb2d2a203",
+      "folder": "directus-extension-wpslug-interface",
+      "source": "module",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/Users/cuongdangquoc/Documents/Source-Code-Company.Nosync/Eccom/ADMIN_SYSTEM/directus_cms/node_modules/directus-extension-wpslug-interface",
+      "name": "directus-extension-wpslug-interface",
+      "version": "1.1.0",
+      "type": "interface",
+      "entrypoint": "dist/index.js",
+      "host": "^v9.9.0",
+      "local": true
+    }
+  },
+  {
+    "id": "ac8ec269-9e87-428d-8fa9-ed34970c160c",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "ac8ec269-9e87-428d-8fa9-ed34970c160c",
+      "folder": "@directus-labs/card-select-interfaces",
+      "source": "module",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/Users/cuongdangquoc/Documents/Source-Code-Company.Nosync/Eccom/ADMIN_SYSTEM/directus_cms/node_modules/@directus-labs/card-select-interfaces",
+      "name": "@directus-labs/card-select-interfaces",
+      "version": "1.0.0",
+      "type": "bundle",
+      "entrypoint": {
+        "app": "dist/app.js",
+        "api": "dist/api.js"
+      },
+      "entries": [
+        {
+          "name": "radio-cards-interface",
+          "type": "interface"
+        },
+        {
+          "name": "checkbox-cards-interface",
+          "type": "interface"
+        },
+        {
+          "name": "image-uuid-interface",
+          "type": "interface"
+        }
+      ],
+      "host": "^10.0.0 || ^11.0.0",
+      "local": true
+    }
+  },
+  {
+    "id": "b4badd5e-dbfc-49d1-9c52-114861e6e035",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "b4badd5e-dbfc-49d1-9c52-114861e6e035",
+      "folder": "b6e5d087-6c3b-4842-98d4-16ddf7f957a2",
+      "source": "registry",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/Users/cuongdangquoc/Documents/Source-Code-Company.Nosync/Eccom/ADMIN_SYSTEM/directus_cms/extensions/.registry/b6e5d087-6c3b-4842-98d4-16ddf7f957a2",
+      "name": "directus-extension-theme-settings",
+      "version": "0.1.7",
+      "type": "interface",
+      "entrypoint": "dist/index.js",
+      "host": "^11.5.0",
+      "local": true
+    }
+  },
+  {
+    "id": "f28982be-c47b-48f8-9af5-28a587133428",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "f28982be-c47b-48f8-9af5-28a587133428",
+      "folder": "@directus-labs/simple-list-interface",
+      "source": "module",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/Users/cuongdangquoc/Documents/Source-Code-Company.Nosync/Eccom/ADMIN_SYSTEM/directus_cms/node_modules/@directus-labs/simple-list-interface",
+      "name": "@directus-labs/simple-list-interface",
+      "version": "1.0.0",
+      "type": "interface",
+      "entrypoint": "dist/index.js",
+      "host": "^10.10.0",
+      "local": true
+    }
+  },
+  {
+    "id": "392e1423-adbf-40bd-8d86-885818dd3712",
+    "bundle": "5fe1cc0d-8afa-44d9-8e8d-707c2c3c3b1a",
+    "meta": {
+      "enabled": true,
+      "id": "392e1423-adbf-40bd-8d86-885818dd3712",
+      "folder": "seo-interface",
+      "source": "module",
+      "bundle": "5fe1cc0d-8afa-44d9-8e8d-707c2c3c3b1a"
+    },
+    "schema": {
+      "name": "seo-interface",
+      "type": "interface"
+    }
+  },
+  {
+    "id": "5aa741f5-2ccd-4ff9-9702-608360621276",
+    "bundle": "ac8ec269-9e87-428d-8fa9-ed34970c160c",
+    "meta": {
+      "enabled": true,
+      "id": "5aa741f5-2ccd-4ff9-9702-608360621276",
+      "folder": "image-uuid-interface",
+      "source": "module",
+      "bundle": "ac8ec269-9e87-428d-8fa9-ed34970c160c"
+    },
+    "schema": {
+      "name": "image-uuid-interface",
+      "type": "interface"
+    }
+  },
+  {
+    "id": "6c4e3369-0a20-4ecd-b953-f5c678d60803",
+    "bundle": "ac8ec269-9e87-428d-8fa9-ed34970c160c",
+    "meta": {
+      "enabled": true,
+      "id": "6c4e3369-0a20-4ecd-b953-f5c678d60803",
+      "folder": "radio-cards-interface",
+      "source": "module",
+      "bundle": "ac8ec269-9e87-428d-8fa9-ed34970c160c"
+    },
+    "schema": {
+      "name": "radio-cards-interface",
+      "type": "interface"
+    }
+  },
+  {
+    "id": "85dec061-095c-4ed8-b285-3c4a8e42f448",
+    "bundle": "ac8ec269-9e87-428d-8fa9-ed34970c160c",
+    "meta": {
+      "enabled": true,
+      "id": "85dec061-095c-4ed8-b285-3c4a8e42f448",
+      "folder": "checkbox-cards-interface",
+      "source": "module",
+      "bundle": "ac8ec269-9e87-428d-8fa9-ed34970c160c"
+    },
+    "schema": {
+      "name": "checkbox-cards-interface",
+      "type": "interface"
+    }
+  },
+  {
+    "id": "c340fe24-9683-466d-ac8e-f928e9e86b5f",
+    "bundle": "5fe1cc0d-8afa-44d9-8e8d-707c2c3c3b1a",
+    "meta": {
+      "enabled": true,
+      "id": "c340fe24-9683-466d-ac8e-f928e9e86b5f",
+      "folder": "seo-display",
+      "source": "module",
+      "bundle": "5fe1cc0d-8afa-44d9-8e8d-707c2c3c3b1a"
+    },
+    "schema": {
+      "name": "seo-display",
+      "type": "display"
+    }
+  }
+]

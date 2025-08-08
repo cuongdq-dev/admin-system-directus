@@ -1,0 +1,31 @@
+[
+  {
+    "id": "88a6e8cf-f0f8-41db-a3a2-8a9741c086cc",
+    "first_name": "Frontend",
+    "last_name": "Bot",
+    "title": "For server-to-server communication",
+    "description": "This user has API only access and is meant for communicating securely with Directus from your frontend.\n\nThis user has elevated permissions over the Public to:\n- Submit Forms \n- Upload Files \n\nFrom a security perspective, you would typically not want to allow public access to upload files or submit forms.\n\n- Generate a static token access below and include it in API calls to Directus when submitting forms or uploading files from a form.\n- Be careful to only use the token server side to prevent the static access token from being exposed to the client side.",
+    "tags": ["API"],
+    "status": "active",
+    "provider": "default"
+  },
+  {
+    "id": "9a105323-5eec-48d4-8a79-4681fdc94276",
+    "first_name": "Content",
+    "last_name": "Writer",
+    "email": "writer@example.com",
+    "password": "**********",
+    "status": "active",
+    "role": "3a4464fb-2189-4710-a164-2503eed88ae7",
+    "provider": "default"
+  },
+  {
+    "id": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0",
+    "first_name": "Webmaster",
+    "email": "cms@example.com",
+    "password": "**********",
+    "status": "active",
+    "role": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+    "provider": "default"
+  }
+]

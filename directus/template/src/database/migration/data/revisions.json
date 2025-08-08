@@ -1,0 +1,4144 @@
+[
+  {
+    "id": 1,
+    "activity": 2,
+    "collection": "directus_folders",
+    "item": "7304d56d-8c53-49cd-9815-d8188cec22db",
+    "data": {
+      "id": "7304d56d-8c53-49cd-9815-d8188cec22db",
+      "name": "4. System",
+      "parent": null
+    },
+    "delta": {
+      "id": "7304d56d-8c53-49cd-9815-d8188cec22db",
+      "name": "4. System",
+      "parent": null
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 2,
+    "activity": 3,
+    "collection": "directus_folders",
+    "item": "d0f67ad6-abbb-45d6-8d3e-b499a4c74d80",
+    "data": {
+      "id": "d0f67ad6-abbb-45d6-8d3e-b499a4c74d80",
+      "name": "2. Private",
+      "parent": null
+    },
+    "delta": {
+      "id": "d0f67ad6-abbb-45d6-8d3e-b499a4c74d80",
+      "name": "2. Private",
+      "parent": null
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 3,
+    "activity": 4,
+    "collection": "directus_folders",
+    "item": "e6308546-92fb-4b10-b586-eefaf1d97f7f",
+    "data": {
+      "id": "e6308546-92fb-4b10-b586-eefaf1d97f7f",
+      "name": "3. Uploads",
+      "parent": null
+    },
+    "delta": {
+      "id": "e6308546-92fb-4b10-b586-eefaf1d97f7f",
+      "name": "3. Uploads",
+      "parent": null
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 4,
+    "activity": 5,
+    "collection": "directus_folders",
+    "item": "ece7bab9-5433-4a63-b9f7-bde8b517d6d9",
+    "data": {
+      "id": "ece7bab9-5433-4a63-b9f7-bde8b517d6d9",
+      "name": "1. Public",
+      "parent": null
+    },
+    "delta": {
+      "id": "ece7bab9-5433-4a63-b9f7-bde8b517d6d9",
+      "name": "1. Public",
+      "parent": null
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 5,
+    "activity": 6,
+    "collection": "directus_settings",
+    "item": "1",
+    "data": {
+      "id": 1,
+      "project_name": "CMS",
+      "project_url": null,
+      "project_color": "#6644FF",
+      "project_logo": null,
+      "public_foreground": null,
+      "public_background": null,
+      "public_note": null,
+      "auth_login_attempts": 25,
+      "auth_password_policy": "/^.{8,}$/",
+      "storage_asset_transform": "all",
+      "storage_asset_presets": [
+        {
+          "key": "800w",
+          "fit": "inside",
+          "width": 800,
+          "quality": 90,
+          "withoutEnlargement": true,
+          "format": "webp",
+          "transforms": [],
+          "height": null
+        },
+        {
+          "key": "1200w",
+          "fit": "inside",
+          "width": 1200,
+          "quality": 90,
+          "withoutEnlargement": true,
+          "format": "webp",
+          "transforms": []
+        }
+      ],
+      "custom_css": ".v-divider.inlineTitle.large.add-margin-top {\n    margin-top: 0 !important;\n}\n\n#sidebar .v-divider.inlineTitle {\n    background-color: var(--theme--background) !important;\n    box-shadow: none !important;\n}\n\nbody {\n    font-size: 16px !important;\n}\n\n.drawer-item-content {\n   --theme--form--row-gap: 16px;\n   --theme--form--column-gap: 32px;\n}\n\n#overlay-outlet {\n   --theme--form--row-gap: 16px;\n   --theme--form--column-gap: 32px;\n}\n    ",
+      "storage_default_folder": "ece7bab9-5433-4a63-b9f7-bde8b517d6d9",
+      "basemaps": null,
+      "mapbox_key": null,
+      "module_bar": [
+        {
+          "type": "module",
+          "id": "content",
+          "enabled": true
+        },
+        {
+          "type": "module",
+          "id": "visual",
+          "enabled": false
+        },
+        {
+          "type": "module",
+          "id": "users",
+          "enabled": true
+        },
+        {
+          "type": "module",
+          "id": "files",
+          "enabled": false
+        },
+        {
+          "type": "module",
+          "id": "insights",
+          "enabled": false
+        },
+        {
+          "type": "module",
+          "id": "settings",
+          "enabled": true,
+          "locked": true
+        },
+        {
+          "type": "module",
+          "id": "global-search",
+          "enabled": false
+        }
+      ],
+      "project_descriptor": null,
+      "default_language": "en-US",
+      "custom_aspect_ratios": null,
+      "public_favicon": null,
+      "default_appearance": "auto",
+      "default_theme_light": "Directus Default",
+      "theme_light_overrides": {
+        "form": {
+          "rowGap": "16px",
+          "field": {
+            "input": {
+              "height": "48px",
+              "background": "var(--theme--background)"
+            }
+          }
+        },
+        "borderWidth": "1px",
+        "navigation": {
+          "modules": {
+            "background": "color-mix(in srgb, var(--theme--foreground), var(--theme--primary) 80%)",
+            "button": {
+              "foreground": "color-mix(in srgb, var(--theme--background), var(--theme--primary) 20%)",
+              "foregroundActive": "var(--theme--primary)",
+              "backgroundActive": "var(--theme--background)"
+            }
+          },
+          "background": "var(--theme--background)",
+          "project": {
+            "background": "transparent"
+          },
+          "borderColor": "color-mix(in srgb, var(--theme--foreground), var(--theme--background) 95%)",
+          "borderWidth": "1px",
+          "list": {
+            "divider": {
+              "borderColor": "var(--theme--border-color-subdued)"
+            },
+            "backgroundHover": "color-mix(in srgb, var(--theme--background), var(--theme--primary) 10%)",
+            "backgroundActive": "color-mix(in srgb, var(--theme--background), var(--theme--primary) 15%)"
+          }
+        },
+        "fonts": {
+          "display": {
+            "fontFamily": "\"Space Grotesk\", system-ui",
+            "fontWeight": "600"
+          },
+          "sans": {
+            "fontFamily": "\"DM Sans\", system-ui"
+          }
+        },
+        "borderRadius": "6px",
+        "sidebar": {
+          "background": "var(--theme--background)",
+          "borderWidth": "1px",
+          "borderColor": "var(--theme--border-color-subdued)",
+          "section": {
+            "toggle": {
+              "borderColor": "var(--theme--border-color-subdued)",
+              "borderWidth": "1px",
+              "background": "var(--theme--background)",
+              "foreground": "var(--theme--foreground)",
+              "foregroundHover": "var(--theme--foreground)",
+              "icon": {
+                "foreground": "var(--theme--foreground)",
+                "foregroundHover": "var(--theme--foreground)",
+                "foregroundActive": "var(--theme--foreground-accent)"
+              }
+            }
+          }
+        },
+        "backgroundAccent": "color-mix(in srgb, var(--theme--background), var(--theme--primary) 15%)",
+        "foregroundSubdued": "color-mix(in srgb, var(--theme--background), var(--theme--foreground) 60%)"
+      },
+      "default_theme_dark": "Directus Default",
+      "theme_dark_overrides": {
+        "form": {
+          "rowGap": "16px",
+          "field": {
+            "input": {
+              "height": "48px",
+              "background": "var(--theme--background)"
+            }
+          }
+        },
+        "borderWidth": "1px",
+        "navigation": {
+          "modules": {
+            "background": "color-mix(in srgb, var(--theme--background), var(--theme--primary) 80%)",
+            "button": {
+              "foreground": "color-mix(in srgb, var(--theme--foreground), var(--theme--primary) 20%)",
+              "foregroundActive": "#fff",
+              "backgroundActive": "color-mix(in srgb, var(--theme--primary), var(--theme--background) 40%)"
+            }
+          },
+          "background": "var(--theme--background)",
+          "project": {
+            "background": "transparent"
+          },
+          "borderColor": "color-mix(in srgb, var(--theme--foreground), var(--theme--background) 95%)",
+          "borderWidth": "1px",
+          "list": {
+            "divider": {
+              "borderColor": "var(--theme--border-color-subdued)"
+            },
+            "backgroundHover": "color-mix(in srgb, var(--theme--background), var(--theme--primary) 10%)",
+            "backgroundActive": "color-mix(in srgb, var(--theme--background), var(--theme--primary) 15%)"
+          }
+        },
+        "fonts": {
+          "display": {
+            "fontFamily": "\"Space Grotesk\", system-ui"
+          },
+          "sans": {
+            "fontFamily": "\"DM Sans\", system-ui"
+          }
+        },
+        "borderRadius": "6px",
+        "sidebar": {
+          "background": "var(--theme--background)",
+          "borderWidth": "1px",
+          "borderColor": "var(--theme--border-color-subdued)",
+          "section": {
+            "toggle": {
+              "borderColor": "var(--theme--border-color-subdued)",
+              "borderWidth": "1px",
+              "foreground": "var(--theme--foreground)",
+              "foregroundHover": "var(--theme--foreground)",
+              "icon": {
+                "foreground": "var(--theme--foreground)",
+                "foregroundHover": "var(--theme--foreground)",
+                "foregroundActive": "var(--theme--foreground-accent)"
+              },
+              "background": "var(--theme--background)"
+            }
+          }
+        },
+        "foregroundSubdued": "color-mix(in srgb, var(--theme--background), var(--theme--foreground) 60%)"
+      },
+      "report_error_url": null,
+      "report_bug_url": null,
+      "report_feature_url": null,
+      "public_registration": false,
+      "public_registration_verify_email": true,
+      "public_registration_role": null,
+      "public_registration_email_filter": null,
+      "visual_editor_urls": [
+        {
+          "url": "http://localhost:3000?visual-editing=true"
+        },
+        {
+          "url": "http://localhost:3000/blog?visual-editing=true"
+        }
+      ],
+      "accepted_terms": true,
+      "project_id": "01987eb1-54f0-7580-9820-ec6d1caf30a8",
+      "command_palette_settings": {}
+    },
+    "delta": {
+      "project_name": "CMS",
+      "project_url": null,
+      "project_color": "#6644FF",
+      "project_logo": null,
+      "public_foreground": null,
+      "public_background": null,
+      "public_note": null,
+      "auth_login_attempts": 25,
+      "auth_password_policy": "/^.{8,}$/",
+      "storage_asset_transform": "all",
+      "storage_asset_presets": [
+        {
+          "key": "800w",
+          "fit": "inside",
+          "width": 800,
+          "quality": 90,
+          "withoutEnlargement": true,
+          "format": "webp",
+          "transforms": [],
+          "height": null
+        },
+        {
+          "key": "1200w",
+          "fit": "inside",
+          "width": 1200,
+          "quality": 90,
+          "withoutEnlargement": true,
+          "format": "webp",
+          "transforms": []
+        }
+      ],
+      "custom_css": ".v-divider.inlineTitle.large.add-margin-top {\n    margin-top: 0 !important;\n}\n\n#sidebar .v-divider.inlineTitle {\n    background-color: var(--theme--background) !important;\n    box-shadow: none !important;\n}\n\nbody {\n    font-size: 16px !important;\n}\n\n.drawer-item-content {\n   --theme--form--row-gap: 16px;\n   --theme--form--column-gap: 32px;\n}\n\n#overlay-outlet {\n   --theme--form--row-gap: 16px;\n   --theme--form--column-gap: 32px;\n}\n    ",
+      "storage_default_folder": "ece7bab9-5433-4a63-b9f7-bde8b517d6d9",
+      "basemaps": null,
+      "mapbox_key": null,
+      "module_bar": [
+        {
+          "type": "module",
+          "id": "content",
+          "enabled": true
+        },
+        {
+          "type": "module",
+          "id": "visual",
+          "enabled": false
+        },
+        {
+          "type": "module",
+          "id": "users",
+          "enabled": true
+        },
+        {
+          "type": "module",
+          "id": "files",
+          "enabled": false
+        },
+        {
+          "type": "module",
+          "id": "insights",
+          "enabled": false
+        },
+        {
+          "type": "module",
+          "id": "settings",
+          "enabled": true,
+          "locked": true
+        },
+        {
+          "type": "module",
+          "id": "global-search",
+          "enabled": false
+        }
+      ],
+      "project_descriptor": null,
+      "default_language": "en-US",
+      "custom_aspect_ratios": null,
+      "public_favicon": null,
+      "default_appearance": "auto",
+      "default_theme_light": "Directus Default",
+      "theme_light_overrides": {
+        "form": {
+          "rowGap": "16px",
+          "field": {
+            "input": {
+              "height": "48px",
+              "background": "var(--theme--background)"
+            }
+          }
+        },
+        "borderWidth": "1px",
+        "navigation": {
+          "modules": {
+            "background": "color-mix(in srgb, var(--theme--foreground), var(--theme--primary) 80%)",
+            "button": {
+              "foreground": "color-mix(in srgb, var(--theme--background), var(--theme--primary) 20%)",
+              "foregroundActive": "var(--theme--primary)",
+              "backgroundActive": "var(--theme--background)"
+            }
+          },
+          "background": "var(--theme--background)",
+          "project": {
+            "background": "transparent"
+          },
+          "borderColor": "color-mix(in srgb, var(--theme--foreground), var(--theme--background) 95%)",
+          "borderWidth": "1px",
+          "list": {
+            "divider": {
+              "borderColor": "var(--theme--border-color-subdued)"
+            },
+            "backgroundHover": "color-mix(in srgb, var(--theme--background), var(--theme--primary) 10%)",
+            "backgroundActive": "color-mix(in srgb, var(--theme--background), var(--theme--primary) 15%)"
+          }
+        },
+        "fonts": {
+          "display": {
+            "fontFamily": "\"Space Grotesk\", system-ui",
+            "fontWeight": "600"
+          },
+          "sans": {
+            "fontFamily": "\"DM Sans\", system-ui"
+          }
+        },
+        "borderRadius": "6px",
+        "sidebar": {
+          "background": "var(--theme--background)",
+          "borderWidth": "1px",
+          "borderColor": "var(--theme--border-color-subdued)",
+          "section": {
+            "toggle": {
+              "borderColor": "var(--theme--border-color-subdued)",
+              "borderWidth": "1px",
+              "background": "var(--theme--background)",
+              "foreground": "var(--theme--foreground)",
+              "foregroundHover": "var(--theme--foreground)",
+              "icon": {
+                "foreground": "var(--theme--foreground)",
+                "foregroundHover": "var(--theme--foreground)",
+                "foregroundActive": "var(--theme--foreground-accent)"
+              }
+            }
+          }
+        },
+        "backgroundAccent": "color-mix(in srgb, var(--theme--background), var(--theme--primary) 15%)",
+        "foregroundSubdued": "color-mix(in srgb, var(--theme--background), var(--theme--foreground) 60%)"
+      },
+      "default_theme_dark": "Directus Default",
+      "theme_dark_overrides": {
+        "form": {
+          "rowGap": "16px",
+          "field": {
+            "input": {
+              "height": "48px",
+              "background": "var(--theme--background)"
+            }
+          }
+        },
+        "borderWidth": "1px",
+        "navigation": {
+          "modules": {
+            "background": "color-mix(in srgb, var(--theme--background), var(--theme--primary) 80%)",
+            "button": {
+              "foreground": "color-mix(in srgb, var(--theme--foreground), var(--theme--primary) 20%)",
+              "foregroundActive": "#fff",
+              "backgroundActive": "color-mix(in srgb, var(--theme--primary), var(--theme--background) 40%)"
+            }
+          },
+          "background": "var(--theme--background)",
+          "project": {
+            "background": "transparent"
+          },
+          "borderColor": "color-mix(in srgb, var(--theme--foreground), var(--theme--background) 95%)",
+          "borderWidth": "1px",
+          "list": {
+            "divider": {
+              "borderColor": "var(--theme--border-color-subdued)"
+            },
+            "backgroundHover": "color-mix(in srgb, var(--theme--background), var(--theme--primary) 10%)",
+            "backgroundActive": "color-mix(in srgb, var(--theme--background), var(--theme--primary) 15%)"
+          }
+        },
+        "fonts": {
+          "display": {
+            "fontFamily": "\"Space Grotesk\", system-ui"
+          },
+          "sans": {
+            "fontFamily": "\"DM Sans\", system-ui"
+          }
+        },
+        "borderRadius": "6px",
+        "sidebar": {
+          "background": "var(--theme--background)",
+          "borderWidth": "1px",
+          "borderColor": "var(--theme--border-color-subdued)",
+          "section": {
+            "toggle": {
+              "borderColor": "var(--theme--border-color-subdued)",
+              "borderWidth": "1px",
+              "foreground": "var(--theme--foreground)",
+              "foregroundHover": "var(--theme--foreground)",
+              "icon": {
+                "foreground": "var(--theme--foreground)",
+                "foregroundHover": "var(--theme--foreground)",
+                "foregroundActive": "var(--theme--foreground-accent)"
+              },
+              "background": "var(--theme--background)"
+            }
+          }
+        },
+        "foregroundSubdued": "color-mix(in srgb, var(--theme--background), var(--theme--foreground) 60%)"
+      },
+      "report_error_url": null,
+      "report_bug_url": null,
+      "report_feature_url": null,
+      "public_registration": false,
+      "public_registration_verify_email": true,
+      "public_registration_role": null,
+      "public_registration_email_filter": null,
+      "visual_editor_urls": [
+        {
+          "url": "http://localhost:3000?visual-editing=true"
+        },
+        {
+          "url": "http://localhost:3000/blog?visual-editing=true"
+        }
+      ],
+      "accepted_terms": true,
+      "project_id": "01987eb1-54f0-7580-9820-ec6d1caf30a8"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 6,
+    "activity": 7,
+    "collection": "directus_translations",
+    "item": "8be74450-2f67-4c3c-a179-8b388222aa98",
+    "data": {
+      "id": "8be74450-2f67-4c3c-a179-8b388222aa98",
+      "language": "en-US",
+      "key": "help",
+      "value": "Help"
+    },
+    "delta": {
+      "id": "8be74450-2f67-4c3c-a179-8b388222aa98",
+      "language": "en-US",
+      "key": "help",
+      "value": "Help"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 7,
+    "activity": 8,
+    "collection": "directus_policies",
+    "item": "3ba01681-3a5f-4fe3-8e95-4706b39f7dc5",
+    "data": {
+      "id": "3ba01681-3a5f-4fe3-8e95-4706b39f7dc5",
+      "name": "Content - Live Preview",
+      "icon": "preview",
+      "description": "Grants read access to all pages and posts. Used for Live Preview so you can preview draft content. Be careful not to expose tokens of users with this policy.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": false
+    },
+    "delta": {
+      "id": "3ba01681-3a5f-4fe3-8e95-4706b39f7dc5",
+      "name": "Content - Live Preview",
+      "icon": "preview",
+      "description": "Grants read access to all pages and posts. Used for Live Preview so you can preview draft content. Be careful not to expose tokens of users with this policy.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": false
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 8,
+    "activity": 9,
+    "collection": "directus_policies",
+    "item": "52598a64-071d-4071-96fa-4b620d6189b5",
+    "data": {
+      "id": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "name": "Team - App Access",
+      "icon": "badge",
+      "description": "Grants Directus Studio access to team members",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": true
+    },
+    "delta": {
+      "id": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "name": "Team - App Access",
+      "icon": "badge",
+      "description": "Grants Directus Studio access to team members",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": true
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 9,
+    "activity": 10,
+    "collection": "directus_policies",
+    "item": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+    "data": {
+      "id": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "name": "Content - Manage",
+      "icon": "edit",
+      "description": "Grants ability to read and edit ALL content.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": false
+    },
+    "delta": {
+      "id": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "name": "Content - Manage",
+      "icon": "edit",
+      "description": "Grants ability to read and edit ALL content.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": false
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 10,
+    "activity": 11,
+    "collection": "directus_policies",
+    "item": "a15b697e-29d5-4164-8d24-eb228ba901e3",
+    "data": {
+      "id": "a15b697e-29d5-4164-8d24-eb228ba901e3",
+      "name": "Content - Self",
+      "icon": "self_improvement",
+      "description": "Grants user ability to ONLY edit their own content. Cannot publish content.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": false
+    },
+    "delta": {
+      "id": "a15b697e-29d5-4164-8d24-eb228ba901e3",
+      "name": "Content - Self",
+      "icon": "self_improvement",
+      "description": "Grants user ability to ONLY edit their own content. Cannot publish content.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": false
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 11,
+    "activity": 12,
+    "collection": "directus_policies",
+    "item": "ee1055a2-7c03-4b0b-9b65-ca68491b6329",
+    "data": {
+      "id": "ee1055a2-7c03-4b0b-9b65-ca68491b6329",
+      "name": "Forms - Submission",
+      "icon": "smart_button",
+      "description": "Grants ability to create form submissions. Used in frontend.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": false
+    },
+    "delta": {
+      "id": "ee1055a2-7c03-4b0b-9b65-ca68491b6329",
+      "name": "Forms - Submission",
+      "icon": "smart_button",
+      "description": "Grants ability to create form submissions. Used in frontend.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": false
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 12,
+    "activity": 13,
+    "collection": "directus_policies",
+    "item": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+    "data": {
+      "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+      "name": "Administrator (CMS)",
+      "icon": "verified",
+      "description": "$t:admin_policy_description",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": true,
+      "app_access": true
+    },
+    "delta": {
+      "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+      "name": "Administrator (CMS)",
+      "icon": "verified",
+      "description": "$t:admin_policy_description",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": true,
+      "app_access": true
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 13,
+    "activity": 14,
+    "collection": "directus_roles",
+    "item": "3a4464fb-2189-4710-a164-2503eed88ae7",
+    "data": {
+      "id": "3a4464fb-2189-4710-a164-2503eed88ae7",
+      "name": "Writer",
+      "icon": "docs_add_on",
+      "description": "Role that can create new posts and edit their own posts.",
+      "parent": null,
+      "children": null,
+      "policies": null,
+      "users": null
+    },
+    "delta": {
+      "id": "3a4464fb-2189-4710-a164-2503eed88ae7",
+      "name": "Writer",
+      "icon": "docs_add_on",
+      "description": "Role that can create new posts and edit their own posts.",
+      "parent": null,
+      "children": null,
+      "policies": null,
+      "users": null
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 14,
+    "activity": 15,
+    "collection": "directus_roles",
+    "item": "4516009c-8a04-49e4-b4ac-fd4883da6064",
+    "data": {
+      "id": "4516009c-8a04-49e4-b4ac-fd4883da6064",
+      "name": "Editor",
+      "icon": "nest_wake_on_approach",
+      "description": "Role that has the ability to edit and publish all content.",
+      "parent": null,
+      "children": null,
+      "policies": null,
+      "users": null
+    },
+    "delta": {
+      "id": "4516009c-8a04-49e4-b4ac-fd4883da6064",
+      "name": "Editor",
+      "icon": "nest_wake_on_approach",
+      "description": "Role that has the ability to edit and publish all content.",
+      "parent": null,
+      "children": null,
+      "policies": null,
+      "users": null
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 15,
+    "activity": 16,
+    "collection": "directus_roles",
+    "item": "d70780bd-f3ed-418b-98c2-f5354fd3fa68",
+    "data": {
+      "id": "d70780bd-f3ed-418b-98c2-f5354fd3fa68",
+      "name": "Content Admin",
+      "icon": "admin_panel_settings",
+      "description": "Role with full rights to edit all content. Useful for simple sites or those without publishing approval workflows.",
+      "parent": null,
+      "children": null,
+      "policies": null,
+      "users": null
+    },
+    "delta": {
+      "id": "d70780bd-f3ed-418b-98c2-f5354fd3fa68",
+      "name": "Content Admin",
+      "icon": "admin_panel_settings",
+      "description": "Role with full rights to edit all content. Useful for simple sites or those without publishing approval workflows.",
+      "parent": null,
+      "children": null,
+      "policies": null,
+      "users": null
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 16,
+    "activity": 17,
+    "collection": "directus_roles",
+    "item": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+    "data": {
+      "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+      "name": "Administrator",
+      "icon": "verified",
+      "description": "$t:admin_description",
+      "parent": null,
+      "children": null,
+      "policies": null,
+      "users": null
+    },
+    "delta": {
+      "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+      "name": "Administrator",
+      "icon": "verified",
+      "description": "$t:admin_description",
+      "parent": null,
+      "children": null,
+      "policies": null,
+      "users": null
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 17,
+    "activity": 18,
+    "collection": "directus_users",
+    "item": "88a6e8cf-f0f8-41db-a3a2-8a9741c086cc",
+    "data": {
+      "id": "88a6e8cf-f0f8-41db-a3a2-8a9741c086cc",
+      "first_name": "Frontend",
+      "last_name": "Bot",
+      "title": "For server-to-server communication",
+      "description": "This user has API only access and is meant for communicating securely with Directus from your frontend.\n\nThis user has elevated permissions over the Public to:\n- Submit Forms \n- Upload Files \n\nFrom a security perspective, you would typically not want to allow public access to upload files or submit forms.\n\n- Generate a static token access below and include it in API calls to Directus when submitting forms or uploading files from a form.\n- Be careful to only use the token server side to prevent the static access token from being exposed to the client side.",
+      "tags": [
+        "API"
+      ],
+      "status": "active",
+      "provider": "default"
+    },
+    "delta": {
+      "id": "88a6e8cf-f0f8-41db-a3a2-8a9741c086cc",
+      "first_name": "Frontend",
+      "last_name": "Bot",
+      "title": "For server-to-server communication",
+      "description": "This user has API only access and is meant for communicating securely with Directus from your frontend.\n\nThis user has elevated permissions over the Public to:\n- Submit Forms \n- Upload Files \n\nFrom a security perspective, you would typically not want to allow public access to upload files or submit forms.\n\n- Generate a static token access below and include it in API calls to Directus when submitting forms or uploading files from a form.\n- Be careful to only use the token server side to prevent the static access token from being exposed to the client side.",
+      "tags": [
+        "API"
+      ],
+      "status": "active",
+      "provider": "default"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 18,
+    "activity": 19,
+    "collection": "directus_users",
+    "item": "9a105323-5eec-48d4-8a79-4681fdc94276",
+    "data": {
+      "id": "9a105323-5eec-48d4-8a79-4681fdc94276",
+      "first_name": "Content",
+      "last_name": "Writer",
+      "email": "writer@example.com",
+      "password": "**********",
+      "status": "active",
+      "role": "3a4464fb-2189-4710-a164-2503eed88ae7",
+      "provider": "default"
+    },
+    "delta": {
+      "id": "9a105323-5eec-48d4-8a79-4681fdc94276",
+      "first_name": "Content",
+      "last_name": "Writer",
+      "email": "writer@example.com",
+      "password": "**********",
+      "status": "active",
+      "role": "3a4464fb-2189-4710-a164-2503eed88ae7",
+      "provider": "default"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 19,
+    "activity": 20,
+    "collection": "directus_users",
+    "item": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0",
+    "data": {
+      "id": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0",
+      "first_name": "Webmaster",
+      "email": "cms@example.com",
+      "password": "**********",
+      "status": "active",
+      "role": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+      "provider": "default"
+    },
+    "delta": {
+      "id": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0",
+      "first_name": "Webmaster",
+      "email": "cms@example.com",
+      "password": "**********",
+      "status": "active",
+      "role": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+      "provider": "default"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 20,
+    "activity": 21,
+    "collection": "directus_flows",
+    "item": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+    "data": {
+      "id": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "name": "Request Review",
+      "icon": "approval_delegation",
+      "color": null,
+      "description": "Request a content review for publishing.",
+      "status": "active",
+      "trigger": "manual",
+      "accountability": "all",
+      "options": {
+        "collections": [
+          "posts"
+        ],
+        "requireConfirmation": true,
+        "confirmationDescription": "Request Review",
+        "fields": [
+          {
+            "field": "editor",
+            "type": "json",
+            "name": "Editor",
+            "meta": {
+              "interface": "collection-item-dropdown",
+              "note": "Who should review this for publishing?",
+              "width": "full",
+              "options": {
+                "selectedCollection": "directus_users",
+                "filter": {
+                  "_and": [
+                    {
+                      "role": {
+                        "id": {
+                          "_in": [
+                            "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+                            "d70780bd-f3ed-418b-98c2-f5354fd3fa68",
+                            "4516009c-8a04-49e4-b4ac-fd4883da6064"
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": true
+            }
+          },
+          {
+            "field": "comments",
+            "type": "text",
+            "name": "Comments",
+            "meta": {
+              "interface": "input-multiline",
+              "note": "Do you have any helpful notes or comments for the editor?",
+              "width": "full"
+            }
+          }
+        ]
+      },
+      "operation": "a16e81d1-4177-443e-a292-786a66faee8a",
+      "date_created": "2025-08-06T12:25:04.766Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "delta": {
+      "id": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "name": "Request Review",
+      "icon": "approval_delegation",
+      "color": null,
+      "description": "Request a content review for publishing.",
+      "status": "active",
+      "trigger": "manual",
+      "accountability": "all",
+      "options": {
+        "collections": [
+          "posts"
+        ],
+        "requireConfirmation": true,
+        "confirmationDescription": "Request Review",
+        "fields": [
+          {
+            "field": "editor",
+            "type": "json",
+            "name": "Editor",
+            "meta": {
+              "interface": "collection-item-dropdown",
+              "note": "Who should review this for publishing?",
+              "width": "full",
+              "options": {
+                "selectedCollection": "directus_users",
+                "filter": {
+                  "_and": [
+                    {
+                      "role": {
+                        "id": {
+                          "_in": [
+                            "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+                            "d70780bd-f3ed-418b-98c2-f5354fd3fa68",
+                            "4516009c-8a04-49e4-b4ac-fd4883da6064"
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": true
+            }
+          },
+          {
+            "field": "comments",
+            "type": "text",
+            "name": "Comments",
+            "meta": {
+              "interface": "input-multiline",
+              "note": "Do you have any helpful notes or comments for the editor?",
+              "width": "full"
+            }
+          }
+        ]
+      },
+      "operation": "a16e81d1-4177-443e-a292-786a66faee8a",
+      "date_created": "2025-08-06T12:25:04.766Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 21,
+    "activity": 22,
+    "collection": "directus_flows",
+    "item": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
+    "data": {
+      "id": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
+      "name": "Utils -> Render Template",
+      "icon": "picture_in_picture",
+      "color": null,
+      "description": "Utility flow to render a Liquid JS template",
+      "status": "active",
+      "trigger": "operation",
+      "accountability": "all",
+      "options": {
+        "return": "$last"
+      },
+      "operation": "c846f644-e7c1-43c9-8bb7-81181de0cd60",
+      "date_created": "2025-08-06T12:25:04.775Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "delta": {
+      "id": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
+      "name": "Utils -> Render Template",
+      "icon": "picture_in_picture",
+      "color": null,
+      "description": "Utility flow to render a Liquid JS template",
+      "status": "active",
+      "trigger": "operation",
+      "accountability": "all",
+      "options": {
+        "return": "$last"
+      },
+      "operation": "c846f644-e7c1-43c9-8bb7-81181de0cd60",
+      "date_created": "2025-08-06T12:25:04.775Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 22,
+    "activity": 23,
+    "collection": "directus_flows",
+    "item": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+    "data": {
+      "id": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+      "name": "AI Ghostwriter",
+      "icon": "magic_button",
+      "color": null,
+      "description": "Flow to automatically write blog posts and articles for you using AI.",
+      "status": "active",
+      "trigger": "manual",
+      "accountability": "all",
+      "options": {
+        "collections": [
+          "posts"
+        ],
+        "requireConfirmation": true,
+        "confirmationDescription": "AI Ghostwriter",
+        "fields": [
+          {
+            "field": "prompt",
+            "type": "text",
+            "name": "Prompt",
+            "meta": {
+              "interface": "input-multiline",
+              "note": "Describe the post you'd like AI to write for you.",
+              "width": "full"
+            }
+          },
+          {
+            "field": "voice",
+            "type": "json",
+            "name": "Tone Of Voice",
+            "meta": {
+              "interface": "tags",
+              "note": "What tone of voice would you like AI to write with?",
+              "options": {
+                "presets": [
+                  "friendly",
+                  "professional",
+                  "casual",
+                  "pirate"
+                ]
+              }
+            }
+          }
+        ],
+        "location": "item"
+      },
+      "operation": "5d667ac5-2594-4f16-a863-3847d8917caa",
+      "date_created": "2025-08-06T12:25:04.782Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "delta": {
+      "id": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+      "name": "AI Ghostwriter",
+      "icon": "magic_button",
+      "color": null,
+      "description": "Flow to automatically write blog posts and articles for you using AI.",
+      "status": "active",
+      "trigger": "manual",
+      "accountability": "all",
+      "options": {
+        "collections": [
+          "posts"
+        ],
+        "requireConfirmation": true,
+        "confirmationDescription": "AI Ghostwriter",
+        "fields": [
+          {
+            "field": "prompt",
+            "type": "text",
+            "name": "Prompt",
+            "meta": {
+              "interface": "input-multiline",
+              "note": "Describe the post you'd like AI to write for you.",
+              "width": "full"
+            }
+          },
+          {
+            "field": "voice",
+            "type": "json",
+            "name": "Tone Of Voice",
+            "meta": {
+              "interface": "tags",
+              "note": "What tone of voice would you like AI to write with?",
+              "options": {
+                "presets": [
+                  "friendly",
+                  "professional",
+                  "casual",
+                  "pirate"
+                ]
+              }
+            }
+          }
+        ],
+        "location": "item"
+      },
+      "operation": "5d667ac5-2594-4f16-a863-3847d8917caa",
+      "date_created": "2025-08-06T12:25:04.782Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 23,
+    "activity": 24,
+    "collection": "directus_flows",
+    "item": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+    "data": {
+      "id": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+      "name": "Form Submissions -> Email Notifications",
+      "icon": "attach_email",
+      "color": null,
+      "description": "Automatically sends any emails configured for a form whenever a new submission is created.",
+      "status": "active",
+      "trigger": "event",
+      "accountability": "all",
+      "options": {
+        "type": "action",
+        "scope": [
+          "items.create"
+        ],
+        "collections": [
+          "form_submissions"
+        ]
+      },
+      "operation": "599b80e4-7c74-4496-b243-da198c8613d9",
+      "date_created": "2025-08-06T12:25:04.787Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "delta": {
+      "id": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+      "name": "Form Submissions -> Email Notifications",
+      "icon": "attach_email",
+      "color": null,
+      "description": "Automatically sends any emails configured for a form whenever a new submission is created.",
+      "status": "active",
+      "trigger": "event",
+      "accountability": "all",
+      "options": {
+        "type": "action",
+        "scope": [
+          "items.create"
+        ],
+        "collections": [
+          "form_submissions"
+        ]
+      },
+      "operation": "599b80e4-7c74-4496-b243-da198c8613d9",
+      "date_created": "2025-08-06T12:25:04.787Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 24,
+    "activity": 25,
+    "collection": "directus_flows",
+    "item": "69e87d0b-df14-4779-bdc8-abc05f2f1e97",
+    "data": {
+      "id": "69e87d0b-df14-4779-bdc8-abc05f2f1e97",
+      "name": "Utils -> Get Globals",
+      "icon": "globe_uk",
+      "color": null,
+      "description": "This is a utility flow to use in other flows when you need data from the Globals collection.",
+      "status": "active",
+      "trigger": "operation",
+      "accountability": "activity",
+      "options": {
+        "return": "$last"
+      },
+      "operation": "bb1b1e3f-032e-48b7-b260-1cf3af4a116c",
+      "date_created": "2025-08-06T12:25:04.791Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "delta": {
+      "id": "69e87d0b-df14-4779-bdc8-abc05f2f1e97",
+      "name": "Utils -> Get Globals",
+      "icon": "globe_uk",
+      "color": null,
+      "description": "This is a utility flow to use in other flows when you need data from the Globals collection.",
+      "status": "active",
+      "trigger": "operation",
+      "accountability": "activity",
+      "options": {
+        "return": "$last"
+      },
+      "operation": "bb1b1e3f-032e-48b7-b260-1cf3af4a116c",
+      "date_created": "2025-08-06T12:25:04.791Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 25,
+    "activity": 26,
+    "collection": "directus_flows",
+    "item": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+    "data": {
+      "id": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+      "name": "Utils -> Send Email",
+      "icon": "send",
+      "color": null,
+      "description": "Utility flow to send a single email. Used in other flows.",
+      "status": "active",
+      "trigger": "operation",
+      "accountability": "all",
+      "options": {
+        "return": "$last"
+      },
+      "operation": "6efe1572-6cdd-4c80-a063-eb71b7f1e519",
+      "date_created": "2025-08-06T12:25:04.795Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "delta": {
+      "id": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+      "name": "Utils -> Send Email",
+      "icon": "send",
+      "color": null,
+      "description": "Utility flow to send a single email. Used in other flows.",
+      "status": "active",
+      "trigger": "operation",
+      "accountability": "all",
+      "options": {
+        "return": "$last"
+      },
+      "operation": "6efe1572-6cdd-4c80-a063-eb71b7f1e519",
+      "date_created": "2025-08-06T12:25:04.795Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 26,
+    "activity": 27,
+    "collection": "directus_flows",
+    "item": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+    "data": {
+      "id": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+      "name": "Utils -> Duplicate Page",
+      "icon": "copy_all",
+      "color": null,
+      "description": "Duplicate an entire page, creating a new copy of all the blocks within it.",
+      "status": "active",
+      "trigger": "manual",
+      "accountability": "all",
+      "options": {
+        "collections": [
+          "pages"
+        ],
+        "requireConfirmation": true,
+        "confirmationDescription": "Duplicate this Page",
+        "fields": [
+          {
+            "field": "title",
+            "type": "string",
+            "name": "New Page Title",
+            "meta": {
+              "interface": "input",
+              "note": "What would you like the title of the new page to be? If left blank, will just use the existing title and add \"Copy\" to the end.",
+              "width": "full"
+            }
+          },
+          {
+            "field": "permalink",
+            "type": "string",
+            "name": "New Permalink",
+            "meta": {
+              "interface": "input",
+              "note": "What would you like the permalink of the new page to be? If left blank, will just use the existing permalink and add \"-copy to the end.",
+              "width": "full",
+              "options": {
+                "trim": true
+              }
+            }
+          },
+          {
+            "field": "notice",
+            "type": "alias",
+            "name": "Notice",
+            "meta": {
+              "interface": "presentation-notice",
+              "options": {
+                "text": "Make sure all changes to this page are saved first because it only duplicates saved values. NOTE: This action will duplicate all blocks on this page.",
+                "color": "warning",
+                "icon": "warning"
+              }
+            }
+          }
+        ]
+      },
+      "operation": "1bb8a2e2-c98a-4a52-9224-78b4100ec087",
+      "date_created": "2025-08-06T12:25:04.799Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "delta": {
+      "id": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+      "name": "Utils -> Duplicate Page",
+      "icon": "copy_all",
+      "color": null,
+      "description": "Duplicate an entire page, creating a new copy of all the blocks within it.",
+      "status": "active",
+      "trigger": "manual",
+      "accountability": "all",
+      "options": {
+        "collections": [
+          "pages"
+        ],
+        "requireConfirmation": true,
+        "confirmationDescription": "Duplicate this Page",
+        "fields": [
+          {
+            "field": "title",
+            "type": "string",
+            "name": "New Page Title",
+            "meta": {
+              "interface": "input",
+              "note": "What would you like the title of the new page to be? If left blank, will just use the existing title and add \"Copy\" to the end.",
+              "width": "full"
+            }
+          },
+          {
+            "field": "permalink",
+            "type": "string",
+            "name": "New Permalink",
+            "meta": {
+              "interface": "input",
+              "note": "What would you like the permalink of the new page to be? If left blank, will just use the existing permalink and add \"-copy to the end.",
+              "width": "full",
+              "options": {
+                "trim": true
+              }
+            }
+          },
+          {
+            "field": "notice",
+            "type": "alias",
+            "name": "Notice",
+            "meta": {
+              "interface": "presentation-notice",
+              "options": {
+                "text": "Make sure all changes to this page are saved first because it only duplicates saved values. NOTE: This action will duplicate all blocks on this page.",
+                "color": "warning",
+                "icon": "warning"
+              }
+            }
+          }
+        ]
+      },
+      "operation": "1bb8a2e2-c98a-4a52-9224-78b4100ec087",
+      "date_created": "2025-08-06T12:25:04.799Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 27,
+    "activity": 28,
+    "collection": "directus_flows",
+    "item": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+    "data": {
+      "id": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "name": "Redirects",
+      "icon": "turn_sharp_right",
+      "color": null,
+      "description": "Automatically creates redirects for changed permalinks or slugs from pages or posts.",
+      "status": "active",
+      "trigger": "event",
+      "accountability": "all",
+      "options": {
+        "type": "filter",
+        "scope": [
+          "items.update"
+        ],
+        "collections": [
+          "pages",
+          "posts"
+        ],
+        "return": null
+      },
+      "operation": "282f9a77-5519-460e-bb54-4dc6e30b059a",
+      "date_created": "2025-08-06T12:25:04.804Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "delta": {
+      "id": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "name": "Redirects",
+      "icon": "turn_sharp_right",
+      "color": null,
+      "description": "Automatically creates redirects for changed permalinks or slugs from pages or posts.",
+      "status": "active",
+      "trigger": "event",
+      "accountability": "all",
+      "options": {
+        "type": "filter",
+        "scope": [
+          "items.update"
+        ],
+        "collections": [
+          "pages",
+          "posts"
+        ],
+        "return": null
+      },
+      "operation": "282f9a77-5519-460e-bb54-4dc6e30b059a",
+      "date_created": "2025-08-06T12:25:04.804Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 28,
+    "activity": 29,
+    "collection": "directus_flows",
+    "item": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+    "data": {
+      "id": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "name": "AI Image Generator",
+      "icon": "image_search",
+      "color": null,
+      "description": "Generate AI images for your blog posts.",
+      "status": "active",
+      "trigger": "manual",
+      "accountability": "all",
+      "options": {
+        "collections": [
+          "posts"
+        ],
+        "requireConfirmation": true,
+        "confirmationDescription": "AI Image Generator",
+        "fields": [
+          {
+            "field": "prompt",
+            "type": "text",
+            "name": "Prompt",
+            "meta": {
+              "interface": "input-rich-text-md",
+              "note": "Describe the image you want to generate. The more descriptive - the better the results (usually 😉).",
+              "options": {
+                "placeholder": "Create a hand-drawn marker style illustration to be used as a featured image for blog posts targeting developers. The illustration should have a whimsical theme, using bold, uneven marker-style lines to create an engaging and eye-catching design. The background should always be white. ",
+                "toolbar": [
+                  "heading",
+                  "bold",
+                  "italic",
+                  "strikethrough",
+                  "blockquote",
+                  "bullist",
+                  "numlist",
+                  "table",
+                  "code",
+                  "empty"
+                ]
+              }
+            }
+          },
+          {
+            "field": "colors",
+            "type": "json",
+            "name": "Colors",
+            "meta": {
+              "interface": "list",
+              "options": {
+                "fields": [
+                  {
+                    "field": "color",
+                    "name": "color",
+                    "type": "string",
+                    "meta": {
+                      "field": "color",
+                      "width": "half",
+                      "type": "string",
+                      "interface": "select-color"
+                    }
+                  },
+                  {
+                    "field": "name",
+                    "name": "name",
+                    "type": "string",
+                    "meta": {
+                      "field": "name",
+                      "width": "half",
+                      "type": "string",
+                      "note": "What is the name of the color? AI seems to do better when supplying color names along with the hex codes.",
+                      "interface": "input"
+                    }
+                  },
+                  {
+                    "field": "type",
+                    "name": "type",
+                    "type": "string",
+                    "meta": {
+                      "field": "type",
+                      "width": "full",
+                      "type": "string",
+                      "interface": "select-radio",
+                      "options": {
+                        "choices": [
+                          {
+                            "text": "Primary",
+                            "value": "primary"
+                          },
+                          {
+                            "text": "Secondary",
+                            "value": "secondary"
+                          },
+                          {
+                            "text": "Background",
+                            "value": "background"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "field": "aspect_ratio",
+            "type": "string",
+            "name": "Aspect Ratio",
+            "meta": {
+              "interface": "select-radio",
+              "options": {
+                "choices": [
+                  {
+                    "text": "1:1",
+                    "value": "1:1"
+                  },
+                  {
+                    "text": "16:9",
+                    "value": "16:9"
+                  },
+                  {
+                    "text": "9:16",
+                    "value": "9:16"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "location": "item"
+      },
+      "operation": "0cf30253-f9ed-413f-ac27-7a0ecffa9ee4",
+      "date_created": "2025-08-06T12:25:04.808Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "delta": {
+      "id": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "name": "AI Image Generator",
+      "icon": "image_search",
+      "color": null,
+      "description": "Generate AI images for your blog posts.",
+      "status": "active",
+      "trigger": "manual",
+      "accountability": "all",
+      "options": {
+        "collections": [
+          "posts"
+        ],
+        "requireConfirmation": true,
+        "confirmationDescription": "AI Image Generator",
+        "fields": [
+          {
+            "field": "prompt",
+            "type": "text",
+            "name": "Prompt",
+            "meta": {
+              "interface": "input-rich-text-md",
+              "note": "Describe the image you want to generate. The more descriptive - the better the results (usually 😉).",
+              "options": {
+                "placeholder": "Create a hand-drawn marker style illustration to be used as a featured image for blog posts targeting developers. The illustration should have a whimsical theme, using bold, uneven marker-style lines to create an engaging and eye-catching design. The background should always be white. ",
+                "toolbar": [
+                  "heading",
+                  "bold",
+                  "italic",
+                  "strikethrough",
+                  "blockquote",
+                  "bullist",
+                  "numlist",
+                  "table",
+                  "code",
+                  "empty"
+                ]
+              }
+            }
+          },
+          {
+            "field": "colors",
+            "type": "json",
+            "name": "Colors",
+            "meta": {
+              "interface": "list",
+              "options": {
+                "fields": [
+                  {
+                    "field": "color",
+                    "name": "color",
+                    "type": "string",
+                    "meta": {
+                      "field": "color",
+                      "width": "half",
+                      "type": "string",
+                      "interface": "select-color"
+                    }
+                  },
+                  {
+                    "field": "name",
+                    "name": "name",
+                    "type": "string",
+                    "meta": {
+                      "field": "name",
+                      "width": "half",
+                      "type": "string",
+                      "note": "What is the name of the color? AI seems to do better when supplying color names along with the hex codes.",
+                      "interface": "input"
+                    }
+                  },
+                  {
+                    "field": "type",
+                    "name": "type",
+                    "type": "string",
+                    "meta": {
+                      "field": "type",
+                      "width": "full",
+                      "type": "string",
+                      "interface": "select-radio",
+                      "options": {
+                        "choices": [
+                          {
+                            "text": "Primary",
+                            "value": "primary"
+                          },
+                          {
+                            "text": "Secondary",
+                            "value": "secondary"
+                          },
+                          {
+                            "text": "Background",
+                            "value": "background"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "field": "aspect_ratio",
+            "type": "string",
+            "name": "Aspect Ratio",
+            "meta": {
+              "interface": "select-radio",
+              "options": {
+                "choices": [
+                  {
+                    "text": "1:1",
+                    "value": "1:1"
+                  },
+                  {
+                    "text": "16:9",
+                    "value": "16:9"
+                  },
+                  {
+                    "text": "9:16",
+                    "value": "9:16"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "location": "item"
+      },
+      "operation": "0cf30253-f9ed-413f-ac27-7a0ecffa9ee4",
+      "date_created": "2025-08-06T12:25:04.808Z",
+      "user_created": "05532b2c-a458-49a1-b6ae-586a8e44d075",
+      "operations": []
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 29,
+    "activity": 30,
+    "collection": "directus_operations",
+    "item": "0beeeb1a-2338-4ab4-95f5-0757bf3e43be",
+    "data": {
+      "id": "0beeeb1a-2338-4ab4-95f5-0757bf3e43be",
+      "name": "Log Error",
+      "key": "log_error",
+      "type": "log",
+      "position_x": 37,
+      "position_y": 17,
+      "options": {
+        "message": "Trigger did NOT include a `to` address. "
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+      "date_created": "2024-12-19T15:26:30.553Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "0beeeb1a-2338-4ab4-95f5-0757bf3e43be",
+      "name": "Log Error",
+      "key": "log_error",
+      "type": "log",
+      "position_x": 37,
+      "position_y": 17,
+      "options": {
+        "message": "Trigger did NOT include a `to` address. "
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+      "date_created": "2024-12-19T15:26:30.553Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 30,
+    "activity": 31,
+    "collection": "directus_operations",
+    "item": "2adf33da-7fd7-42f7-a6fe-48409463d51b",
+    "data": {
+      "id": "2adf33da-7fd7-42f7-a6fe-48409463d51b",
+      "name": "Update",
+      "key": "update",
+      "type": "item-update",
+      "position_x": 92,
+      "position_y": 1,
+      "options": {
+        "collection": "posts",
+        "payload": {
+          "image": "{{import.data.data.id}}"
+        },
+        "key": "{{$trigger.body.keys}}",
+        "permissions": "$full"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "date_created": "2024-09-13T04:12:38.606Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "2adf33da-7fd7-42f7-a6fe-48409463d51b",
+      "name": "Update",
+      "key": "update",
+      "type": "item-update",
+      "position_x": 92,
+      "position_y": 1,
+      "options": {
+        "collection": "posts",
+        "payload": {
+          "image": "{{import.data.data.id}}"
+        },
+        "key": "{{$trigger.body.keys}}",
+        "permissions": "$full"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "date_created": "2024-09-13T04:12:38.606Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 31,
+    "activity": 32,
+    "collection": "directus_operations",
+    "item": "396d13ef-af98-49c1-8237-2070549a8cd0",
+    "data": {
+      "id": "396d13ef-af98-49c1-8237-2070549a8cd0",
+      "name": "Create Page",
+      "key": "create_page",
+      "type": "item-create",
+      "position_x": 73,
+      "position_y": 1,
+      "options": {
+        "permissions": "$trigger",
+        "emitEvents": false,
+        "collection": "{{$trigger.body.collection}}",
+        "payload": "{{payload}}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+      "date_created": "2025-05-04T14:20:32.287Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "396d13ef-af98-49c1-8237-2070549a8cd0",
+      "name": "Create Page",
+      "key": "create_page",
+      "type": "item-create",
+      "position_x": 73,
+      "position_y": 1,
+      "options": {
+        "permissions": "$trigger",
+        "emitEvents": false,
+        "collection": "{{$trigger.body.collection}}",
+        "payload": "{{payload}}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+      "date_created": "2025-05-04T14:20:32.287Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 32,
+    "activity": 33,
+    "collection": "directus_operations",
+    "item": "78f34568-e64e-457b-b680-59d9a40a1a22",
+    "data": {
+      "id": "78f34568-e64e-457b-b680-59d9a40a1a22",
+      "name": "No Change",
+      "key": "no_change",
+      "type": "log",
+      "position_x": 37,
+      "position_y": 18,
+      "options": {
+        "message": "No redirect was created. The item `slug` or `permalink` did not change."
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-05-02T20:50:32.806Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "78f34568-e64e-457b-b680-59d9a40a1a22",
+      "name": "No Change",
+      "key": "no_change",
+      "type": "log",
+      "position_x": 37,
+      "position_y": 18,
+      "options": {
+        "message": "No redirect was created. The item `slug` or `permalink` did not change."
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-05-02T20:50:32.806Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 33,
+    "activity": 34,
+    "collection": "directus_operations",
+    "item": "8673740a-f7f8-44dd-9abd-5a714e0d6c74",
+    "data": {
+      "id": "8673740a-f7f8-44dd-9abd-5a714e0d6c74",
+      "name": "Send Email",
+      "key": "send_email",
+      "type": "mail",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "to": "{{$trigger.to}}",
+        "subject": "{{$trigger.subject}}",
+        "type": "wysiwyg",
+        "body": "<p>{{$trigger.body}}</p>"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+      "date_created": "2024-09-25T13:08:40.529Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "8673740a-f7f8-44dd-9abd-5a714e0d6c74",
+      "name": "Send Email",
+      "key": "send_email",
+      "type": "mail",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "to": "{{$trigger.to}}",
+        "subject": "{{$trigger.subject}}",
+        "type": "wysiwyg",
+        "body": "<p>{{$trigger.body}}</p>"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+      "date_created": "2024-09-25T13:08:40.529Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 34,
+    "activity": 35,
+    "collection": "directus_operations",
+    "item": "9039e7fa-8dcb-4a2f-935c-b0d8dec7bd61",
+    "data": {
+      "id": "9039e7fa-8dcb-4a2f-935c-b0d8dec7bd61",
+      "name": "Not Published",
+      "key": "not_published",
+      "type": "log",
+      "position_x": 73,
+      "position_y": 18,
+      "options": {
+        "message": "No redirect was created. The item `status` was not `published`."
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-05-04T17:21:59.280Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "9039e7fa-8dcb-4a2f-935c-b0d8dec7bd61",
+      "name": "Not Published",
+      "key": "not_published",
+      "type": "log",
+      "position_x": 73,
+      "position_y": 18,
+      "options": {
+        "message": "No redirect was created. The item `status` was not `published`."
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-05-04T17:21:59.280Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 35,
+    "activity": 36,
+    "collection": "directus_operations",
+    "item": "aecbd95c-e882-4ceb-acef-b806eaa25770",
+    "data": {
+      "id": "aecbd95c-e882-4ceb-acef-b806eaa25770",
+      "name": "Format Payload",
+      "key": "payload",
+      "type": "exec",
+      "position_x": 55,
+      "position_y": 1,
+      "options": {
+        "code": "/**\n* Page Duplication Flow Function\n* \n* This function handles the duplication of a Directus page, including all its content blocks.\n* It allows specifying a new title and permalink, or automatically creates them with \"-Copy\" suffix.\n* The duplicated page is always set to draft status for review before publishing.\n* \n* @param {Object} data - Data object from Directus Flow\n* @param {Object} data.$trigger.body - Optional data passed to the flow (new title/permalink)\n* @param {Object} data.item - The original page being duplicated with all its properties\n* @returns {Object} Modified page data for creating the duplicate\n*/\nmodule.exports = function(data) {\n   // Get the data submitted with the flow trigger (if any)\n   const triggerData = data.$trigger.body;\n   \n   // Get the full data of the existing page to duplicate\n   const existingData = data.item;\n   \n   // Set the title for the duplicate:\n   // - Use the provided title if it exists in the trigger data\n   // - Otherwise, append \"- Copy\" to the original page title\n   existingData.title = triggerData.title ?? existingData.title + ' - Copy';\n   \n   // Set the permalink for the duplicate:\n   // - Use the provided permalink if it exists in the trigger data\n   // - Otherwise, append \"-copy\" to the original permalink\n   existingData.permalink = triggerData.permalink ?? existingData.permalink + '-copy';\n   \n   // Always set the duplicate page to draft status\n   // This prevents accidental publishing of duplicate content\n   existingData.status = 'draft';\n   \n   // Return the modified data to create the duplicate page\n   // Note: Directus will handle copying all related blocks/components\n   return existingData;\n}"
+      },
+      "resolve": "396d13ef-af98-49c1-8237-2070549a8cd0",
+      "reject": null,
+      "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+      "date_created": "2025-05-04T14:20:32.310Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "aecbd95c-e882-4ceb-acef-b806eaa25770",
+      "name": "Format Payload",
+      "key": "payload",
+      "type": "exec",
+      "position_x": 55,
+      "position_y": 1,
+      "options": {
+        "code": "/**\n* Page Duplication Flow Function\n* \n* This function handles the duplication of a Directus page, including all its content blocks.\n* It allows specifying a new title and permalink, or automatically creates them with \"-Copy\" suffix.\n* The duplicated page is always set to draft status for review before publishing.\n* \n* @param {Object} data - Data object from Directus Flow\n* @param {Object} data.$trigger.body - Optional data passed to the flow (new title/permalink)\n* @param {Object} data.item - The original page being duplicated with all its properties\n* @returns {Object} Modified page data for creating the duplicate\n*/\nmodule.exports = function(data) {\n   // Get the data submitted with the flow trigger (if any)\n   const triggerData = data.$trigger.body;\n   \n   // Get the full data of the existing page to duplicate\n   const existingData = data.item;\n   \n   // Set the title for the duplicate:\n   // - Use the provided title if it exists in the trigger data\n   // - Otherwise, append \"- Copy\" to the original page title\n   existingData.title = triggerData.title ?? existingData.title + ' - Copy';\n   \n   // Set the permalink for the duplicate:\n   // - Use the provided permalink if it exists in the trigger data\n   // - Otherwise, append \"-copy\" to the original permalink\n   existingData.permalink = triggerData.permalink ?? existingData.permalink + '-copy';\n   \n   // Always set the duplicate page to draft status\n   // This prevents accidental publishing of duplicate content\n   existingData.status = 'draft';\n   \n   // Return the modified data to create the duplicate page\n   // Note: Directus will handle copying all related blocks/components\n   return existingData;\n}"
+      },
+      "resolve": "396d13ef-af98-49c1-8237-2070549a8cd0",
+      "reject": null,
+      "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+      "date_created": "2025-05-04T14:20:32.310Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 36,
+    "activity": 37,
+    "collection": "directus_operations",
+    "item": "bc71ca4e-d979-4ef9-a449-af100a7e1b3b",
+    "data": {
+      "id": "bc71ca4e-d979-4ef9-a449-af100a7e1b3b",
+      "name": "Import",
+      "key": "import",
+      "type": "request",
+      "position_x": 74,
+      "position_y": 1,
+      "options": {
+        "method": "POST",
+        "url": "{{globals.directus_url}}/files/import",
+        "body": "{\n  \"url\": \"{{image}}\"\n}",
+        "headers": [
+          {
+            "header": "Authorization",
+            "value": "Bearer fT6_R5in_QUpUSXlLqGIhYtbRlBnopFe"
+          }
+        ]
+      },
+      "resolve": "2adf33da-7fd7-42f7-a6fe-48409463d51b",
+      "reject": null,
+      "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "date_created": "2024-09-13T04:12:38.612Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "bc71ca4e-d979-4ef9-a449-af100a7e1b3b",
+      "name": "Import",
+      "key": "import",
+      "type": "request",
+      "position_x": 74,
+      "position_y": 1,
+      "options": {
+        "method": "POST",
+        "url": "{{globals.directus_url}}/files/import",
+        "body": "{\n  \"url\": \"{{image}}\"\n}",
+        "headers": [
+          {
+            "header": "Authorization",
+            "value": "Bearer fT6_R5in_QUpUSXlLqGIhYtbRlBnopFe"
+          }
+        ]
+      },
+      "resolve": "2adf33da-7fd7-42f7-a6fe-48409463d51b",
+      "reject": null,
+      "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "date_created": "2024-09-13T04:12:38.612Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 37,
+    "activity": 38,
+    "collection": "directus_operations",
+    "item": "c02bfa07-a395-48df-a0c9-e5acace6da40",
+    "data": {
+      "id": "c02bfa07-a395-48df-a0c9-e5acace6da40",
+      "name": "Item",
+      "key": "item",
+      "type": "item-read",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "permissions": "$trigger",
+        "emitEvents": false,
+        "query": {
+          "fields": "{{duplication_fields.item_duplication_fields}}"
+        },
+        "key": "{{$trigger.body.keys}}",
+        "collection": "{{$trigger.body.collection}}"
+      },
+      "resolve": "aecbd95c-e882-4ceb-acef-b806eaa25770",
+      "reject": null,
+      "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+      "date_created": "2025-05-04T14:20:32.324Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "c02bfa07-a395-48df-a0c9-e5acace6da40",
+      "name": "Item",
+      "key": "item",
+      "type": "item-read",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "permissions": "$trigger",
+        "emitEvents": false,
+        "query": {
+          "fields": "{{duplication_fields.item_duplication_fields}}"
+        },
+        "key": "{{$trigger.body.keys}}",
+        "collection": "{{$trigger.body.collection}}"
+      },
+      "resolve": "aecbd95c-e882-4ceb-acef-b806eaa25770",
+      "reject": null,
+      "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+      "date_created": "2025-05-04T14:20:32.324Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 38,
+    "activity": 39,
+    "collection": "directus_operations",
+    "item": "d6f73e98-19ef-47d6-8d1f-99d77137d36b",
+    "data": {
+      "id": "d6f73e98-19ef-47d6-8d1f-99d77137d36b",
+      "name": "Image",
+      "key": "image",
+      "type": "directus-labs-ai-image-generation",
+      "position_x": 56,
+      "position_y": 1,
+      "options": {
+        "apiKey": "{{globals.openai_api_key}}",
+        "quality": "hd",
+        "size": "landscape",
+        "prompt": "{{prompt}}"
+      },
+      "resolve": "bc71ca4e-d979-4ef9-a449-af100a7e1b3b",
+      "reject": null,
+      "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "date_created": "2024-09-13T04:12:38.623Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "d6f73e98-19ef-47d6-8d1f-99d77137d36b",
+      "name": "Image",
+      "key": "image",
+      "type": "directus-labs-ai-image-generation",
+      "position_x": 56,
+      "position_y": 1,
+      "options": {
+        "apiKey": "{{globals.openai_api_key}}",
+        "quality": "hd",
+        "size": "landscape",
+        "prompt": "{{prompt}}"
+      },
+      "resolve": "bc71ca4e-d979-4ef9-a449-af100a7e1b3b",
+      "reject": null,
+      "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "date_created": "2024-09-13T04:12:38.623Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 39,
+    "activity": 40,
+    "collection": "directus_operations",
+    "item": "e12b95db-a408-4e7e-b30b-264f7fa8baa3",
+    "data": {
+      "id": "e12b95db-a408-4e7e-b30b-264f7fa8baa3",
+      "name": "Send",
+      "key": "send",
+      "type": "trigger",
+      "position_x": 59,
+      "position_y": 1,
+      "options": {
+        "flow": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+        "payload": "{{ render }}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+      "date_created": "2024-09-25T13:33:39.709Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "e12b95db-a408-4e7e-b30b-264f7fa8baa3",
+      "name": "Send",
+      "key": "send",
+      "type": "trigger",
+      "position_x": 59,
+      "position_y": 1,
+      "options": {
+        "flow": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+        "payload": "{{ render }}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+      "date_created": "2024-09-25T13:33:39.709Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 40,
+    "activity": 41,
+    "collection": "directus_operations",
+    "item": "e6c50f84-e229-4f15-8119-c7708256e825",
+    "data": {
+      "id": "e6c50f84-e229-4f15-8119-c7708256e825",
+      "name": "Update",
+      "key": "update",
+      "type": "item-update",
+      "position_x": 73,
+      "position_y": 1,
+      "options": {
+        "collection": "posts",
+        "permissions": "$full",
+        "key": [
+          "{{$trigger.body.keys}}"
+        ],
+        "payload": "{{format}}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+      "date_created": "2024-09-13T03:52:01.490Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "e6c50f84-e229-4f15-8119-c7708256e825",
+      "name": "Update",
+      "key": "update",
+      "type": "item-update",
+      "position_x": 73,
+      "position_y": 1,
+      "options": {
+        "collection": "posts",
+        "permissions": "$full",
+        "key": [
+          "{{$trigger.body.keys}}"
+        ],
+        "payload": "{{format}}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+      "date_created": "2024-09-13T03:52:01.490Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 41,
+    "activity": 42,
+    "collection": "directus_operations",
+    "item": "edc5e1ae-a3ed-45af-ae77-10409a66cd03",
+    "data": {
+      "id": "edc5e1ae-a3ed-45af-ae77-10409a66cd03",
+      "name": "Format",
+      "key": "format",
+      "type": "exec",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "code": "module.exports = function(data) {\n\treturn {\n        ...data.$trigger,\n        body: data.render.template\n    }\n}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
+      "date_created": "2024-09-25T13:31:35.265Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "edc5e1ae-a3ed-45af-ae77-10409a66cd03",
+      "name": "Format",
+      "key": "format",
+      "type": "exec",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "code": "module.exports = function(data) {\n\treturn {\n        ...data.$trigger,\n        body: data.render.template\n    }\n}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
+      "date_created": "2024-09-25T13:31:35.265Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 42,
+    "activity": 43,
+    "collection": "directus_operations",
+    "item": "f6ae03f7-014d-43d1-8d69-cf122da302c0",
+    "data": {
+      "id": "f6ae03f7-014d-43d1-8d69-cf122da302c0",
+      "name": "Send Email",
+      "key": "send_email",
+      "type": "mail",
+      "position_x": 37,
+      "position_y": 19,
+      "options": {
+        "to": [
+          "{{get_editor.email}}"
+        ],
+        "subject": "🧐 Review Request: {{get_post.title}} from {{get_user.first_name}} {{ get_user.last_name}}",
+        "body": "Hi {{ get_editor.first_name }},\n\n{{ get_user.first_name }} {{ get_user.last_name}} has requested your review on the following content:\n\n[{{ $trigger.body.collection }} – **{{ get_post.title }}**]({{globals.directus_url}}/admin/content/{{$trigger.body.collection}}/{{$trigger.body.keys[0]}})\n\n**Comments:**\n{{ $trigger.body.comments }}\n\n---\n\nPlease review to schedule for publishing or request changes.",
+        "replyTo": [
+          "{{get_user.email}}"
+        ]
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "date_created": "2025-04-02T19:04:55.879Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "f6ae03f7-014d-43d1-8d69-cf122da302c0",
+      "name": "Send Email",
+      "key": "send_email",
+      "type": "mail",
+      "position_x": 37,
+      "position_y": 19,
+      "options": {
+        "to": [
+          "{{get_editor.email}}"
+        ],
+        "subject": "🧐 Review Request: {{get_post.title}} from {{get_user.first_name}} {{ get_user.last_name}}",
+        "body": "Hi {{ get_editor.first_name }},\n\n{{ get_user.first_name }} {{ get_user.last_name}} has requested your review on the following content:\n\n[{{ $trigger.body.collection }} – **{{ get_post.title }}**]({{globals.directus_url}}/admin/content/{{$trigger.body.collection}}/{{$trigger.body.keys[0]}})\n\n**Comments:**\n{{ $trigger.body.comments }}\n\n---\n\nPlease review to schedule for publishing or request changes.",
+        "replyTo": [
+          "{{get_user.email}}"
+        ]
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "date_created": "2025-04-02T19:04:55.879Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 43,
+    "activity": 44,
+    "collection": "directus_operations",
+    "item": "f6b8abc3-20bd-4d05-9bec-b7c759559e13",
+    "data": {
+      "id": "f6b8abc3-20bd-4d05-9bec-b7c759559e13",
+      "name": "Create Redirect",
+      "key": "create_redirect",
+      "type": "item-create",
+      "position_x": 91,
+      "position_y": 1,
+      "options": {
+        "permissions": "$trigger",
+        "emitEvents": false,
+        "collection": "redirects",
+        "payload": "{{format_payload}}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-05-02T20:37:57.954Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "f6b8abc3-20bd-4d05-9bec-b7c759559e13",
+      "name": "Create Redirect",
+      "key": "create_redirect",
+      "type": "item-create",
+      "position_x": 91,
+      "position_y": 1,
+      "options": {
+        "permissions": "$trigger",
+        "emitEvents": false,
+        "collection": "redirects",
+        "payload": "{{format_payload}}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-05-02T20:37:57.954Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 44,
+    "activity": 45,
+    "collection": "directus_operations",
+    "item": "fbf696ea-c6af-4230-8f62-c663beebd6d9",
+    "data": {
+      "id": "fbf696ea-c6af-4230-8f62-c663beebd6d9",
+      "name": "Render",
+      "key": "render",
+      "type": "trigger",
+      "position_x": 41,
+      "position_y": 1,
+      "options": {
+        "flow": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
+        "payload": "{{ format }}"
+      },
+      "resolve": "e12b95db-a408-4e7e-b30b-264f7fa8baa3",
+      "reject": null,
+      "flow": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+      "date_created": "2024-09-25T13:29:26.743Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "fbf696ea-c6af-4230-8f62-c663beebd6d9",
+      "name": "Render",
+      "key": "render",
+      "type": "trigger",
+      "position_x": 41,
+      "position_y": 1,
+      "options": {
+        "flow": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
+        "payload": "{{ format }}"
+      },
+      "resolve": "e12b95db-a408-4e7e-b30b-264f7fa8baa3",
+      "reject": null,
+      "flow": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+      "date_created": "2024-09-25T13:29:26.743Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 45,
+    "activity": 46,
+    "collection": "directus_operations",
+    "item": "fd271542-fac2-42d8-aa10-a02520c3753f",
+    "data": {
+      "id": "fd271542-fac2-42d8-aa10-a02520c3753f",
+      "name": "Format",
+      "key": "format",
+      "type": "exec",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "code": "module.exports = async function(data) {\n    return data.read_globals[0]\n}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "69e87d0b-df14-4779-bdc8-abc05f2f1e97",
+      "date_created": "2024-02-26T13:03:38.753Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "fd271542-fac2-42d8-aa10-a02520c3753f",
+      "name": "Format",
+      "key": "format",
+      "type": "exec",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "code": "module.exports = async function(data) {\n    return data.read_globals[0]\n}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "69e87d0b-df14-4779-bdc8-abc05f2f1e97",
+      "date_created": "2024-02-26T13:03:38.753Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 46,
+    "activity": 47,
+    "collection": "directus_permissions",
+    "item": "0",
+    "data": {
+      "collection": "directus_files",
+      "action": "read",
+      "permissions": {
+        "_and": [
+          {
+            "_or": [
+              {
+                "folder": {
+                  "name": {
+                    "_contains": "Public"
+                  }
+                }
+              },
+              {
+                "folder": {
+                  "parent": {
+                    "name": {
+                      "_contains": "Public"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "abf8a154-5b1c-4a46-ac9c-7300570f4f17",
+      "id": 0
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "read",
+      "permissions": {
+        "_and": [
+          {
+            "_or": [
+              {
+                "folder": {
+                  "name": {
+                    "_contains": "Public"
+                  }
+                }
+              },
+              {
+                "folder": {
+                  "parent": {
+                    "name": {
+                      "_contains": "Public"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "abf8a154-5b1c-4a46-ac9c-7300570f4f17",
+      "id": 0
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 47,
+    "activity": 48,
+    "collection": "directus_permissions",
+    "item": "1",
+    "data": {
+      "collection": "directus_dashboards",
+      "action": "create",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 1
+    },
+    "delta": {
+      "collection": "directus_dashboards",
+      "action": "create",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 1
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 48,
+    "activity": 49,
+    "collection": "directus_permissions",
+    "item": "2",
+    "data": {
+      "collection": "directus_dashboards",
+      "action": "read",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 2
+    },
+    "delta": {
+      "collection": "directus_dashboards",
+      "action": "read",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 2
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 49,
+    "activity": 50,
+    "collection": "directus_permissions",
+    "item": "3",
+    "data": {
+      "collection": "directus_dashboards",
+      "action": "update",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 3
+    },
+    "delta": {
+      "collection": "directus_dashboards",
+      "action": "update",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 3
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 50,
+    "activity": 51,
+    "collection": "directus_permissions",
+    "item": "4",
+    "data": {
+      "collection": "directus_dashboards",
+      "action": "delete",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 4
+    },
+    "delta": {
+      "collection": "directus_dashboards",
+      "action": "delete",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 4
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 51,
+    "activity": 52,
+    "collection": "directus_permissions",
+    "item": "5",
+    "data": {
+      "collection": "directus_panels",
+      "action": "create",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 5
+    },
+    "delta": {
+      "collection": "directus_panels",
+      "action": "create",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 5
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 52,
+    "activity": 53,
+    "collection": "directus_permissions",
+    "item": "6",
+    "data": {
+      "collection": "directus_panels",
+      "action": "read",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 6
+    },
+    "delta": {
+      "collection": "directus_panels",
+      "action": "read",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 6
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 53,
+    "activity": 54,
+    "collection": "directus_permissions",
+    "item": "7",
+    "data": {
+      "collection": "directus_panels",
+      "action": "update",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 7
+    },
+    "delta": {
+      "collection": "directus_panels",
+      "action": "update",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 7
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 54,
+    "activity": 55,
+    "collection": "directus_permissions",
+    "item": "8",
+    "data": {
+      "collection": "directus_panels",
+      "action": "delete",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 8
+    },
+    "delta": {
+      "collection": "directus_panels",
+      "action": "delete",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 8
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 55,
+    "activity": 56,
+    "collection": "directus_permissions",
+    "item": "9",
+    "data": {
+      "collection": "directus_users",
+      "action": "read",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 9
+    },
+    "delta": {
+      "collection": "directus_users",
+      "action": "read",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 9
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 56,
+    "activity": 57,
+    "collection": "directus_permissions",
+    "item": "10",
+    "data": {
+      "collection": "directus_users",
+      "action": "update",
+      "permissions": {
+        "id": {
+          "_eq": "$CURRENT_USER"
+        }
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "first_name",
+        "last_name",
+        "email",
+        "password",
+        "location",
+        "title",
+        "description",
+        "avatar",
+        "language",
+        "appearance",
+        "theme_light",
+        "theme_dark",
+        "theme_light_overrides",
+        "theme_dark_overrides",
+        "tfa_secret"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 10
+    },
+    "delta": {
+      "collection": "directus_users",
+      "action": "update",
+      "permissions": {
+        "id": {
+          "_eq": "$CURRENT_USER"
+        }
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "first_name",
+        "last_name",
+        "email",
+        "password",
+        "location",
+        "title",
+        "description",
+        "avatar",
+        "language",
+        "appearance",
+        "theme_light",
+        "theme_dark",
+        "theme_light_overrides",
+        "theme_dark_overrides",
+        "tfa_secret"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 10
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 57,
+    "activity": 58,
+    "collection": "directus_permissions",
+    "item": "11",
+    "data": {
+      "collection": "directus_roles",
+      "action": "read",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 11
+    },
+    "delta": {
+      "collection": "directus_roles",
+      "action": "read",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 11
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 58,
+    "activity": 59,
+    "collection": "directus_permissions",
+    "item": "12",
+    "data": {
+      "collection": "directus_shares",
+      "action": "read",
+      "permissions": {
+        "_or": [
+          {
+            "role": {
+              "_eq": "$CURRENT_ROLE"
+            }
+          },
+          {
+            "role": {
+              "_null": true
+            }
+          }
+        ]
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 12
+    },
+    "delta": {
+      "collection": "directus_shares",
+      "action": "read",
+      "permissions": {
+        "_or": [
+          {
+            "role": {
+              "_eq": "$CURRENT_ROLE"
+            }
+          },
+          {
+            "role": {
+              "_null": true
+            }
+          }
+        ]
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 12
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 59,
+    "activity": 60,
+    "collection": "directus_permissions",
+    "item": "13",
+    "data": {
+      "collection": "directus_shares",
+      "action": "create",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 13
+    },
+    "delta": {
+      "collection": "directus_shares",
+      "action": "create",
+      "permissions": {},
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 13
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 60,
+    "activity": 61,
+    "collection": "directus_permissions",
+    "item": "14",
+    "data": {
+      "collection": "directus_shares",
+      "action": "update",
+      "permissions": {
+        "user_created": {
+          "_eq": "$CURRENT_USER"
+        }
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 14
+    },
+    "delta": {
+      "collection": "directus_shares",
+      "action": "update",
+      "permissions": {
+        "user_created": {
+          "_eq": "$CURRENT_USER"
+        }
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 14
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 61,
+    "activity": 62,
+    "collection": "directus_permissions",
+    "item": "15",
+    "data": {
+      "collection": "directus_shares",
+      "action": "delete",
+      "permissions": {
+        "user_created": {
+          "_eq": "$CURRENT_USER"
+        }
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 15
+    },
+    "delta": {
+      "collection": "directus_shares",
+      "action": "delete",
+      "permissions": {
+        "user_created": {
+          "_eq": "$CURRENT_USER"
+        }
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 15
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 62,
+    "activity": 63,
+    "collection": "directus_permissions",
+    "item": "16",
+    "data": {
+      "collection": "directus_flows",
+      "action": "read",
+      "permissions": {
+        "trigger": {
+          "_eq": "manual"
+        }
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "id",
+        "status",
+        "name",
+        "icon",
+        "color",
+        "options",
+        "trigger"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 16
+    },
+    "delta": {
+      "collection": "directus_flows",
+      "action": "read",
+      "permissions": {
+        "trigger": {
+          "_eq": "manual"
+        }
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "id",
+        "status",
+        "name",
+        "icon",
+        "color",
+        "options",
+        "trigger"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 16
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 63,
+    "activity": 64,
+    "collection": "directus_permissions",
+    "item": "17",
+    "data": {
+      "collection": "directus_files",
+      "action": "create",
+      "permissions": null,
+      "validation": {
+        "_and": [
+          {
+            "filesize": {
+              "_lte": "5000000"
+            }
+          }
+        ]
+      },
+      "presets": {
+        "folder": "e6308546-92fb-4b10-b586-eefaf1d97f7f"
+      },
+      "fields": [
+        "*"
+      ],
+      "policy": "ee1055a2-7c03-4b0b-9b65-ca68491b6329",
+      "id": 17
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "create",
+      "permissions": null,
+      "validation": {
+        "_and": [
+          {
+            "filesize": {
+              "_lte": "5000000"
+            }
+          }
+        ]
+      },
+      "presets": {
+        "folder": "e6308546-92fb-4b10-b586-eefaf1d97f7f"
+      },
+      "fields": [
+        "*"
+      ],
+      "policy": "ee1055a2-7c03-4b0b-9b65-ca68491b6329",
+      "id": 17
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 64,
+    "activity": 65,
+    "collection": "directus_permissions",
+    "item": "18",
+    "data": {
+      "collection": "directus_users",
+      "action": "read",
+      "permissions": {
+        "_and": [
+          {
+            "posts": {
+              "_nnull": true
+            }
+          }
+        ]
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "first_name",
+        "last_name",
+        "avatar",
+        "title",
+        "id"
+      ],
+      "policy": "abf8a154-5b1c-4a46-ac9c-7300570f4f17",
+      "id": 18
+    },
+    "delta": {
+      "collection": "directus_users",
+      "action": "read",
+      "permissions": {
+        "_and": [
+          {
+            "posts": {
+              "_nnull": true
+            }
+          }
+        ]
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "first_name",
+        "last_name",
+        "avatar",
+        "title",
+        "id"
+      ],
+      "policy": "abf8a154-5b1c-4a46-ac9c-7300570f4f17",
+      "id": 18
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 65,
+    "activity": 66,
+    "collection": "directus_permissions",
+    "item": "19",
+    "data": {
+      "collection": "directus_files",
+      "action": "read",
+      "permissions": {
+        "_and": [
+          {
+            "folder": {
+              "_eq": "e6308546-92fb-4b10-b586-eefaf1d97f7f"
+            }
+          }
+        ]
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "id"
+      ],
+      "policy": "ee1055a2-7c03-4b0b-9b65-ca68491b6329",
+      "id": 19
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "read",
+      "permissions": {
+        "_and": [
+          {
+            "folder": {
+              "_eq": "e6308546-92fb-4b10-b586-eefaf1d97f7f"
+            }
+          }
+        ]
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "id"
+      ],
+      "policy": "ee1055a2-7c03-4b0b-9b65-ca68491b6329",
+      "id": 19
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 66,
+    "activity": 67,
+    "collection": "directus_permissions",
+    "item": "20",
+    "data": {
+      "collection": "directus_folders",
+      "action": "read",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 20
+    },
+    "delta": {
+      "collection": "directus_folders",
+      "action": "read",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 20
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 67,
+    "activity": 68,
+    "collection": "directus_permissions",
+    "item": "21",
+    "data": {
+      "collection": "directus_files",
+      "action": "read",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 21
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "read",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "id": 21
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 68,
+    "activity": 69,
+    "collection": "directus_permissions",
+    "item": "22",
+    "data": {
+      "collection": "directus_folders",
+      "action": "create",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 22
+    },
+    "delta": {
+      "collection": "directus_folders",
+      "action": "create",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 22
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 69,
+    "activity": 70,
+    "collection": "directus_permissions",
+    "item": "23",
+    "data": {
+      "collection": "directus_folders",
+      "action": "read",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 23
+    },
+    "delta": {
+      "collection": "directus_folders",
+      "action": "read",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 23
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 70,
+    "activity": 71,
+    "collection": "directus_permissions",
+    "item": "24",
+    "data": {
+      "collection": "directus_folders",
+      "action": "update",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 24
+    },
+    "delta": {
+      "collection": "directus_folders",
+      "action": "update",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 24
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 71,
+    "activity": 72,
+    "collection": "directus_permissions",
+    "item": "25",
+    "data": {
+      "collection": "directus_folders",
+      "action": "delete",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 25
+    },
+    "delta": {
+      "collection": "directus_folders",
+      "action": "delete",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 25
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 72,
+    "activity": 73,
+    "collection": "directus_permissions",
+    "item": "26",
+    "data": {
+      "collection": "directus_files",
+      "action": "create",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 26
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "create",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 26
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 73,
+    "activity": 74,
+    "collection": "directus_permissions",
+    "item": "27",
+    "data": {
+      "collection": "directus_files",
+      "action": "read",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 27
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "read",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 27
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 74,
+    "activity": 75,
+    "collection": "directus_permissions",
+    "item": "28",
+    "data": {
+      "collection": "directus_files",
+      "action": "update",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 28
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "update",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 28
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 75,
+    "activity": 76,
+    "collection": "directus_permissions",
+    "item": "29",
+    "data": {
+      "collection": "directus_files",
+      "action": "delete",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 29
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "delete",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "id": 29
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 76,
+    "activity": 77,
+    "collection": "directus_permissions",
+    "item": "30",
+    "data": {
+      "collection": "directus_files",
+      "action": "create",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
+      "id": 30
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "create",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
+      "id": 30
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 77,
+    "activity": 78,
+    "collection": "directus_permissions",
+    "item": "31",
+    "data": {
+      "collection": "directus_files",
+      "action": "read",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
+      "id": 31
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "read",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
+      "id": 31
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 78,
+    "activity": 79,
+    "collection": "directus_permissions",
+    "item": "32",
+    "data": {
+      "collection": "directus_files",
+      "action": "update",
+      "permissions": {
+        "_and": [
+          {
+            "uploaded_by": {
+              "_eq": "$CURRENT_USER"
+            }
+          }
+        ]
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
+      "id": 32
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "update",
+      "permissions": {
+        "_and": [
+          {
+            "uploaded_by": {
+              "_eq": "$CURRENT_USER"
+            }
+          }
+        ]
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
+      "id": 32
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 79,
+    "activity": 80,
+    "collection": "directus_permissions",
+    "item": "33",
+    "data": {
+      "collection": "directus_files",
+      "action": "delete",
+      "permissions": {
+        "_and": [
+          {
+            "uploaded_by": {
+              "_eq": "$CURRENT_USER"
+            }
+          }
+        ]
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
+      "id": 33
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "delete",
+      "permissions": {
+        "_and": [
+          {
+            "uploaded_by": {
+              "_eq": "$CURRENT_USER"
+            }
+          }
+        ]
+      },
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
+      "id": 33
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 80,
+    "activity": 81,
+    "collection": "posts",
+    "item": "399a9a1b-bad5-4b5b-86e4-291ad1676e91",
+    "data": {
+      "id": "399a9a1b-bad5-4b5b-86e4-291ad1676e91",
+      "sort": null,
+      "date_created": "2025-08-06T09:59:18.502Z",
+      "user_created": "909b5c65-2269-4db4-801b-7ec3410f717b",
+      "date_updated": null,
+      "content": "<h2>What is a Headless CMS?</h2>\n<p>Before diving into the benefits, let’s quickly clarify what a headless CMS actually is. Essentially, a headless Content Management System (CMS) is a backend-only content management system. Unlike traditional CMSs, which tie the content and front-end display together, a headless CMS separates the two. This means you can manage your content in the backend while delivering it to any device or platform using APIs.</p>\n\n<h2>Top Benefits of a Headless CMS</h2>\n\n<h3>1. Flexibility and Customization</h3>\n<p>One of the standout benefits of a headless CMS is flexibility. Since the front-end and back-end are decoupled, developers have the freedom to choose how they want to present the content. Whether it’s a website, a mobile app, or even a digital kiosk, you can easily adapt the content to fit any platform or screen size. This is ideal for brands wanting to deliver tailored experiences without being locked into specific templates.</p>\n\n<h3>2. Omnichannel Experience</h3>\n<p>We live in a multi-device world, and users expect a seamless experience across all platforms. A headless CMS makes this possible. By serving content via APIs, it can distribute it to any device or channel you can think of—websites, apps, IoT devices, you name it. This ensures your customers receive consistent messaging and a cohesive experience no matter where they interact with your brand.</p>\n\n<h3>3. Faster Performance</h3>\n<p>In today’s fast-paced digital environment, load times can make or break user experience. Since a headless CMS focuses on content delivery via APIs, it can significantly improve performance. Developers can create lighter, faster front-end experiences without the bloat often found in traditional CMSs. This means quicker load times for users, which can lead to lower bounce rates and higher engagement levels.</p>\n\n<h3>4. Better Security</h3>\n<p>Security is a big concern for any online business. With a headless CMS, you can minimize the risks associated with external attacks. Because the front end is separate, hackers are less likely to exploit vulnerabilities within the CMS itself. That doesn't mean you're completely invulnerable, but it does create an additional layer of protection against common threats.</p>\n\n<h3>5. Future-Proofing Your Content</h3>\n<p>Trends and technologies are constantly evolving, and businesses need a way to keep up. A headless CMS allows you to be future-ready. As new platforms and devices emerge, you can easily integrate and reconfigure your content delivery without overhauling your entire system. <strong>It’s a smart investment for businesses looking to adapt to changes down the road.</strong></p>\n\n<h2>Final Thoughts</h2>\n<p>If you're considering a content management system, the benefits of a headless CMS are hard to ignore. While it may require a bit more technical know-how to set up, the payoff in terms of flexibility, performance, and security makes it worth the effort. So, if you're ready to take your content strategy to the next level, a headless CMS might just be the way to go!</p>",
+      "image": null,
+      "slug": "the-perks-of-going-headless-why-you-should-consider-a-headless-cms",
+      "status": "draft",
+      "title": "The Perks of Going Headless: Why You Should Consider a Headless CMS",
+      "description": "Discover why a headless CMS might be the right choice for your business.",
+      "author": null,
+      "published_at": null,
+      "seo": null
+    },
+    "delta": {
+      "id": "399a9a1b-bad5-4b5b-86e4-291ad1676e91",
+      "sort": null,
+      "date_created": "2025-08-06T09:59:18.502Z",
+      "user_created": "909b5c65-2269-4db4-801b-7ec3410f717b",
+      "date_updated": null,
+      "content": "<h2>What is a Headless CMS?</h2>\n<p>Before diving into the benefits, let’s quickly clarify what a headless CMS actually is. Essentially, a headless Content Management System (CMS) is a backend-only content management system. Unlike traditional CMSs, which tie the content and front-end display together, a headless CMS separates the two. This means you can manage your content in the backend while delivering it to any device or platform using APIs.</p>\n\n<h2>Top Benefits of a Headless CMS</h2>\n\n<h3>1. Flexibility and Customization</h3>\n<p>One of the standout benefits of a headless CMS is flexibility. Since the front-end and back-end are decoupled, developers have the freedom to choose how they want to present the content. Whether it’s a website, a mobile app, or even a digital kiosk, you can easily adapt the content to fit any platform or screen size. This is ideal for brands wanting to deliver tailored experiences without being locked into specific templates.</p>\n\n<h3>2. Omnichannel Experience</h3>\n<p>We live in a multi-device world, and users expect a seamless experience across all platforms. A headless CMS makes this possible. By serving content via APIs, it can distribute it to any device or channel you can think of—websites, apps, IoT devices, you name it. This ensures your customers receive consistent messaging and a cohesive experience no matter where they interact with your brand.</p>\n\n<h3>3. Faster Performance</h3>\n<p>In today’s fast-paced digital environment, load times can make or break user experience. Since a headless CMS focuses on content delivery via APIs, it can significantly improve performance. Developers can create lighter, faster front-end experiences without the bloat often found in traditional CMSs. This means quicker load times for users, which can lead to lower bounce rates and higher engagement levels.</p>\n\n<h3>4. Better Security</h3>\n<p>Security is a big concern for any online business. With a headless CMS, you can minimize the risks associated with external attacks. Because the front end is separate, hackers are less likely to exploit vulnerabilities within the CMS itself. That doesn't mean you're completely invulnerable, but it does create an additional layer of protection against common threats.</p>\n\n<h3>5. Future-Proofing Your Content</h3>\n<p>Trends and technologies are constantly evolving, and businesses need a way to keep up. A headless CMS allows you to be future-ready. As new platforms and devices emerge, you can easily integrate and reconfigure your content delivery without overhauling your entire system. <strong>It’s a smart investment for businesses looking to adapt to changes down the road.</strong></p>\n\n<h2>Final Thoughts</h2>\n<p>If you're considering a content management system, the benefits of a headless CMS are hard to ignore. While it may require a bit more technical know-how to set up, the payoff in terms of flexibility, performance, and security makes it worth the effort. So, if you're ready to take your content strategy to the next level, a headless CMS might just be the way to go!</p>",
+      "image": null,
+      "slug": "the-perks-of-going-headless-why-you-should-consider-a-headless-cms",
+      "status": "draft",
+      "title": "The Perks of Going Headless: Why You Should Consider a Headless CMS",
+      "description": "Discover why a headless CMS might be the right choice for your business.",
+      "author": null,
+      "published_at": null,
+      "seo": null
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 81,
+    "activity": 82,
+    "collection": "posts",
+    "item": "a5068543-fdd1-4773-b6c3-43b4c222d377",
+    "data": {
+      "id": "a5068543-fdd1-4773-b6c3-43b4c222d377",
+      "sort": null,
+      "date_created": "2025-08-06T09:59:18.498Z",
+      "user_created": "909b5c65-2269-4db4-801b-7ec3410f717b",
+      "date_updated": null,
+      "content": "<p>Ahoy, ye digital corsairs! Have ye ever wondered what tools web developers be usin' on their sleek Macs to keep the seas of code navigable? Well, hoist the mainsail and buckle yer swashbuckling selves, for I be sharin' the secret treasures that make a Mac a true vessel of productivity on these here digital seas.</p>\n<h2>1. Visual Studio Code</h2>\n<p>First in the treasure chest be <strong>Visual Studio Code</strong>, the trusty compass for many a developer. This mighty editor be free, open-source, and oh-so-customizable. With extensions as plentiful as the fish in the sea, VS Code helps yer code run smoother than a schooner in a gentle breeze.</p>\n<h2>2. iTerm2</h2>\n<p>When it be time to navigate through the terminal, <strong>iTerm2</strong> be the anchor ye need. This advanced terminal emulator gives ye multiple panes, session restoration, and a wealth of shortcuts that&rsquo;ll make yer command-line navigations swift as a gull in flight.</p>\n<h2>3. Homebrew</h2>\n<p><strong>Homebrew</strong> be the package manager that every Mac-developer swears by. It makes installing and managing software as easy as pie, with a simple command: <code>brew install</code>. Whether ye be needin' a database or a new programming language, Homebrew be the quartermaster providin' the goods.</p>\n<h2>4. Alfred</h2>\n<p>Meet <strong>Alfred</strong>, yer first mate when it comes to magic productivity. This mighty app launcher and workflow automator allows ye to control yer Mac with but a flick of the wrist. Custom workflows and powerful searches make sure Alfred steers ye quickly to any file or task.</p>\n<h2>5. Postman</h2>\n<p>If ye be workin' on APIs, <strong>Postman</strong> be the ultimate tool in yer treasure trove. It helps ye test, develop, and document yer APIs with ease. No more sendin' messages in bottles; Postman be the efficient way to communicate with yer backend services.</p>\n<h2>6. Magnet</h2>\n<p>To keep yer ship&rsquo;s deck clean and tidy, <strong>Magnet</strong> be the window management tool ye need. With simple drag-and-snap functionalities, Magnet arranges all yer open windows and applications in a manner that keeps yer workspace shipshape.</p>\n<h2>7. Slack</h2>\n<p>And of course, no seafaring squad be complete without <strong>Slack</strong>. This communication tool keeps the crew in constant contact, sharing semaphore signals across projects. Integrations with other tools make Slack a veritable crow&rsquo;s nest, keepin' ye alert to all happenings aboard the ship.</p>\n<p>So there ye have it, mateys! Equip yerselves with these fine tools and set sail toward greater productivity. The digital seas be vast and fraught with peril, but with these treasures on yer side, ye&rsquo;ll be ready to chart any course. Arrr!</p>",
+      "image": null,
+      "slug": "pirates-guide-to-productivity-web-developers-favorite-tools-on-macs",
+      "status": "draft",
+      "title": "A Pirate's Guide to Productivity: Web Developers' Favorite Tools on Macs",
+      "description": "Ahoy, matey! Discover the top productivity tools web developers be usein' on their trusty Macs. Set sail for smoother workflows and greater bounty!",
+      "author": null,
+      "published_at": null,
+      "seo": null
+    },
+    "delta": {
+      "id": "a5068543-fdd1-4773-b6c3-43b4c222d377",
+      "sort": null,
+      "date_created": "2025-08-06T09:59:18.498Z",
+      "user_created": "909b5c65-2269-4db4-801b-7ec3410f717b",
+      "date_updated": null,
+      "content": "<p>Ahoy, ye digital corsairs! Have ye ever wondered what tools web developers be usin' on their sleek Macs to keep the seas of code navigable? Well, hoist the mainsail and buckle yer swashbuckling selves, for I be sharin' the secret treasures that make a Mac a true vessel of productivity on these here digital seas.</p>\n<h2>1. Visual Studio Code</h2>\n<p>First in the treasure chest be <strong>Visual Studio Code</strong>, the trusty compass for many a developer. This mighty editor be free, open-source, and oh-so-customizable. With extensions as plentiful as the fish in the sea, VS Code helps yer code run smoother than a schooner in a gentle breeze.</p>\n<h2>2. iTerm2</h2>\n<p>When it be time to navigate through the terminal, <strong>iTerm2</strong> be the anchor ye need. This advanced terminal emulator gives ye multiple panes, session restoration, and a wealth of shortcuts that&rsquo;ll make yer command-line navigations swift as a gull in flight.</p>\n<h2>3. Homebrew</h2>\n<p><strong>Homebrew</strong> be the package manager that every Mac-developer swears by. It makes installing and managing software as easy as pie, with a simple command: <code>brew install</code>. Whether ye be needin' a database or a new programming language, Homebrew be the quartermaster providin' the goods.</p>\n<h2>4. Alfred</h2>\n<p>Meet <strong>Alfred</strong>, yer first mate when it comes to magic productivity. This mighty app launcher and workflow automator allows ye to control yer Mac with but a flick of the wrist. Custom workflows and powerful searches make sure Alfred steers ye quickly to any file or task.</p>\n<h2>5. Postman</h2>\n<p>If ye be workin' on APIs, <strong>Postman</strong> be the ultimate tool in yer treasure trove. It helps ye test, develop, and document yer APIs with ease. No more sendin' messages in bottles; Postman be the efficient way to communicate with yer backend services.</p>\n<h2>6. Magnet</h2>\n<p>To keep yer ship&rsquo;s deck clean and tidy, <strong>Magnet</strong> be the window management tool ye need. With simple drag-and-snap functionalities, Magnet arranges all yer open windows and applications in a manner that keeps yer workspace shipshape.</p>\n<h2>7. Slack</h2>\n<p>And of course, no seafaring squad be complete without <strong>Slack</strong>. This communication tool keeps the crew in constant contact, sharing semaphore signals across projects. Integrations with other tools make Slack a veritable crow&rsquo;s nest, keepin' ye alert to all happenings aboard the ship.</p>\n<p>So there ye have it, mateys! Equip yerselves with these fine tools and set sail toward greater productivity. The digital seas be vast and fraught with peril, but with these treasures on yer side, ye&rsquo;ll be ready to chart any course. Arrr!</p>",
+      "image": null,
+      "slug": "pirates-guide-to-productivity-web-developers-favorite-tools-on-macs",
+      "status": "draft",
+      "title": "A Pirate's Guide to Productivity: Web Developers' Favorite Tools on Macs",
+      "description": "Ahoy, matey! Discover the top productivity tools web developers be usein' on their trusty Macs. Set sail for smoother workflows and greater bounty!",
+      "author": null,
+      "published_at": null,
+      "seo": null
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 82,
+    "activity": 83,
+    "collection": "posts",
+    "item": "ba559a1e-5b0c-4932-ab97-b1ab4ca69955",
+    "data": {
+      "id": "ba559a1e-5b0c-4932-ab97-b1ab4ca69955",
+      "sort": 4,
+      "date_created": "2025-08-06T09:59:18.485Z",
+      "user_created": "909b5c65-2269-4db4-801b-7ec3410f717b",
+      "date_updated": null,
+      "content": "<p>Ladies and Gentlemen, it is my great pleasure to introduce you to the future of work. And no, I'm not talking about drones, AI, or even cyborgs. The future of work is none other than the stylish, dapper and oh-so-cool steampunk rabbits!</p>\n<h2>What are Steampunk Rabbits?</h2>\n<p>Yes, you heard it right, steampunk rabbits. These little creatures are not just cute and cuddly, but they are also the epitome of efficiency and innovation. From the gears in their top hats to the clockwork in their tails, steampunk rabbits are revolutionizing the way we work and live.</p>\n<p>So, what makes steampunk rabbits so special? Well, for starters, they never sleep. They work tirelessly around the clock, getting more done in a day than any human ever could. They are also incredibly multi-talented. With their clockwork appendages, they can type, write, assemble, and even paint! All while sipping on a cup of tea and looking fabulous, of course.</p>\n<h2>Benefits of Steampunk Rabbits</h2>\n<p>And the best part? They are never late for work. They have built-in clocks and calendars, ensuring that they are always on time. And forget a sick days and vacations; steampunk rabbits never get sick or need a break. They just keep working and working, providing us with endless hours of productivity.</p>\n<p>But wait, there's more! Steampunk rabbits also bring a touch of whimsy and charm to the workplace. Their Victorian-inspired attire and quirky personalities are sure to brighten up any office. They are the perfect office pets, and they make even the most mundane tasks feel like an adventure.</p>\n<p>So, there you have it folks, steampunk rabbits are the future of work. So, next time you're feeling stressed and overwhelmed with work, just remember, there's a steampunk rabbit out there who's got your back. And if you're lucky, maybe you'll even get to work with one someday.</p>\n<p>In conclusion, let us embrace the future and welcome our new steampunk rabbit overlords with open arms. The future of work has never looked so bright and full of bunnies!</p>",
+      "image": null,
+      "slug": "why-steampunk-rabbits-are-the-future-of-work",
+      "status": "published",
+      "title": "Why Steampunk Rabbits Are The Future of Work",
+      "description": "This post discusses how steampunk rabbits could be the future of work, highlighting their efficiency, multi-talented nature, and ability to bring charm to the workplace.",
+      "author": null,
+      "published_at": "2024-09-01T16:00:00.000Z",
+      "seo": null
+    },
+    "delta": {
+      "id": "ba559a1e-5b0c-4932-ab97-b1ab4ca69955",
+      "sort": 4,
+      "date_created": "2025-08-06T09:59:18.485Z",
+      "user_created": "909b5c65-2269-4db4-801b-7ec3410f717b",
+      "date_updated": null,
+      "content": "<p>Ladies and Gentlemen, it is my great pleasure to introduce you to the future of work. And no, I'm not talking about drones, AI, or even cyborgs. The future of work is none other than the stylish, dapper and oh-so-cool steampunk rabbits!</p>\n<h2>What are Steampunk Rabbits?</h2>\n<p>Yes, you heard it right, steampunk rabbits. These little creatures are not just cute and cuddly, but they are also the epitome of efficiency and innovation. From the gears in their top hats to the clockwork in their tails, steampunk rabbits are revolutionizing the way we work and live.</p>\n<p>So, what makes steampunk rabbits so special? Well, for starters, they never sleep. They work tirelessly around the clock, getting more done in a day than any human ever could. They are also incredibly multi-talented. With their clockwork appendages, they can type, write, assemble, and even paint! All while sipping on a cup of tea and looking fabulous, of course.</p>\n<h2>Benefits of Steampunk Rabbits</h2>\n<p>And the best part? They are never late for work. They have built-in clocks and calendars, ensuring that they are always on time. And forget a sick days and vacations; steampunk rabbits never get sick or need a break. They just keep working and working, providing us with endless hours of productivity.</p>\n<p>But wait, there's more! Steampunk rabbits also bring a touch of whimsy and charm to the workplace. Their Victorian-inspired attire and quirky personalities are sure to brighten up any office. They are the perfect office pets, and they make even the most mundane tasks feel like an adventure.</p>\n<p>So, there you have it folks, steampunk rabbits are the future of work. So, next time you're feeling stressed and overwhelmed with work, just remember, there's a steampunk rabbit out there who's got your back. And if you're lucky, maybe you'll even get to work with one someday.</p>\n<p>In conclusion, let us embrace the future and welcome our new steampunk rabbit overlords with open arms. The future of work has never looked so bright and full of bunnies!</p>",
+      "image": null,
+      "slug": "why-steampunk-rabbits-are-the-future-of-work",
+      "status": "published",
+      "title": "Why Steampunk Rabbits Are The Future of Work",
+      "description": "This post discusses how steampunk rabbits could be the future of work, highlighting their efficiency, multi-talented nature, and ability to bring charm to the workplace.",
+      "author": null,
+      "published_at": "2024-09-01T16:00:00.000Z",
+      "seo": null
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 83,
+    "activity": 84,
+    "collection": "posts",
+    "item": "c96b64b4-9567-46f6-8eb5-ac2f37c4918d",
+    "data": {
+      "id": "c96b64b4-9567-46f6-8eb5-ac2f37c4918d",
+      "sort": 2,
+      "date_created": "2025-08-06T09:59:18.476Z",
+      "user_created": "909b5c65-2269-4db4-801b-7ec3410f717b",
+      "date_updated": null,
+      "content": "<p>Rabbit grooming is an essential aspect of pet care that ensures the overall health, happiness, and well-being of your furry friend. Regular grooming not only keeps your bunny looking their best but also helps to prevent health issues, strengthens the bond between you and your pet, and maintains a clean environment. In this blog post, we'll explore some essential rabbit grooming tips and techniques to help you keep your bunny looking and feeling their best.</p>\n<h2>1. Brushing</h2>\n<p>One of the most critical aspects of rabbit grooming is regular brushing. Rabbits have a thick, soft coat that can easily become matted, tangled, or accumulate excess hair. This is especially important during the shedding season when rabbits lose their fur.</p>\n<p>To brush your rabbit, use a soft-bristle brush or a comb specifically designed for rabbits. Gently brush in the direction of the fur growth, taking extra care around sensitive areas like the face, ears, and belly. Brushing should be done at least once a week, or more frequently during shedding season.</p>\n<h2>2. Nail Trimming</h2>\n<p>Just like humans, rabbits need their nails trimmed regularly to prevent overgrowth and potential injury. Rabbit nails can become sharp and curl, making it difficult for them to move and causing discomfort.</p>\n<p>To trim your rabbit's nails, use a pair of small animal nail clippers. Hold your rabbit securely, but gently, and expose the nail by gently pressing on the surrounding fur. Clip the nail at a 45-degree angle, avoiding the quick, the pink part of the nail containing blood vessels and nerves. If you accidentally cut the quick, apply styptic powder or cornstarch to stop the bleeding. Trim your rabbit's nails every 4-6 weeks or as needed.</p>\n<h2>3. Ear Cleaning</h2>\n<p>Rabbits are prone to ear infections, which can lead to severe complications if left untreated. Regular ear cleaning helps to prevent infections and ensure that your rabbit's ears remain healthy.</p>\n<p>To clean your rabbit's ears, use a soft, damp cloth or cotton ball moistened with warm water. Gently wipe the outer part of the ear, avoiding the ear canal. Never insert anything into the ear canal, as this can cause damage or push debris further in. Clean your rabbit's ears every 2-4 weeks or as needed.</p>\n<h2>4. Dental Care</h2>\n<p>Rabbits have continuously growing teeth that need to be worn down to prevent dental problems. Providing your rabbit with hay, wooden chew toys, and other materials to gnaw on will help keep their teeth in check.</p>\n<p>Monitor your rabbit's teeth regularly to ensure they're not becoming too long or misaligned. If you notice any issues, consult with a veterinarian experienced in rabbit care, as they may need to trim or file the teeth.</p>\n<h2>5. Bathing</h2>\n<p>Unlike cats and dogs, rabbits do not require frequent baths. In fact, bathing your rabbit can cause stress and lead to health issues. Instead, spot clean your rabbit using a damp cloth or unscented baby wipes to remove any dirt or debris. If your rabbit becomes soiled and requires a more thorough cleaning, consult with a veterinarian for guidance.</p>\n<p>In conclusion, maintaining a regular grooming routine is essential for your rabbit's overall health and well-being. By implementing these tips and techniques, you can ensure that your bunny stays clean, comfortable, and happy. Remember to always handle your rabbit gently and with care during grooming sessions to help build trust and strengthen the bond between you and your pet.</p>",
+      "image": null,
+      "slug": "essential-tips-for-keeping-your-bunny-looking-and-feeling-their-best",
+      "status": "in_review",
+      "title": "Essential Tips for Keeping Your Bunny Looking and Feeling Their Best",
+      "description": "Rabbit grooming, encompassing brushing, nail trimming, ear cleaning, dental care, and spot cleaning, is vital for your bunny's health, appearance, and well-being.",
+      "author": null,
+      "published_at": null,
+      "seo": null
+    },
+    "delta": {
+      "id": "c96b64b4-9567-46f6-8eb5-ac2f37c4918d",
+      "sort": 2,
+      "date_created": "2025-08-06T09:59:18.476Z",
+      "user_created": "909b5c65-2269-4db4-801b-7ec3410f717b",
+      "date_updated": null,
+      "content": "<p>Rabbit grooming is an essential aspect of pet care that ensures the overall health, happiness, and well-being of your furry friend. Regular grooming not only keeps your bunny looking their best but also helps to prevent health issues, strengthens the bond between you and your pet, and maintains a clean environment. In this blog post, we'll explore some essential rabbit grooming tips and techniques to help you keep your bunny looking and feeling their best.</p>\n<h2>1. Brushing</h2>\n<p>One of the most critical aspects of rabbit grooming is regular brushing. Rabbits have a thick, soft coat that can easily become matted, tangled, or accumulate excess hair. This is especially important during the shedding season when rabbits lose their fur.</p>\n<p>To brush your rabbit, use a soft-bristle brush or a comb specifically designed for rabbits. Gently brush in the direction of the fur growth, taking extra care around sensitive areas like the face, ears, and belly. Brushing should be done at least once a week, or more frequently during shedding season.</p>\n<h2>2. Nail Trimming</h2>\n<p>Just like humans, rabbits need their nails trimmed regularly to prevent overgrowth and potential injury. Rabbit nails can become sharp and curl, making it difficult for them to move and causing discomfort.</p>\n<p>To trim your rabbit's nails, use a pair of small animal nail clippers. Hold your rabbit securely, but gently, and expose the nail by gently pressing on the surrounding fur. Clip the nail at a 45-degree angle, avoiding the quick, the pink part of the nail containing blood vessels and nerves. If you accidentally cut the quick, apply styptic powder or cornstarch to stop the bleeding. Trim your rabbit's nails every 4-6 weeks or as needed.</p>\n<h2>3. Ear Cleaning</h2>\n<p>Rabbits are prone to ear infections, which can lead to severe complications if left untreated. Regular ear cleaning helps to prevent infections and ensure that your rabbit's ears remain healthy.</p>\n<p>To clean your rabbit's ears, use a soft, damp cloth or cotton ball moistened with warm water. Gently wipe the outer part of the ear, avoiding the ear canal. Never insert anything into the ear canal, as this can cause damage or push debris further in. Clean your rabbit's ears every 2-4 weeks or as needed.</p>\n<h2>4. Dental Care</h2>\n<p>Rabbits have continuously growing teeth that need to be worn down to prevent dental problems. Providing your rabbit with hay, wooden chew toys, and other materials to gnaw on will help keep their teeth in check.</p>\n<p>Monitor your rabbit's teeth regularly to ensure they're not becoming too long or misaligned. If you notice any issues, consult with a veterinarian experienced in rabbit care, as they may need to trim or file the teeth.</p>\n<h2>5. Bathing</h2>\n<p>Unlike cats and dogs, rabbits do not require frequent baths. In fact, bathing your rabbit can cause stress and lead to health issues. Instead, spot clean your rabbit using a damp cloth or unscented baby wipes to remove any dirt or debris. If your rabbit becomes soiled and requires a more thorough cleaning, consult with a veterinarian for guidance.</p>\n<p>In conclusion, maintaining a regular grooming routine is essential for your rabbit's overall health and well-being. By implementing these tips and techniques, you can ensure that your bunny stays clean, comfortable, and happy. Remember to always handle your rabbit gently and with care during grooming sessions to help build trust and strengthen the bond between you and your pet.</p>",
+      "image": null,
+      "slug": "essential-tips-for-keeping-your-bunny-looking-and-feeling-their-best",
+      "status": "in_review",
+      "title": "Essential Tips for Keeping Your Bunny Looking and Feeling Their Best",
+      "description": "Rabbit grooming, encompassing brushing, nail trimming, ear cleaning, dental care, and spot cleaning, is vital for your bunny's health, appearance, and well-being.",
+      "author": null,
+      "published_at": null,
+      "seo": null
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 84,
+    "activity": 85,
+    "collection": "posts",
+    "item": "ddf1003f-6b9a-460c-83fd-d985d6defbd6",
+    "data": {
+      "id": "ddf1003f-6b9a-460c-83fd-d985d6defbd6",
+      "sort": 5,
+      "date_created": "2025-08-06T09:59:18.488Z",
+      "user_created": "909b5c65-2269-4db4-801b-7ec3410f717b",
+      "date_updated": null,
+      "content": "<p>Rabbits are known for their fast-paced and productive lifestyle. Their ability to multitask and work efficiently makes them a great source of inspiration for anyone looking to boost their productivity levels. In this blog post, we will look at some simple tips and tricks that you can adopt to become a very productive rabbit.</p>\n<p><a href=\"https://directus.io\" target=\"_blank\" rel=\"noopener\">Test external link</a></p>\n<p><a href=\"/about\" target=\"_self\">Test internal link</a></p>\n<h2>Plan your day in advance</h2>\n<p>Planning your day is the first step to becoming a productive rabbit. Make a list of tasks you need to complete, prioritize them and allocate enough time for each. This will help you to stay focused and avoid procrastination.</p>\n<h2>Wake up early</h2>\n<p>Rabbits are early birds, and for good reason. Waking up early will give you a head start on your day, allowing you to tackle your most important tasks when you are most alert and focused.</p>\n<h2>Stay hydrated and nourished</h2>\n<p>Drinking plenty of water and eating a healthy and balanced diet is crucial for maintaining energy levels and concentration throughout the day. Just like rabbits, you should take regular breaks to recharge and refuel.</p>\n<h2>Practice mindfulness and take breaks</h2>\n<p>Rabbits know the importance of taking breaks to refresh their mind and recharge their batteries. Regular breaks can help you avoid burnout and increase your overall productivity. Try incorporating mindfulness practices like meditation or deep breathing into your daily routine.</p>\n<h2>Stay organized</h2>\n<p>An organized work environment can help you work more efficiently and increase your productivity levels. Keep your workspace tidy, and use tools like calendars, to-do lists, and filing systems to keep track of your tasks and deadlines.</p>\n<h2>Surround yourself with positive people</h2>\n<p>Surrounding yourself with positive and supportive people can help to boost your motivation and productivity levels. Seek out coworkers and friends who share your goals and are supportive of your efforts to become more productive.</p>",
+      "image": null,
+      "slug": "testing-one-two-three",
+      "status": "published",
+      "title": "How To Become A Very Productive Rabbit",
+      "description": "In this blog post, we will look at some simple tips and tricks that you can adopt to become a very productive rabbit.",
+      "author": null,
+      "published_at": "2024-07-01T16:00:00.000Z",
+      "seo": null
+    },
+    "delta": {
+      "id": "ddf1003f-6b9a-460c-83fd-d985d6defbd6",
+      "sort": 5,
+      "date_created": "2025-08-06T09:59:18.488Z",
+      "user_created": "909b5c65-2269-4db4-801b-7ec3410f717b",
+      "date_updated": null,
+      "content": "<p>Rabbits are known for their fast-paced and productive lifestyle. Their ability to multitask and work efficiently makes them a great source of inspiration for anyone looking to boost their productivity levels. In this blog post, we will look at some simple tips and tricks that you can adopt to become a very productive rabbit.</p>\n<p><a href=\"https://directus.io\" target=\"_blank\" rel=\"noopener\">Test external link</a></p>\n<p><a href=\"/about\" target=\"_self\">Test internal link</a></p>\n<h2>Plan your day in advance</h2>\n<p>Planning your day is the first step to becoming a productive rabbit. Make a list of tasks you need to complete, prioritize them and allocate enough time for each. This will help you to stay focused and avoid procrastination.</p>\n<h2>Wake up early</h2>\n<p>Rabbits are early birds, and for good reason. Waking up early will give you a head start on your day, allowing you to tackle your most important tasks when you are most alert and focused.</p>\n<h2>Stay hydrated and nourished</h2>\n<p>Drinking plenty of water and eating a healthy and balanced diet is crucial for maintaining energy levels and concentration throughout the day. Just like rabbits, you should take regular breaks to recharge and refuel.</p>\n<h2>Practice mindfulness and take breaks</h2>\n<p>Rabbits know the importance of taking breaks to refresh their mind and recharge their batteries. Regular breaks can help you avoid burnout and increase your overall productivity. Try incorporating mindfulness practices like meditation or deep breathing into your daily routine.</p>\n<h2>Stay organized</h2>\n<p>An organized work environment can help you work more efficiently and increase your productivity levels. Keep your workspace tidy, and use tools like calendars, to-do lists, and filing systems to keep track of your tasks and deadlines.</p>\n<h2>Surround yourself with positive people</h2>\n<p>Surrounding yourself with positive and supportive people can help to boost your motivation and productivity levels. Seek out coworkers and friends who share your goals and are supportive of your efforts to become more productive.</p>",
+      "image": null,
+      "slug": "testing-one-two-three",
+      "status": "published",
+      "title": "How To Become A Very Productive Rabbit",
+      "description": "In this blog post, we will look at some simple tips and tricks that you can adopt to become a very productive rabbit.",
+      "author": null,
+      "published_at": "2024-07-01T16:00:00.000Z",
+      "seo": null
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 85,
+    "activity": 86,
+    "collection": "posts",
+    "item": "f7845a69-edcb-4163-a2a9-fb82b64475c5",
+    "data": {
+      "id": "f7845a69-edcb-4163-a2a9-fb82b64475c5",
+      "sort": 6,
+      "date_created": "2025-08-06T09:59:18.495Z",
+      "user_created": "909b5c65-2269-4db4-801b-7ec3410f717b",
+      "date_updated": "2025-05-07T17:27:40.774Z",
+      "content": "<p>Rabbits are cute and cuddly animals that have been a staple of our childhoods. But did you know that there's more to these furry creatures than just their adorable appearance? Here are some rabbit facts that will blow your mind!</p>\n<ol>\n<li>\n<p>Rabbits have excellent vision: Rabbits have excellent vision, with eyes located on the sides of their heads, allowing them to see 360 degrees. This helps them to detect predators and keep themselves safe.</p>\n</li>\n<li>\n<p>Rabbits are fast runners: When it comes to running, rabbits are pretty speedy! They can run up to 45 miles per hour, making them one of the fastest animals in the animal kingdom.</p>\n</li>\n<li>\n<p>Rabbits are herbivores: Unlike many other animals, rabbits are strictly herbivores, meaning they only eat plants and vegetation. Their diet consists of leafy greens, hay, and fresh fruits and vegetables.</p>\n</li>\n<li>\n<p>Rabbits have unique teeth: Rabbits have unique teeth that continuously grow throughout their lives. To keep their teeth from becoming too long, they need to chew on hard objects like wood to file them down.</p>\n</li>\n<li>\n<p>Rabbits have powerful hind legs: Rabbits have incredibly powerful hind legs that allow them to make quick and nimble movements. These legs also help them to escape from predators by jumping away at incredible speeds.</p>\n</li>\n<li>\n<p>Rabbits are social creatures: Rabbits are social creatures and are best kept with other rabbits. They love to play and cuddle, and they will often form close bonds with their rabbit friends.</p>\n</li>\n<li>\n<p>Rabbits have a unique reproductive system: Rabbits have a unique reproductive system, with females capable of producing litters of bunnies several times a year. This makes rabbits some of the most productive mammals on the planet.</p>\n</li>\n<li>\n<p>Rabbits have a good memory: Rabbits have a good memory and can remember things for several months. This means that if you take the time to bond with your rabbit, they will remember you and be more likely to come to you for affection.</p>\n</li>\n</ol>\n<p>In conclusion, rabbits are fascinating creatures that have much more to offer than just their cute appearance. From their excellent vision to their powerful hind legs and their unique reproductive system, rabbits are truly amazing animals that are sure to blow your mind!</p>",
+      "image": null,
+      "slug": "rabbit-facts-that-will-melt-your-mind",
+      "status": "published",
+      "title": "Rabbit Facts That Will Blow Your Mind me",
+      "description": "These interesting facts about rabbits make them fascinating creatures that are worth learning more about.",
+      "author": null,
+      "published_at": "2024-06-01T16:00:00.000Z",
+      "seo": null
+    },
+    "delta": {
+      "id": "f7845a69-edcb-4163-a2a9-fb82b64475c5",
+      "sort": 6,
+      "date_created": "2025-08-06T09:59:18.495Z",
+      "user_created": "909b5c65-2269-4db4-801b-7ec3410f717b",
+      "date_updated": "2025-05-07T17:27:40.774Z",
+      "content": "<p>Rabbits are cute and cuddly animals that have been a staple of our childhoods. But did you know that there's more to these furry creatures than just their adorable appearance? Here are some rabbit facts that will blow your mind!</p>\n<ol>\n<li>\n<p>Rabbits have excellent vision: Rabbits have excellent vision, with eyes located on the sides of their heads, allowing them to see 360 degrees. This helps them to detect predators and keep themselves safe.</p>\n</li>\n<li>\n<p>Rabbits are fast runners: When it comes to running, rabbits are pretty speedy! They can run up to 45 miles per hour, making them one of the fastest animals in the animal kingdom.</p>\n</li>\n<li>\n<p>Rabbits are herbivores: Unlike many other animals, rabbits are strictly herbivores, meaning they only eat plants and vegetation. Their diet consists of leafy greens, hay, and fresh fruits and vegetables.</p>\n</li>\n<li>\n<p>Rabbits have unique teeth: Rabbits have unique teeth that continuously grow throughout their lives. To keep their teeth from becoming too long, they need to chew on hard objects like wood to file them down.</p>\n</li>\n<li>\n<p>Rabbits have powerful hind legs: Rabbits have incredibly powerful hind legs that allow them to make quick and nimble movements. These legs also help them to escape from predators by jumping away at incredible speeds.</p>\n</li>\n<li>\n<p>Rabbits are social creatures: Rabbits are social creatures and are best kept with other rabbits. They love to play and cuddle, and they will often form close bonds with their rabbit friends.</p>\n</li>\n<li>\n<p>Rabbits have a unique reproductive system: Rabbits have a unique reproductive system, with females capable of producing litters of bunnies several times a year. This makes rabbits some of the most productive mammals on the planet.</p>\n</li>\n<li>\n<p>Rabbits have a good memory: Rabbits have a good memory and can remember things for several months. This means that if you take the time to bond with your rabbit, they will remember you and be more likely to come to you for affection.</p>\n</li>\n</ol>\n<p>In conclusion, rabbits are fascinating creatures that have much more to offer than just their cute appearance. From their excellent vision to their powerful hind legs and their unique reproductive system, rabbits are truly amazing animals that are sure to blow your mind!</p>",
+      "image": null,
+      "slug": "rabbit-facts-that-will-melt-your-mind",
+      "status": "published",
+      "title": "Rabbit Facts That Will Blow Your Mind me",
+      "description": "These interesting facts about rabbits make them fascinating creatures that are worth learning more about.",
+      "author": null,
+      "published_at": "2024-06-01T16:00:00.000Z",
+      "seo": null
+    },
+    "parent": null,
+    "version": null
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "name": "directus-cms-starter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "init:database": "directus bootstrap && npx directus schema apply --yes ./directus/template/src/schema/schema.yml",
+    "migration:database": "node import-data.js && node install-extensions.js",
+    "dev": "npx directus start",
+    "generate": "directus schema snapshot ./directus/template/src/schema/schema.yml && node export-json.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directus:template": {
+    "name": "CMS",
+    "description": "A ready-to-use CMS with block builder, visual editing, and integration with your favorite framework. ",
+    "template": "./directus/template",
+    "frontends": {
+      "nextjs": {
+        "name": "Next.js",
+        "path": "./nextjs"
+      },
+      "nuxt": {
+        "name": "Nuxt",
+        "path": "./nuxt"
+      },
+      "astro": {
+        "name": "Astro",
+        "path": "./astro"
+      },
+      "svelte": {
+        "name": "Svelte",
+        "path": "./sveltekit"
+      }
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@directus-labs/ai-image-generation-operation": "^1.0.2",
+    "@directus-labs/ai-writer-operation": "^1.4.1",
+    "@directus-labs/card-select-interfaces": "^1.0.0",
+    "@directus-labs/command-palette-module": "^1.1.0",
+    "@directus-labs/experimental-m2a-interface": "^1.2.1",
+    "@directus-labs/inline-repeater-interface": "^1.0.0",
+    "@directus-labs/liquidjs-operation": "^1.2.0",
+    "@directus-labs/seo-plugin": "^1.1.0",
+    "@directus-labs/simple-list-interface": "^1.0.0",
+    "@directus-labs/super-header-interface": "^1.2.0",
+    "@directus/sdk": "^20.0.1",
+    "directus-extension-display-translations-context": "^1.0.4",
+    "directus-extension-group-tabs-interface": "^2.1.0",
+    "directus-extension-theme-settings": "^0.1.7",
+    "directus-extension-wpslug-interface": "^1.1.0",
+    "dotenv": "^17.2.1",
+    "install": "^0.13.0"
+  }
+}
