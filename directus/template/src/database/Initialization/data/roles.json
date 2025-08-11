@@ -1,42 +1,50 @@
 [
   {
-    "id": "3a4464fb-2189-4710-a164-2503eed88ae7",
-    "name": "Writer",
-    "icon": "docs_add_on",
-    "description": "Role that can create new posts and edit their own posts.",
+    "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+    "name": "Administrator CMS",
+    "icon": "verified",
+    "description": "Vai trò quản trị viên với toàn quyền kiểm soát CMS.",
     "parent": null,
-    "children": null,
-    "policies": null,
-    "users": null
+    "children": null
   },
   {
     "id": "4516009c-8a04-49e4-b4ac-fd4883da6064",
     "name": "Editor",
     "icon": "nest_wake_on_approach",
-    "description": "Role that has the ability to edit and publish all content.",
+    "description": "Vai trò có khả năng chỉnh sửa và xuất bản tất cả nội dung.",
     "parent": null,
-    "children": null,
-    "policies": null,
-    "users": null
+    "children": null
+  },
+  {
+    "id": "3a4464fb-2189-4710-a164-2503eed88ae7",
+    "name": "Writer",
+    "icon": "docs_add_on",
+    "description": "Vai trò có thể tạo bài viết mới và chỉnh sửa bài viết của chính họ.",
+    "parent": null,
+    "children": null
+  },
+  {
+    "id": "b3f07a72-4d0f-4e0f-9f7e-1a5e1c0d4a9c",
+    "name": "Contributor",
+    "icon": "post_add",
+    "description": "Chỉ có thể tạo nội dung mới, không có quyền chỉnh sửa nội dung đã tạo.",
+    "parent": null,
+    "children": null
   },
   {
     "id": "d70780bd-f3ed-418b-98c2-f5354fd3fa68",
     "name": "Content Admin",
     "icon": "admin_panel_settings",
-    "description": "Role with full rights to edit all content. Useful for simple sites or those without publishing approval workflows.",
+    "description": "Vai trò với toàn quyền chỉnh sửa tất cả nội dung. Hữu ích cho các trang web đơn giản.",
     "parent": null,
-    "children": null,
-    "policies": null,
-    "users": null
+    "children": null
   },
   {
-    "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
-    "name": "Administrator",
-    "icon": "verified",
-    "description": "$t:admin_description",
+    "id": "58c3e1a2-6f2d-4b8c-8f9e-3d4a5b6c7d8e",
+    "name": "Moderator",
+    "icon": "reviews",
+    "description": "Vai trò quản lý và kiểm duyệt các nội dung do người dùng tạo.",
     "parent": null,
-    "children": null,
-    "policies": null,
-    "users": null
+    "children": null
   }
 ]

@@ -3,58 +3,82 @@
     "id": "3a4464fb-2189-4710-a164-2503eed88ae7",
     "name": "Writer",
     "icon": "docs_add_on",
-    "description": "Role that can create new posts and edit their own posts.",
-    "parent": null,
-    "children": [],
-    "policies": [],
-    "users": [
-      "9a105323-5eec-48d4-8a79-4681fdc94276"
-    ]
-  },
-  {
-    "id": "4516009c-8a04-49e4-b4ac-fd4883da6064",
-    "name": "Editor",
-    "icon": "nest_wake_on_approach",
-    "description": "Role that has the ability to edit and publish all content.",
+    "description": "Vai trò có thể tạo bài viết mới và chỉnh sửa bài viết của chính họ.",
     "parent": null,
     "children": [],
     "policies": [],
     "users": []
   },
   {
-    "id": "787e3a6f-194a-4062-a6ae-f154f97b86c1",
+    "id": "4516009c-8a04-49e4-b4ac-fd4883da6064",
+    "name": "Editor",
+    "icon": "nest_wake_on_approach",
+    "description": "Vai trò có khả năng chỉnh sửa và xuất bản tất cả nội dung.",
+    "parent": null,
+    "children": [],
+    "policies": [],
+    "users": []
+  },
+  {
+    "id": "58c3e1a2-6f2d-4b8c-8f9e-3d4a5b6c7d8e",
+    "name": "Moderator",
+    "icon": "reviews",
+    "description": "Vai trò quản lý và kiểm duyệt các nội dung do người dùng tạo.",
+    "parent": null,
+    "children": [],
+    "policies": [],
+    "users": []
+  },
+  {
+    "id": "b3f07a72-4d0f-4e0f-9f7e-1a5e1c0d4a9c",
+    "name": "Contributor",
+    "icon": "post_add",
+    "description": "Chỉ có thể tạo nội dung mới, không có quyền chỉnh sửa nội dung đã tạo.",
+    "parent": null,
+    "children": [],
+    "policies": [],
+    "users": []
+  },
+  {
+    "id": "d1c090b2-133f-449f-82ef-2284237a877b",
     "name": "Administrator",
     "icon": "verified",
     "description": "$t:admin_description",
     "parent": null,
     "children": [],
     "policies": [
-      "f6a4f2e2-b1d2-46db-a2e5-58033ae9dfbf"
+      "5c8edc14-7b20-43b0-9a22-3e1aec0d0688"
     ],
     "users": [
-      "db0b3c20-275b-4eab-aeec-c3fce050c910"
+      "209036be-69b4-4455-b225-58760209052a"
     ]
   },
   {
     "id": "d70780bd-f3ed-418b-98c2-f5354fd3fa68",
     "name": "Content Admin",
     "icon": "admin_panel_settings",
-    "description": "Role with full rights to edit all content. Useful for simple sites or those without publishing approval workflows.",
+    "description": "Vai trò với toàn quyền chỉnh sửa tất cả nội dung. Hữu ích cho các trang web đơn giản.",
     "parent": null,
     "children": [],
-    "policies": [],
-    "users": []
+    "policies": [
+      "3e9142c2-8959-4ebf-9bc7-ff22809c6c9c"
+    ],
+    "users": [
+      "8c1a596b-3376-4b80-8754-18c99aa62737"
+    ]
   },
   {
     "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
-    "name": "Administrator",
+    "name": "Administrator CMS",
     "icon": "verified",
-    "description": "$t:admin_description",
+    "description": "Vai trò quản trị viên với toàn quyền kiểm soát CMS.",
     "parent": null,
     "children": [],
-    "policies": [],
+    "policies": [
+      "fb18c1bb-7b55-4318-b4b9-d70df68ff6af"
+    ],
     "users": [
-      "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+      "39ed614e-da9e-45f0-b5f4-4aed3469823d"
     ]
   }
 ]

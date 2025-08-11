@@ -15950,56 +15950,683 @@
   },
   {
     "collection": "posts",
-    "field": "meta_header_posts",
-    "type": "alias",
-    "schema": null,
+    "field": "team",
+    "type": "uuid",
+    "schema": {
+      "name": "team",
+      "table": "posts",
+      "data_type": "uuid",
+      "default_value": null,
+      "generation_expression": null,
+      "max_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_generated": false,
+      "is_nullable": true,
+      "is_unique": false,
+      "is_indexed": false,
+      "is_primary_key": false,
+      "has_auto_increment": false,
+      "foreign_key_schema": "public",
+      "foreign_key_table": "teams",
+      "foreign_key_column": "id",
+      "comment": null
+    },
     "meta": {
-      "id": 3,
+      "id": 38,
       "collection": "posts",
-      "field": "meta_header_posts",
+      "field": "team",
       "special": [
-        "alias",
-        "no-data"
+        "m2o"
       ],
-      "interface": "super-header",
+      "interface": "select-dropdown-m2o",
       "options": {
-        "actions": [
-          {
-            "actionType": "link",
-            "icon": "arrow_outward",
-            "label": "View on Website",
-            "type": "normal",
-            "url": "http://localhost:3000/blog/{{slug}}"
-          },
-          {
-            "actionType": "link",
-            "icon": "edit",
-            "label": "Open in Visual Editor",
-            "type": "normal",
-            "url": "/admin/visual/http://localhost:3000/blog/{{slug}}?visual-editing=true"
-          },
-          {
-            "actionType": "flow",
-            "flow": {
-              "collection": "directus_flows",
-              "key": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf"
-            },
-            "icon": "approval_delegation",
-            "label": "Request Review",
-            "type": "normal"
-          }
-        ],
-        "help": "<h2>Managing Blog Posts</h2>\n<p>Blog posts are a powerful way to share your content, news, and updates with your audience. Each post can include rich text content, images, and metadata to help with organization and discovery.</p>\n<h3>Post Settings</h3>\n<h4>Title</h4>\n<p>The main headline of your blog post. This appears at the top of the post and in preview cards across your site. Make it:</p>\n<ul>\n<li>Engaging and descriptive</li>\n<li>Clear about the post's content</li>\n<li>Optimized for search engines (aim for 50-60 characters)</li>\n</ul>\n<h4>Description</h4>\n<p>A brief preview of your post that appears in blog listings and search results. Write 1-2 compelling sentences that:</p>\n<ul>\n<li>Summarize the main point of your article</li>\n<li>Entice readers to click through</li>\n<li>Include relevant keywords naturally</li>\n</ul>\n<h4>Featured Image</h4>\n<p>The main visual for your post that appears:</p>\n<ul>\n<li>At the top of the post</li>\n<li>In preview cards across your site</li>\n<li>When sharing on social media Use high-quality, relevant images that capture attention and support your content.</li>\n</ul>\n<h4>URL Slug</h4>\n<p>The unique portion of the URL for this post. For example, in \"yoursite.com/posts/my-first-post\", \"my-first-post\" is the slug.</p>\n<ul>\n<li>Use lowercase letters and hyphens</li>\n<li>Keep it short but descriptive</li>\n<li>Include relevant keywords when possible</li>\n<li>Avoid special characters</li>\n</ul>\n<h4>Content</h4>\n<p>The main body of your post, supporting rich text formatting including:</p>\n<ul>\n<li>Headings and subheadings</li>\n<li>Paragraphs with formatting (bold, italic, etc.)</li>\n<li>Links to other content</li>\n<li>Bulleted and numbered lists</li>\n<li>Images and media</li>\n</ul>\n<h4>Author</h4>\n<p>Select the team member who wrote the post. This helps:</p>\n<ul>\n<li>Give credit to your writers</li>\n<li>Build authority for your content</li>\n<li>Allow readers to find more posts by the same author</li>\n</ul>\n<h4>Publishing Options</h4>\n<ul>\n<li><strong>Draft</strong>: Work on the post privately</li>\n<li><strong>In Review</strong>: Submit for team review</li>\n<li><strong>Published</strong>: Make the post public</li>\n<li><strong>Schedule</strong>: Set a future publication date and time</li>\n</ul>\n<h3>Best Practices for Blog Posts</h3>\n<h4>Writing Tips</h4>\n<ul>\n<li>Start with a strong opening paragraph</li>\n<li>Use subheadings to break up long content</li>\n<li>Keep paragraphs short (3-4 sentences)</li>\n<li>Include relevant internal and external links</li>\n<li>End with a clear conclusion or call to action</li>\n</ul>\n<h4>SEO Considerations</h4>\n<ul>\n<li>Include your main keyword in the title</li>\n<li>Use descriptive alt text for images</li>\n<li>Write naturally for your audience</li>\n<li>Link to related content on your site</li>\n<li>Use appropriate heading hierarchy</li>\n</ul>\n<h4>Image Guidelines</h4>\n<ul>\n<li>Choose relevant, high-quality featured images</li>\n<li>Optimize images for web performance</li>\n<li>Use consistent image sizes</li>\n<li>Include descriptive alt text</li>\n<li>Consider image placement within content</li>\n</ul>",
-        "icon": null,
-        "subtitle": "{{status}} • Published At: {{published_at}}",
-        "title": "{{title}}"
+        "template": "{{name}} "
       },
       "display": null,
       "display_options": null,
       "readonly": false,
       "hidden": false,
+      "sort": 1,
+      "width": "full",
+      "translations": null,
+      "note": null,
+      "conditions": null,
+      "required": false,
+      "group": "meta_team",
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "teams",
+    "field": "id",
+    "type": "uuid",
+    "schema": {
+      "name": "id",
+      "table": "teams",
+      "data_type": "uuid",
+      "default_value": null,
+      "generation_expression": null,
+      "max_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_generated": false,
+      "is_nullable": false,
+      "is_unique": true,
+      "is_indexed": false,
+      "is_primary_key": true,
+      "has_auto_increment": false,
+      "foreign_key_schema": null,
+      "foreign_key_table": null,
+      "foreign_key_column": null,
+      "comment": null
+    },
+    "meta": {
+      "id": 25,
+      "collection": "teams",
+      "field": "id",
+      "special": [
+        "uuid"
+      ],
+      "interface": "input",
+      "options": null,
+      "display": null,
+      "display_options": null,
+      "readonly": true,
+      "hidden": true,
+      "sort": 1,
+      "width": "full",
+      "translations": null,
+      "note": null,
+      "conditions": null,
+      "required": false,
+      "group": null,
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "teams",
+    "field": "sort",
+    "type": "integer",
+    "schema": {
+      "name": "sort",
+      "table": "teams",
+      "data_type": "integer",
+      "default_value": null,
+      "generation_expression": null,
+      "max_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_generated": false,
+      "is_nullable": true,
+      "is_unique": false,
+      "is_indexed": false,
+      "is_primary_key": false,
+      "has_auto_increment": false,
+      "foreign_key_schema": null,
+      "foreign_key_table": null,
+      "foreign_key_column": null,
+      "comment": null
+    },
+    "meta": {
+      "id": 26,
+      "collection": "teams",
+      "field": "sort",
+      "special": null,
+      "interface": "input",
+      "options": null,
+      "display": null,
+      "display_options": null,
+      "readonly": false,
+      "hidden": true,
+      "sort": 5,
+      "width": "full",
+      "translations": null,
+      "note": null,
+      "conditions": null,
+      "required": false,
+      "group": null,
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "teams",
+    "field": "user_created",
+    "type": "uuid",
+    "schema": {
+      "name": "user_created",
+      "table": "teams",
+      "data_type": "uuid",
+      "default_value": null,
+      "generation_expression": null,
+      "max_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_generated": false,
+      "is_nullable": true,
+      "is_unique": false,
+      "is_indexed": false,
+      "is_primary_key": false,
+      "has_auto_increment": false,
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "comment": null
+    },
+    "meta": {
+      "id": 27,
+      "collection": "teams",
+      "field": "user_created",
+      "special": [
+        "user-created"
+      ],
+      "interface": "select-dropdown-m2o",
+      "options": {
+        "template": "{{avatar}} {{first_name}} {{last_name}}"
+      },
+      "display": "user",
+      "display_options": null,
+      "readonly": true,
+      "hidden": true,
+      "sort": 6,
+      "width": "half",
+      "translations": null,
+      "note": null,
+      "conditions": null,
+      "required": false,
+      "group": null,
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "teams",
+    "field": "date_created",
+    "type": "timestamp",
+    "schema": {
+      "name": "date_created",
+      "table": "teams",
+      "data_type": "timestamp with time zone",
+      "default_value": null,
+      "generation_expression": null,
+      "max_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_generated": false,
+      "is_nullable": true,
+      "is_unique": false,
+      "is_indexed": false,
+      "is_primary_key": false,
+      "has_auto_increment": false,
+      "foreign_key_schema": null,
+      "foreign_key_table": null,
+      "foreign_key_column": null,
+      "comment": null
+    },
+    "meta": {
+      "id": 28,
+      "collection": "teams",
+      "field": "date_created",
+      "special": [
+        "date-created"
+      ],
+      "interface": "datetime",
+      "options": null,
+      "display": "datetime",
+      "display_options": {
+        "relative": true
+      },
+      "readonly": true,
+      "hidden": true,
       "sort": 7,
-      "width": "fill",
+      "width": "half",
+      "translations": null,
+      "note": null,
+      "conditions": null,
+      "required": false,
+      "group": null,
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "teams",
+    "field": "user_updated",
+    "type": "uuid",
+    "schema": {
+      "name": "user_updated",
+      "table": "teams",
+      "data_type": "uuid",
+      "default_value": null,
+      "generation_expression": null,
+      "max_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_generated": false,
+      "is_nullable": true,
+      "is_unique": false,
+      "is_indexed": false,
+      "is_primary_key": false,
+      "has_auto_increment": false,
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "comment": null
+    },
+    "meta": {
+      "id": 29,
+      "collection": "teams",
+      "field": "user_updated",
+      "special": [
+        "user-updated"
+      ],
+      "interface": "select-dropdown-m2o",
+      "options": {
+        "template": "{{avatar}} {{first_name}} {{last_name}}"
+      },
+      "display": "user",
+      "display_options": null,
+      "readonly": true,
+      "hidden": true,
+      "sort": 8,
+      "width": "half",
+      "translations": null,
+      "note": null,
+      "conditions": null,
+      "required": false,
+      "group": null,
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "teams",
+    "field": "date_updated",
+    "type": "timestamp",
+    "schema": {
+      "name": "date_updated",
+      "table": "teams",
+      "data_type": "timestamp with time zone",
+      "default_value": null,
+      "generation_expression": null,
+      "max_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_generated": false,
+      "is_nullable": true,
+      "is_unique": false,
+      "is_indexed": false,
+      "is_primary_key": false,
+      "has_auto_increment": false,
+      "foreign_key_schema": null,
+      "foreign_key_table": null,
+      "foreign_key_column": null,
+      "comment": null
+    },
+    "meta": {
+      "id": 30,
+      "collection": "teams",
+      "field": "date_updated",
+      "special": [
+        "date-updated"
+      ],
+      "interface": "datetime",
+      "options": null,
+      "display": "datetime",
+      "display_options": {
+        "relative": true
+      },
+      "readonly": true,
+      "hidden": true,
+      "sort": 9,
+      "width": "half",
+      "translations": null,
+      "note": null,
+      "conditions": null,
+      "required": false,
+      "group": null,
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "teams",
+    "field": "name",
+    "type": "string",
+    "schema": {
+      "name": "name",
+      "table": "teams",
+      "data_type": "character varying",
+      "default_value": null,
+      "generation_expression": null,
+      "max_length": 255,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_generated": false,
+      "is_nullable": true,
+      "is_unique": false,
+      "is_indexed": false,
+      "is_primary_key": false,
+      "has_auto_increment": false,
+      "foreign_key_schema": null,
+      "foreign_key_table": null,
+      "foreign_key_column": null,
+      "comment": null
+    },
+    "meta": {
+      "id": 31,
+      "collection": "teams",
+      "field": "name",
+      "special": null,
+      "interface": "input",
+      "options": null,
+      "display": null,
+      "display_options": null,
+      "readonly": false,
+      "hidden": false,
+      "sort": 2,
+      "width": "half",
+      "translations": null,
+      "note": null,
+      "conditions": null,
+      "required": true,
+      "group": null,
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "teams",
+    "field": "slug",
+    "type": "string",
+    "schema": {
+      "name": "slug",
+      "table": "teams",
+      "data_type": "character varying",
+      "default_value": null,
+      "generation_expression": null,
+      "max_length": 255,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_generated": false,
+      "is_nullable": true,
+      "is_unique": false,
+      "is_indexed": false,
+      "is_primary_key": false,
+      "has_auto_increment": false,
+      "foreign_key_schema": null,
+      "foreign_key_table": null,
+      "foreign_key_column": null,
+      "comment": null
+    },
+    "meta": {
+      "id": 32,
+      "collection": "teams",
+      "field": "slug",
+      "special": null,
+      "interface": "extension-wpslug",
+      "options": {
+        "template": "{{name}}",
+        "update": [
+          "create",
+          "update"
+        ]
+      },
+      "display": null,
+      "display_options": null,
+      "readonly": false,
+      "hidden": false,
+      "sort": 3,
+      "width": "half",
+      "translations": null,
+      "note": null,
+      "conditions": null,
+      "required": false,
+      "group": null,
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "teams",
+    "field": "description",
+    "type": "text",
+    "schema": {
+      "name": "description",
+      "table": "teams",
+      "data_type": "text",
+      "default_value": null,
+      "generation_expression": null,
+      "max_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_generated": false,
+      "is_nullable": true,
+      "is_unique": false,
+      "is_indexed": false,
+      "is_primary_key": false,
+      "has_auto_increment": false,
+      "foreign_key_schema": null,
+      "foreign_key_table": null,
+      "foreign_key_column": null,
+      "comment": null
+    },
+    "meta": {
+      "id": 33,
+      "collection": "teams",
+      "field": "description",
+      "special": null,
+      "interface": "input-multiline",
+      "options": null,
+      "display": null,
+      "display_options": null,
+      "readonly": false,
+      "hidden": false,
+      "sort": 4,
+      "width": "full",
+      "translations": null,
+      "note": null,
+      "conditions": null,
+      "required": false,
+      "group": null,
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "teams_posts",
+    "field": "id",
+    "type": "integer",
+    "schema": {
+      "name": "id",
+      "table": "teams_posts",
+      "data_type": "integer",
+      "default_value": "nextval('teams_posts_id_seq'::regclass)",
+      "generation_expression": null,
+      "max_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_generated": false,
+      "is_nullable": false,
+      "is_unique": true,
+      "is_indexed": false,
+      "is_primary_key": true,
+      "has_auto_increment": true,
+      "foreign_key_schema": null,
+      "foreign_key_table": null,
+      "foreign_key_column": null,
+      "comment": null
+    },
+    "meta": {
+      "id": 35,
+      "collection": "teams_posts",
+      "field": "id",
+      "special": null,
+      "interface": null,
+      "options": null,
+      "display": null,
+      "display_options": null,
+      "readonly": false,
+      "hidden": true,
+      "sort": 1,
+      "width": "full",
+      "translations": null,
+      "note": null,
+      "conditions": null,
+      "required": false,
+      "group": null,
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "teams_posts",
+    "field": "teams_id",
+    "type": "uuid",
+    "schema": {
+      "name": "teams_id",
+      "table": "teams_posts",
+      "data_type": "uuid",
+      "default_value": null,
+      "generation_expression": null,
+      "max_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_generated": false,
+      "is_nullable": true,
+      "is_unique": false,
+      "is_indexed": false,
+      "is_primary_key": false,
+      "has_auto_increment": false,
+      "foreign_key_schema": "public",
+      "foreign_key_table": "teams",
+      "foreign_key_column": "id",
+      "comment": null
+    },
+    "meta": {
+      "id": 36,
+      "collection": "teams_posts",
+      "field": "teams_id",
+      "special": null,
+      "interface": null,
+      "options": null,
+      "display": null,
+      "display_options": null,
+      "readonly": false,
+      "hidden": true,
+      "sort": 2,
+      "width": "full",
+      "translations": null,
+      "note": null,
+      "conditions": null,
+      "required": false,
+      "group": null,
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "teams_posts",
+    "field": "posts_id",
+    "type": "uuid",
+    "schema": {
+      "name": "posts_id",
+      "table": "teams_posts",
+      "data_type": "uuid",
+      "default_value": null,
+      "generation_expression": null,
+      "max_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_generated": false,
+      "is_nullable": true,
+      "is_unique": false,
+      "is_indexed": false,
+      "is_primary_key": false,
+      "has_auto_increment": false,
+      "foreign_key_schema": "public",
+      "foreign_key_table": "posts",
+      "foreign_key_column": "id",
+      "comment": null
+    },
+    "meta": {
+      "id": 37,
+      "collection": "teams_posts",
+      "field": "posts_id",
+      "special": null,
+      "interface": null,
+      "options": null,
+      "display": null,
+      "display_options": null,
+      "readonly": false,
+      "hidden": true,
+      "sort": 3,
+      "width": "full",
+      "translations": null,
+      "note": null,
+      "conditions": null,
+      "required": false,
+      "group": null,
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "directus_users",
+    "field": "posts",
+    "type": "alias",
+    "schema": null,
+    "meta": {
+      "id": 24,
+      "collection": "directus_users",
+      "field": "posts",
+      "special": [
+        "o2m"
+      ],
+      "interface": "list-o2m",
+      "options": {
+        "template": "{{title}}"
+      },
+      "display": "related-values",
+      "display_options": null,
+      "readonly": false,
+      "hidden": false,
+      "sort": 1,
+      "width": "full",
+      "translations": null,
+      "note": "Blog posts this user has authored.",
+      "conditions": null,
+      "required": false,
+      "group": null,
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "teams",
+    "field": "posts",
+    "type": "alias",
+    "schema": null,
+    "meta": {
+      "id": 34,
+      "collection": "teams",
+      "field": "posts",
+      "special": [
+        "m2m"
+      ],
+      "interface": "list-m2m",
+      "options": {
+        "limit": 20
+      },
+      "display": null,
+      "display_options": null,
+      "readonly": false,
+      "hidden": false,
+      "sort": 10,
+      "width": "full",
       "translations": null,
       "note": null,
       "conditions": null,
@@ -16011,21 +16638,34 @@
   },
   {
     "collection": "posts",
-    "field": "meta_tabs",
+    "field": "meta_header_image",
     "type": "alias",
     "schema": null,
     "meta": {
-      "id": 4,
+      "id": 19,
       "collection": "posts",
-      "field": "meta_tabs",
+      "field": "meta_header_image",
       "special": [
         "alias",
-        "no-data",
-        "group"
+        "no-data"
       ],
-      "interface": "group-tabs",
+      "interface": "super-header",
       "options": {
-        "fillWidth": true
+        "actions": [
+          {
+            "actionType": "flow",
+            "flow": {
+              "collection": "directus_flows",
+              "key": "d4bbac48-a444-49e0-aedb-9af5273b88df"
+            },
+            "icon": "image",
+            "label": "AI Image Generator",
+            "type": "normal"
+          }
+        ],
+        "help": "<p><strong>Need inspiration?</strong> Use Flows like AI Image Generator to generate on-brand images for your post using AI.</p>\n<p><em>Note: This uses OpenAI so you'll need to add your API key in the&nbsp;<a href=\"/admin/content/globals\">Globals</a> collection first.</em></p>",
+        "icon": "image",
+        "title": "Image"
       },
       "display": null,
       "display_options": null,
@@ -16033,16 +16673,11 @@
       "hidden": false,
       "sort": 8,
       "width": "full",
-      "translations": [
-        {
-          "language": "en-US",
-          "translation": "Tabs"
-        }
-      ],
+      "translations": null,
       "note": null,
       "conditions": null,
       "required": false,
-      "group": null,
+      "group": "meta_content",
       "validation": null,
       "validation_message": null
     }
@@ -16129,52 +16764,6 @@
   },
   {
     "collection": "posts",
-    "field": "meta_header_image",
-    "type": "alias",
-    "schema": null,
-    "meta": {
-      "id": 19,
-      "collection": "posts",
-      "field": "meta_header_image",
-      "special": [
-        "alias",
-        "no-data"
-      ],
-      "interface": "super-header",
-      "options": {
-        "actions": [
-          {
-            "actionType": "flow",
-            "flow": {
-              "collection": "directus_flows",
-              "key": "d4bbac48-a444-49e0-aedb-9af5273b88df"
-            },
-            "icon": "image",
-            "label": "AI Image Generator",
-            "type": "normal"
-          }
-        ],
-        "help": "<p><strong>Need inspiration?</strong> Use Flows like AI Image Generator to generate on-brand images for your post using AI.</p>\n<p><em>Note: This uses OpenAI so you'll need to add your API key in the&nbsp;<a href=\"/admin/content/globals\">Globals</a> collection first.</em></p>",
-        "icon": "image",
-        "title": "Image"
-      },
-      "display": null,
-      "display_options": null,
-      "readonly": false,
-      "hidden": false,
-      "sort": 8,
-      "width": "full",
-      "translations": null,
-      "note": null,
-      "conditions": null,
-      "required": false,
-      "group": "meta_content",
-      "validation": null,
-      "validation_message": null
-    }
-  },
-  {
-    "collection": "posts",
     "field": "meta_content",
     "type": "alias",
     "schema": null,
@@ -16246,29 +16835,133 @@
     }
   },
   {
-    "collection": "directus_users",
-    "field": "posts",
+    "collection": "posts",
+    "field": "meta_header_posts",
     "type": "alias",
     "schema": null,
     "meta": {
-      "id": 24,
-      "collection": "directus_users",
-      "field": "posts",
+      "id": 3,
+      "collection": "posts",
+      "field": "meta_header_posts",
       "special": [
-        "o2m"
+        "alias",
+        "no-data"
       ],
-      "interface": "list-o2m",
+      "interface": "super-header",
       "options": {
-        "template": "{{title}}"
+        "actions": [
+          {
+            "actionType": "link",
+            "icon": "arrow_outward",
+            "label": "View on Website",
+            "type": "normal",
+            "url": "http://localhost:3000/blog/{{slug}}"
+          },
+          {
+            "actionType": "link",
+            "icon": "edit",
+            "label": "Open in Visual Editor",
+            "type": "normal",
+            "url": "/admin/visual/http://localhost:3000/blog/{{slug}}?visual-editing=true"
+          },
+          {
+            "actionType": "flow",
+            "flow": {
+              "collection": "directus_flows",
+              "key": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf"
+            },
+            "icon": "approval_delegation",
+            "label": "Request Review",
+            "type": "normal"
+          }
+        ],
+        "help": "<h2>Managing Blog Posts</h2>\n<p>Blog posts are a powerful way to share your content, news, and updates with your audience. Each post can include rich text content, images, and metadata to help with organization and discovery.</p>\n<h3>Post Settings</h3>\n<h4>Title</h4>\n<p>The main headline of your blog post. This appears at the top of the post and in preview cards across your site. Make it:</p>\n<ul>\n<li>Engaging and descriptive</li>\n<li>Clear about the post's content</li>\n<li>Optimized for search engines (aim for 50-60 characters)</li>\n</ul>\n<h4>Description</h4>\n<p>A brief preview of your post that appears in blog listings and search results. Write 1-2 compelling sentences that:</p>\n<ul>\n<li>Summarize the main point of your article</li>\n<li>Entice readers to click through</li>\n<li>Include relevant keywords naturally</li>\n</ul>\n<h4>Featured Image</h4>\n<p>The main visual for your post that appears:</p>\n<ul>\n<li>At the top of the post</li>\n<li>In preview cards across your site</li>\n<li>When sharing on social media Use high-quality, relevant images that capture attention and support your content.</li>\n</ul>\n<h4>URL Slug</h4>\n<p>The unique portion of the URL for this post. For example, in \"yoursite.com/posts/my-first-post\", \"my-first-post\" is the slug.</p>\n<ul>\n<li>Use lowercase letters and hyphens</li>\n<li>Keep it short but descriptive</li>\n<li>Include relevant keywords when possible</li>\n<li>Avoid special characters</li>\n</ul>\n<h4>Content</h4>\n<p>The main body of your post, supporting rich text formatting including:</p>\n<ul>\n<li>Headings and subheadings</li>\n<li>Paragraphs with formatting (bold, italic, etc.)</li>\n<li>Links to other content</li>\n<li>Bulleted and numbered lists</li>\n<li>Images and media</li>\n</ul>\n<h4>Author</h4>\n<p>Select the team member who wrote the post. This helps:</p>\n<ul>\n<li>Give credit to your writers</li>\n<li>Build authority for your content</li>\n<li>Allow readers to find more posts by the same author</li>\n</ul>\n<h4>Publishing Options</h4>\n<ul>\n<li><strong>Draft</strong>: Work on the post privately</li>\n<li><strong>In Review</strong>: Submit for team review</li>\n<li><strong>Published</strong>: Make the post public</li>\n<li><strong>Schedule</strong>: Set a future publication date and time</li>\n</ul>\n<h3>Best Practices for Blog Posts</h3>\n<h4>Writing Tips</h4>\n<ul>\n<li>Start with a strong opening paragraph</li>\n<li>Use subheadings to break up long content</li>\n<li>Keep paragraphs short (3-4 sentences)</li>\n<li>Include relevant internal and external links</li>\n<li>End with a clear conclusion or call to action</li>\n</ul>\n<h4>SEO Considerations</h4>\n<ul>\n<li>Include your main keyword in the title</li>\n<li>Use descriptive alt text for images</li>\n<li>Write naturally for your audience</li>\n<li>Link to related content on your site</li>\n<li>Use appropriate heading hierarchy</li>\n</ul>\n<h4>Image Guidelines</h4>\n<ul>\n<li>Choose relevant, high-quality featured images</li>\n<li>Optimize images for web performance</li>\n<li>Use consistent image sizes</li>\n<li>Include descriptive alt text</li>\n<li>Consider image placement within content</li>\n</ul>",
+        "icon": null,
+        "subtitle": "{{status}} • Published At: {{published_at}}",
+        "title": "{{title}}"
       },
-      "display": "related-values",
+      "display": null,
       "display_options": null,
       "readonly": false,
       "hidden": false,
-      "sort": 1,
-      "width": "full",
+      "sort": 7,
+      "width": "fill",
       "translations": null,
-      "note": "Blog posts this user has authored.",
+      "note": null,
+      "conditions": null,
+      "required": false,
+      "group": null,
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "posts",
+    "field": "meta_team",
+    "type": "alias",
+    "schema": null,
+    "meta": {
+      "id": 41,
+      "collection": "posts",
+      "field": "meta_team",
+      "special": [
+        "alias",
+        "no-data",
+        "group"
+      ],
+      "interface": "group-raw",
+      "options": null,
+      "display": null,
+      "display_options": null,
+      "readonly": false,
+      "hidden": false,
+      "sort": 3,
+      "width": "full",
+      "translations": [
+        {
+          "language": "en-US",
+          "translation": "Team"
+        }
+      ],
+      "note": null,
+      "conditions": null,
+      "required": true,
+      "group": "meta_tabs",
+      "validation": null,
+      "validation_message": null
+    }
+  },
+  {
+    "collection": "posts",
+    "field": "meta_tabs",
+    "type": "alias",
+    "schema": null,
+    "meta": {
+      "id": 4,
+      "collection": "posts",
+      "field": "meta_tabs",
+      "special": [
+        "alias",
+        "no-data",
+        "group"
+      ],
+      "interface": "group-tabs",
+      "options": {
+        "fillWidth": true
+      },
+      "display": null,
+      "display_options": null,
+      "readonly": false,
+      "hidden": false,
+      "sort": 8,
+      "width": "full",
+      "translations": [
+        {
+          "language": "en-US",
+          "translation": "Tabs"
+        }
+      ],
+      "note": null,
       "conditions": null,
       "required": false,
       "group": null,

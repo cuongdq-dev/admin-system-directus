@@ -59,7 +59,7 @@
     {
       "type": "module",
       "id": "insights",
-      "enabled": false
+      "enabled": true
     },
     {
       "type": "module",

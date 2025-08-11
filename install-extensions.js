@@ -16,7 +16,7 @@ try {
 
     try {
       console.log(`📦 Installing ${name}...`);
-      execSync(`yarn add ${name}`, { stdio: "inherit" });
+      execSync(`pnpm install ${name}`, { stdio: "inherit" });
       console.log(`✅ Installed: ${name}`);
     } catch (error) {
       console.error(

@@ -174,6 +174,14 @@ const updateTable = async (collectionName, content, updateFnc) => {
 async function importData() {
   try {
     await importTable(
+      "policies",
+      getJsonData("policies.json"),
+      readPolicies,
+      createPolicies
+    );
+    return;
+
+    await importTable(
       "relations",
       getJsonData("relations.json"),
       readRelation,

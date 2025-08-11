@@ -562,27 +562,23 @@
   {
     "id": 7,
     "activity": 8,
-    "collection": "directus_policies",
-    "item": "3ba01681-3a5f-4fe3-8e95-4706b39f7dc5",
+    "collection": "directus_roles",
+    "item": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
     "data": {
-      "id": "3ba01681-3a5f-4fe3-8e95-4706b39f7dc5",
-      "name": "Content - Live Preview",
-      "icon": "preview",
-      "description": "Grants read access to all pages and posts. Used for Live Preview so you can preview draft content. Be careful not to expose tokens of users with this policy.",
-      "ip_access": null,
-      "enforce_tfa": false,
-      "admin_access": false,
-      "app_access": false
+      "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+      "name": "Administrator CMS",
+      "icon": "verified",
+      "description": "Vai trò quản trị viên với toàn quyền kiểm soát CMS.",
+      "parent": null,
+      "children": null
     },
     "delta": {
-      "id": "3ba01681-3a5f-4fe3-8e95-4706b39f7dc5",
-      "name": "Content - Live Preview",
-      "icon": "preview",
-      "description": "Grants read access to all pages and posts. Used for Live Preview so you can preview draft content. Be careful not to expose tokens of users with this policy.",
-      "ip_access": null,
-      "enforce_tfa": false,
-      "admin_access": false,
-      "app_access": false
+      "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+      "name": "Administrator CMS",
+      "icon": "verified",
+      "description": "Vai trò quản trị viên với toàn quyền kiểm soát CMS.",
+      "parent": null,
+      "children": null
     },
     "parent": null,
     "version": null
@@ -590,27 +586,23 @@
   {
     "id": 8,
     "activity": 9,
-    "collection": "directus_policies",
-    "item": "52598a64-071d-4071-96fa-4b620d6189b5",
+    "collection": "directus_roles",
+    "item": "4516009c-8a04-49e4-b4ac-fd4883da6064",
     "data": {
-      "id": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "name": "Team - App Access",
-      "icon": "badge",
-      "description": "Grants Directus Studio access to team members",
-      "ip_access": null,
-      "enforce_tfa": false,
-      "admin_access": false,
-      "app_access": true
+      "id": "4516009c-8a04-49e4-b4ac-fd4883da6064",
+      "name": "Editor",
+      "icon": "nest_wake_on_approach",
+      "description": "Vai trò có khả năng chỉnh sửa và xuất bản tất cả nội dung.",
+      "parent": null,
+      "children": null
     },
     "delta": {
-      "id": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "name": "Team - App Access",
-      "icon": "badge",
-      "description": "Grants Directus Studio access to team members",
-      "ip_access": null,
-      "enforce_tfa": false,
-      "admin_access": false,
-      "app_access": true
+      "id": "4516009c-8a04-49e4-b4ac-fd4883da6064",
+      "name": "Editor",
+      "icon": "nest_wake_on_approach",
+      "description": "Vai trò có khả năng chỉnh sửa và xuất bản tất cả nội dung.",
+      "parent": null,
+      "children": null
     },
     "parent": null,
     "version": null
@@ -618,27 +610,23 @@
   {
     "id": 9,
     "activity": 10,
-    "collection": "directus_policies",
-    "item": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+    "collection": "directus_roles",
+    "item": "3a4464fb-2189-4710-a164-2503eed88ae7",
     "data": {
-      "id": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "name": "Content - Manage",
-      "icon": "edit",
-      "description": "Grants ability to read and edit ALL content.",
-      "ip_access": null,
-      "enforce_tfa": false,
-      "admin_access": false,
-      "app_access": false
+      "id": "3a4464fb-2189-4710-a164-2503eed88ae7",
+      "name": "Writer",
+      "icon": "docs_add_on",
+      "description": "Vai trò có thể tạo bài viết mới và chỉnh sửa bài viết của chính họ.",
+      "parent": null,
+      "children": null
     },
     "delta": {
-      "id": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "name": "Content - Manage",
-      "icon": "edit",
-      "description": "Grants ability to read and edit ALL content.",
-      "ip_access": null,
-      "enforce_tfa": false,
-      "admin_access": false,
-      "app_access": false
+      "id": "3a4464fb-2189-4710-a164-2503eed88ae7",
+      "name": "Writer",
+      "icon": "docs_add_on",
+      "description": "Vai trò có thể tạo bài viết mới và chỉnh sửa bài viết của chính họ.",
+      "parent": null,
+      "children": null
     },
     "parent": null,
     "version": null
@@ -646,27 +634,23 @@
   {
     "id": 10,
     "activity": 11,
-    "collection": "directus_policies",
-    "item": "a15b697e-29d5-4164-8d24-eb228ba901e3",
+    "collection": "directus_roles",
+    "item": "b3f07a72-4d0f-4e0f-9f7e-1a5e1c0d4a9c",
     "data": {
-      "id": "a15b697e-29d5-4164-8d24-eb228ba901e3",
-      "name": "Content - Self",
-      "icon": "self_improvement",
-      "description": "Grants user ability to ONLY edit their own content. Cannot publish content.",
-      "ip_access": null,
-      "enforce_tfa": false,
-      "admin_access": false,
-      "app_access": false
+      "id": "b3f07a72-4d0f-4e0f-9f7e-1a5e1c0d4a9c",
+      "name": "Contributor",
+      "icon": "post_add",
+      "description": "Chỉ có thể tạo nội dung mới, không có quyền chỉnh sửa nội dung đã tạo.",
+      "parent": null,
+      "children": null
     },
     "delta": {
-      "id": "a15b697e-29d5-4164-8d24-eb228ba901e3",
-      "name": "Content - Self",
-      "icon": "self_improvement",
-      "description": "Grants user ability to ONLY edit their own content. Cannot publish content.",
-      "ip_access": null,
-      "enforce_tfa": false,
-      "admin_access": false,
-      "app_access": false
+      "id": "b3f07a72-4d0f-4e0f-9f7e-1a5e1c0d4a9c",
+      "name": "Contributor",
+      "icon": "post_add",
+      "description": "Chỉ có thể tạo nội dung mới, không có quyền chỉnh sửa nội dung đã tạo.",
+      "parent": null,
+      "children": null
     },
     "parent": null,
     "version": null
@@ -674,27 +658,23 @@
   {
     "id": 11,
     "activity": 12,
-    "collection": "directus_policies",
-    "item": "ee1055a2-7c03-4b0b-9b65-ca68491b6329",
+    "collection": "directus_roles",
+    "item": "d70780bd-f3ed-418b-98c2-f5354fd3fa68",
     "data": {
-      "id": "ee1055a2-7c03-4b0b-9b65-ca68491b6329",
-      "name": "Forms - Submission",
-      "icon": "smart_button",
-      "description": "Grants ability to create form submissions. Used in frontend.",
-      "ip_access": null,
-      "enforce_tfa": false,
-      "admin_access": false,
-      "app_access": false
+      "id": "d70780bd-f3ed-418b-98c2-f5354fd3fa68",
+      "name": "Content Admin",
+      "icon": "admin_panel_settings",
+      "description": "Vai trò với toàn quyền chỉnh sửa tất cả nội dung. Hữu ích cho các trang web đơn giản.",
+      "parent": null,
+      "children": null
     },
     "delta": {
-      "id": "ee1055a2-7c03-4b0b-9b65-ca68491b6329",
-      "name": "Forms - Submission",
-      "icon": "smart_button",
-      "description": "Grants ability to create form submissions. Used in frontend.",
-      "ip_access": null,
-      "enforce_tfa": false,
-      "admin_access": false,
-      "app_access": false
+      "id": "d70780bd-f3ed-418b-98c2-f5354fd3fa68",
+      "name": "Content Admin",
+      "icon": "admin_panel_settings",
+      "description": "Vai trò với toàn quyền chỉnh sửa tất cả nội dung. Hữu ích cho các trang web đơn giản.",
+      "parent": null,
+      "children": null
     },
     "parent": null,
     "version": null
@@ -702,27 +682,23 @@
   {
     "id": 12,
     "activity": 13,
-    "collection": "directus_policies",
-    "item": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+    "collection": "directus_roles",
+    "item": "58c3e1a2-6f2d-4b8c-8f9e-3d4a5b6c7d8e",
     "data": {
-      "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
-      "name": "Administrator (CMS)",
-      "icon": "verified",
-      "description": "$t:admin_policy_description",
-      "ip_access": null,
-      "enforce_tfa": false,
-      "admin_access": true,
-      "app_access": true
+      "id": "58c3e1a2-6f2d-4b8c-8f9e-3d4a5b6c7d8e",
+      "name": "Moderator",
+      "icon": "reviews",
+      "description": "Vai trò quản lý và kiểm duyệt các nội dung do người dùng tạo.",
+      "parent": null,
+      "children": null
     },
     "delta": {
-      "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
-      "name": "Administrator (CMS)",
-      "icon": "verified",
-      "description": "$t:admin_policy_description",
-      "ip_access": null,
-      "enforce_tfa": false,
-      "admin_access": true,
-      "app_access": true
+      "id": "58c3e1a2-6f2d-4b8c-8f9e-3d4a5b6c7d8e",
+      "name": "Moderator",
+      "icon": "reviews",
+      "description": "Vai trò quản lý và kiểm duyệt các nội dung do người dùng tạo.",
+      "parent": null,
+      "children": null
     },
     "parent": null,
     "version": null
@@ -730,204 +706,6 @@
   {
     "id": 13,
     "activity": 14,
-    "collection": "directus_roles",
-    "item": "3a4464fb-2189-4710-a164-2503eed88ae7",
-    "data": {
-      "id": "3a4464fb-2189-4710-a164-2503eed88ae7",
-      "name": "Writer",
-      "icon": "docs_add_on",
-      "description": "Role that can create new posts and edit their own posts.",
-      "parent": null,
-      "children": null,
-      "policies": null,
-      "users": null
-    },
-    "delta": {
-      "id": "3a4464fb-2189-4710-a164-2503eed88ae7",
-      "name": "Writer",
-      "icon": "docs_add_on",
-      "description": "Role that can create new posts and edit their own posts.",
-      "parent": null,
-      "children": null,
-      "policies": null,
-      "users": null
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 14,
-    "activity": 15,
-    "collection": "directus_roles",
-    "item": "4516009c-8a04-49e4-b4ac-fd4883da6064",
-    "data": {
-      "id": "4516009c-8a04-49e4-b4ac-fd4883da6064",
-      "name": "Editor",
-      "icon": "nest_wake_on_approach",
-      "description": "Role that has the ability to edit and publish all content.",
-      "parent": null,
-      "children": null,
-      "policies": null,
-      "users": null
-    },
-    "delta": {
-      "id": "4516009c-8a04-49e4-b4ac-fd4883da6064",
-      "name": "Editor",
-      "icon": "nest_wake_on_approach",
-      "description": "Role that has the ability to edit and publish all content.",
-      "parent": null,
-      "children": null,
-      "policies": null,
-      "users": null
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 15,
-    "activity": 16,
-    "collection": "directus_roles",
-    "item": "d70780bd-f3ed-418b-98c2-f5354fd3fa68",
-    "data": {
-      "id": "d70780bd-f3ed-418b-98c2-f5354fd3fa68",
-      "name": "Content Admin",
-      "icon": "admin_panel_settings",
-      "description": "Role with full rights to edit all content. Useful for simple sites or those without publishing approval workflows.",
-      "parent": null,
-      "children": null,
-      "policies": null,
-      "users": null
-    },
-    "delta": {
-      "id": "d70780bd-f3ed-418b-98c2-f5354fd3fa68",
-      "name": "Content Admin",
-      "icon": "admin_panel_settings",
-      "description": "Role with full rights to edit all content. Useful for simple sites or those without publishing approval workflows.",
-      "parent": null,
-      "children": null,
-      "policies": null,
-      "users": null
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 16,
-    "activity": 17,
-    "collection": "directus_roles",
-    "item": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
-    "data": {
-      "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
-      "name": "Administrator",
-      "icon": "verified",
-      "description": "$t:admin_description",
-      "parent": null,
-      "children": null,
-      "policies": null,
-      "users": null
-    },
-    "delta": {
-      "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
-      "name": "Administrator",
-      "icon": "verified",
-      "description": "$t:admin_description",
-      "parent": null,
-      "children": null,
-      "policies": null,
-      "users": null
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 17,
-    "activity": 18,
-    "collection": "directus_users",
-    "item": "88a6e8cf-f0f8-41db-a3a2-8a9741c086cc",
-    "data": {
-      "id": "88a6e8cf-f0f8-41db-a3a2-8a9741c086cc",
-      "first_name": "Frontend",
-      "last_name": "Bot",
-      "title": "For server-to-server communication",
-      "description": "This user has API only access and is meant for communicating securely with Directus from your frontend.\n\nThis user has elevated permissions over the Public to:\n- Submit Forms \n- Upload Files \n\nFrom a security perspective, you would typically not want to allow public access to upload files or submit forms.\n\n- Generate a static token access below and include it in API calls to Directus when submitting forms or uploading files from a form.\n- Be careful to only use the token server side to prevent the static access token from being exposed to the client side.",
-      "tags": [
-        "API"
-      ],
-      "status": "active",
-      "provider": "default"
-    },
-    "delta": {
-      "id": "88a6e8cf-f0f8-41db-a3a2-8a9741c086cc",
-      "first_name": "Frontend",
-      "last_name": "Bot",
-      "title": "For server-to-server communication",
-      "description": "This user has API only access and is meant for communicating securely with Directus from your frontend.\n\nThis user has elevated permissions over the Public to:\n- Submit Forms \n- Upload Files \n\nFrom a security perspective, you would typically not want to allow public access to upload files or submit forms.\n\n- Generate a static token access below and include it in API calls to Directus when submitting forms or uploading files from a form.\n- Be careful to only use the token server side to prevent the static access token from being exposed to the client side.",
-      "tags": [
-        "API"
-      ],
-      "status": "active",
-      "provider": "default"
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 18,
-    "activity": 19,
-    "collection": "directus_users",
-    "item": "9a105323-5eec-48d4-8a79-4681fdc94276",
-    "data": {
-      "id": "9a105323-5eec-48d4-8a79-4681fdc94276",
-      "first_name": "Content",
-      "last_name": "Writer",
-      "email": "writer@example.com",
-      "password": "**********",
-      "status": "active",
-      "role": "3a4464fb-2189-4710-a164-2503eed88ae7",
-      "provider": "default"
-    },
-    "delta": {
-      "id": "9a105323-5eec-48d4-8a79-4681fdc94276",
-      "first_name": "Content",
-      "last_name": "Writer",
-      "email": "writer@example.com",
-      "password": "**********",
-      "status": "active",
-      "role": "3a4464fb-2189-4710-a164-2503eed88ae7",
-      "provider": "default"
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 19,
-    "activity": 20,
-    "collection": "directus_users",
-    "item": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0",
-    "data": {
-      "id": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0",
-      "first_name": "Webmaster",
-      "email": "cms@example.com",
-      "password": "**********",
-      "status": "active",
-      "role": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
-      "provider": "default"
-    },
-    "delta": {
-      "id": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0",
-      "first_name": "Webmaster",
-      "email": "cms@example.com",
-      "password": "**********",
-      "status": "active",
-      "role": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
-      "provider": "default"
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 20,
-    "activity": 21,
     "collection": "directus_flows",
     "item": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
     "data": {
@@ -1058,8 +836,8 @@
     "version": null
   },
   {
-    "id": 21,
-    "activity": 22,
+    "id": 14,
+    "activity": 15,
     "collection": "directus_flows",
     "item": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
     "data": {
@@ -1100,8 +878,8 @@
     "version": null
   },
   {
-    "id": 22,
-    "activity": 23,
+    "id": 15,
+    "activity": 16,
     "collection": "directus_flows",
     "item": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
     "data": {
@@ -1210,8 +988,8 @@
     "version": null
   },
   {
-    "id": 23,
-    "activity": 24,
+    "id": 16,
+    "activity": 17,
     "collection": "directus_flows",
     "item": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
     "data": {
@@ -1264,8 +1042,8 @@
     "version": null
   },
   {
-    "id": 24,
-    "activity": 25,
+    "id": 17,
+    "activity": 18,
     "collection": "directus_flows",
     "item": "69e87d0b-df14-4779-bdc8-abc05f2f1e97",
     "data": {
@@ -1306,8 +1084,8 @@
     "version": null
   },
   {
-    "id": 25,
-    "activity": 26,
+    "id": 18,
+    "activity": 19,
     "collection": "directus_flows",
     "item": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
     "data": {
@@ -1348,8 +1126,8 @@
     "version": null
   },
   {
-    "id": 26,
-    "activity": 27,
+    "id": 19,
+    "activity": 20,
     "collection": "directus_flows",
     "item": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
     "data": {
@@ -1474,8 +1252,8 @@
     "version": null
   },
   {
-    "id": 27,
-    "activity": 28,
+    "id": 20,
+    "activity": 21,
     "collection": "directus_flows",
     "item": "c62ceaa5-bd09-4158-8329-98792debc5d5",
     "data": {
@@ -1532,8 +1310,8 @@
     "version": null
   },
   {
-    "id": 28,
-    "activity": 29,
+    "id": 21,
+    "activity": 22,
     "collection": "directus_flows",
     "item": "d4bbac48-a444-49e0-aedb-9af5273b88df",
     "data": {
@@ -1808,8 +1586,8 @@
     "version": null
   },
   {
-    "id": 29,
-    "activity": 30,
+    "id": 22,
+    "activity": 23,
     "collection": "directus_operations",
     "item": "0beeeb1a-2338-4ab4-95f5-0757bf3e43be",
     "data": {
@@ -1848,8 +1626,190 @@
     "version": null
   },
   {
-    "id": 30,
-    "activity": 31,
+    "id": 23,
+    "activity": 24,
+    "collection": "directus_operations",
+    "item": "0cf30253-f9ed-413f-ac27-7a0ecffa9ee4",
+    "data": {
+      "id": "0cf30253-f9ed-413f-ac27-7a0ecffa9ee4",
+      "name": "Globals",
+      "key": "globals",
+      "type": "trigger",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "flow": "69e87d0b-df14-4779-bdc8-abc05f2f1e97"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "date_created": "2024-09-13T04:12:38.641Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "0cf30253-f9ed-413f-ac27-7a0ecffa9ee4",
+      "name": "Globals",
+      "key": "globals",
+      "type": "trigger",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "flow": "69e87d0b-df14-4779-bdc8-abc05f2f1e97"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "date_created": "2024-09-13T04:12:38.641Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 24,
+    "activity": 25,
+    "collection": "directus_operations",
+    "item": "1bb8a2e2-c98a-4a52-9224-78b4100ec087",
+    "data": {
+      "id": "1bb8a2e2-c98a-4a52-9224-78b4100ec087",
+      "name": "Duplication Fields",
+      "key": "duplication_fields",
+      "type": "item-read",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "permissions": "$trigger",
+        "emitEvents": false,
+        "query": {
+          "fields": [
+            "item_duplication_fields"
+          ]
+        },
+        "collection": "directus_collections",
+        "key": [
+          "{{$trigger.body.collection}}"
+        ]
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+      "date_created": "2025-05-04T14:20:32.332Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "1bb8a2e2-c98a-4a52-9224-78b4100ec087",
+      "name": "Duplication Fields",
+      "key": "duplication_fields",
+      "type": "item-read",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "permissions": "$trigger",
+        "emitEvents": false,
+        "query": {
+          "fields": [
+            "item_duplication_fields"
+          ]
+        },
+        "collection": "directus_collections",
+        "key": [
+          "{{$trigger.body.collection}}"
+        ]
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+      "date_created": "2025-05-04T14:20:32.332Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 25,
+    "activity": 26,
+    "collection": "directus_operations",
+    "item": "282f9a77-5519-460e-bb54-4dc6e30b059a",
+    "data": {
+      "id": "282f9a77-5519-460e-bb54-4dc6e30b059a",
+      "name": "Did Slug Change",
+      "key": "slug_changed",
+      "type": "condition",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "filter": {
+          "_or": [
+            {
+              "$trigger": {
+                "payload": {
+                  "slug": {
+                    "_nnull": true
+                  }
+                }
+              }
+            },
+            {
+              "$trigger": {
+                "payload": {
+                  "permalink": {
+                    "_nnull": true
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-05-04T17:21:59.268Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "282f9a77-5519-460e-bb54-4dc6e30b059a",
+      "name": "Did Slug Change",
+      "key": "slug_changed",
+      "type": "condition",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "filter": {
+          "_or": [
+            {
+              "$trigger": {
+                "payload": {
+                  "slug": {
+                    "_nnull": true
+                  }
+                }
+              }
+            },
+            {
+              "$trigger": {
+                "payload": {
+                  "permalink": {
+                    "_nnull": true
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-05-04T17:21:59.268Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 26,
+    "activity": 27,
     "collection": "directus_operations",
     "item": "2adf33da-7fd7-42f7-a6fe-48409463d51b",
     "data": {
@@ -1898,8 +1858,68 @@
     "version": null
   },
   {
-    "id": 31,
-    "activity": 32,
+    "id": 27,
+    "activity": 28,
+    "collection": "directus_operations",
+    "item": "2d441500-54d0-4519-a813-b16e0bbf1c08",
+    "data": {
+      "id": "2d441500-54d0-4519-a813-b16e0bbf1c08",
+      "name": "Is Published",
+      "key": "is_published",
+      "type": "condition",
+      "position_x": 55,
+      "position_y": 1,
+      "options": {
+        "filter": {
+          "_and": [
+            {
+              "item": {
+                "status": {
+                  "_eq": "published"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-05-02T20:49:48.108Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "2d441500-54d0-4519-a813-b16e0bbf1c08",
+      "name": "Is Published",
+      "key": "is_published",
+      "type": "condition",
+      "position_x": 55,
+      "position_y": 1,
+      "options": {
+        "filter": {
+          "_and": [
+            {
+              "item": {
+                "status": {
+                  "_eq": "published"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-05-02T20:49:48.108Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 28,
+    "activity": 29,
     "collection": "directus_operations",
     "item": "396d13ef-af98-49c1-8237-2070549a8cd0",
     "data": {
@@ -1944,8 +1964,296 @@
     "version": null
   },
   {
+    "id": 29,
+    "activity": 30,
+    "collection": "directus_operations",
+    "item": "3b7d004a-1dba-43c4-b902-a44fd71602ae",
+    "data": {
+      "id": "3b7d004a-1dba-43c4-b902-a44fd71602ae",
+      "name": "Format",
+      "key": "format",
+      "type": "exec",
+      "position_x": 55,
+      "position_y": 1,
+      "options": {
+        "code": "module.exports = function(data) {\n    const aiResponse = JSON.parse(data.write)\n\tconst payload = {}\n    payload.title = aiResponse.title\n    payload.description = aiResponse.description\n    payload.content = aiResponse.content\n    payload.slug = aiResponse.slug\n    return payload\n}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+      "date_created": "2024-09-13T03:52:01.503Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "3b7d004a-1dba-43c4-b902-a44fd71602ae",
+      "name": "Format",
+      "key": "format",
+      "type": "exec",
+      "position_x": 55,
+      "position_y": 1,
+      "options": {
+        "code": "module.exports = function(data) {\n    const aiResponse = JSON.parse(data.write)\n\tconst payload = {}\n    payload.title = aiResponse.title\n    payload.description = aiResponse.description\n    payload.content = aiResponse.content\n    payload.slug = aiResponse.slug\n    return payload\n}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+      "date_created": "2024-09-13T03:52:01.503Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 30,
+    "activity": 31,
+    "collection": "directus_operations",
+    "item": "4b46b1e9-1ca0-47c3-86a8-68826136664e",
+    "data": {
+      "id": "4b46b1e9-1ca0-47c3-86a8-68826136664e",
+      "name": "Get Post",
+      "key": "get_post",
+      "type": "item-read",
+      "position_x": 19,
+      "position_y": 19,
+      "options": {
+        "permissions": "$full",
+        "collection": "{{$trigger.body.collection}}",
+        "key": "{{$trigger.body.keys}}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "date_created": "2025-04-02T19:01:05.023Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "4b46b1e9-1ca0-47c3-86a8-68826136664e",
+      "name": "Get Post",
+      "key": "get_post",
+      "type": "item-read",
+      "position_x": 19,
+      "position_y": 19,
+      "options": {
+        "permissions": "$full",
+        "collection": "{{$trigger.body.collection}}",
+        "key": "{{$trigger.body.keys}}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "date_created": "2025-04-02T19:01:05.023Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 31,
+    "activity": 32,
+    "collection": "directus_operations",
+    "item": "599b80e4-7c74-4496-b243-da198c8613d9",
+    "data": {
+      "id": "599b80e4-7c74-4496-b243-da198c8613d9",
+      "name": "Form",
+      "key": "form",
+      "type": "item-read",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "collection": "forms",
+        "key": [
+          "{{$trigger.payload.form}}"
+        ],
+        "query": {
+          "fields": [
+            "*",
+            "fields.*"
+          ]
+        },
+        "permissions": "$full"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+      "date_created": "2024-09-13T03:30:58.055Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "599b80e4-7c74-4496-b243-da198c8613d9",
+      "name": "Form",
+      "key": "form",
+      "type": "item-read",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "collection": "forms",
+        "key": [
+          "{{$trigger.payload.form}}"
+        ],
+        "query": {
+          "fields": [
+            "*",
+            "fields.*"
+          ]
+        },
+        "permissions": "$full"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+      "date_created": "2024-09-13T03:30:58.055Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
     "id": 32,
     "activity": 33,
+    "collection": "directus_operations",
+    "item": "5d667ac5-2594-4f16-a863-3847d8917caa",
+    "data": {
+      "id": "5d667ac5-2594-4f16-a863-3847d8917caa",
+      "name": "Globals",
+      "key": "globals",
+      "type": "trigger",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "flow": "69e87d0b-df14-4779-bdc8-abc05f2f1e97"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+      "date_created": "2024-09-13T02:39:32.169Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "5d667ac5-2594-4f16-a863-3847d8917caa",
+      "name": "Globals",
+      "key": "globals",
+      "type": "trigger",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "flow": "69e87d0b-df14-4779-bdc8-abc05f2f1e97"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+      "date_created": "2024-09-13T02:39:32.169Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 33,
+    "activity": 34,
+    "collection": "directus_operations",
+    "item": "5df25cf8-b407-4fef-9d3b-c328f89f1561",
+    "data": {
+      "id": "5df25cf8-b407-4fef-9d3b-c328f89f1561",
+      "name": "Prompt",
+      "key": "prompt",
+      "type": "directus-labs-ai-writer-operation",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "apiKey": "{{globals.openai_api_key}}",
+        "promptKey": "custom",
+        "system": "You are an expert in writing prompts for generating images through Dall•E 3. \n\n## Rules\nReturn only the prompt text",
+        "text": "Use the following information and context to write a prompt to generate an image for a blog post.\n\nImage Style:\n{{ $trigger.body.prompt }}\n\nAspect Ratio: \n{{ $trigger.body.aspect_ratio }}\n\nColor Palette:\n{{ $trigger.body.colors }}",
+        "model": "gpt-4o-mini",
+        "aiProvider": "openai",
+        "apiKeyOpenAi": "{{globals.openai_api_key}}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "date_created": "2024-09-13T04:12:38.633Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "5df25cf8-b407-4fef-9d3b-c328f89f1561",
+      "name": "Prompt",
+      "key": "prompt",
+      "type": "directus-labs-ai-writer-operation",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "apiKey": "{{globals.openai_api_key}}",
+        "promptKey": "custom",
+        "system": "You are an expert in writing prompts for generating images through Dall•E 3. \n\n## Rules\nReturn only the prompt text",
+        "text": "Use the following information and context to write a prompt to generate an image for a blog post.\n\nImage Style:\n{{ $trigger.body.prompt }}\n\nAspect Ratio: \n{{ $trigger.body.aspect_ratio }}\n\nColor Palette:\n{{ $trigger.body.colors }}",
+        "model": "gpt-4o-mini",
+        "aiProvider": "openai",
+        "apiKeyOpenAi": "{{globals.openai_api_key}}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "date_created": "2024-09-13T04:12:38.633Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 34,
+    "activity": 35,
+    "collection": "directus_operations",
+    "item": "6efe1572-6cdd-4c80-a063-eb71b7f1e519",
+    "data": {
+      "id": "6efe1572-6cdd-4c80-a063-eb71b7f1e519",
+      "name": "Verify To",
+      "key": "verify_to",
+      "type": "condition",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "filter": {
+          "$trigger": {
+            "to": {
+              "_nnull": true
+            }
+          }
+        }
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+      "date_created": "2024-12-19T15:26:30.564Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "6efe1572-6cdd-4c80-a063-eb71b7f1e519",
+      "name": "Verify To",
+      "key": "verify_to",
+      "type": "condition",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "filter": {
+          "$trigger": {
+            "to": {
+              "_nnull": true
+            }
+          }
+        }
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+      "date_created": "2024-12-19T15:26:30.564Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 35,
+    "activity": 36,
     "collection": "directus_operations",
     "item": "78f34568-e64e-457b-b680-59d9a40a1a22",
     "data": {
@@ -1984,8 +2292,72 @@
     "version": null
   },
   {
-    "id": 33,
-    "activity": 34,
+    "id": 36,
+    "activity": 37,
+    "collection": "directus_operations",
+    "item": "823ee957-6d5a-412c-886d-74d18de73864",
+    "data": {
+      "id": "823ee957-6d5a-412c-886d-74d18de73864",
+      "name": "Get Editor",
+      "key": "get_editor",
+      "type": "item-read",
+      "position_x": 38,
+      "position_y": 1,
+      "options": {
+        "permissions": "$full",
+        "collection": "directus_users",
+        "key": [
+          "{{$trigger.body.editor.key}}"
+        ],
+        "query": {
+          "fields": [
+            "id",
+            "first_name",
+            "last_name",
+            "email"
+          ]
+        }
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "date_created": "2025-04-02T19:01:05.036Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "823ee957-6d5a-412c-886d-74d18de73864",
+      "name": "Get Editor",
+      "key": "get_editor",
+      "type": "item-read",
+      "position_x": 38,
+      "position_y": 1,
+      "options": {
+        "permissions": "$full",
+        "collection": "directus_users",
+        "key": [
+          "{{$trigger.body.editor.key}}"
+        ],
+        "query": {
+          "fields": [
+            "id",
+            "first_name",
+            "last_name",
+            "email"
+          ]
+        }
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "date_created": "2025-04-02T19:01:05.036Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 37,
+    "activity": 38,
     "collection": "directus_operations",
     "item": "8673740a-f7f8-44dd-9abd-5a714e0d6c74",
     "data": {
@@ -2030,8 +2402,64 @@
     "version": null
   },
   {
-    "id": 34,
-    "activity": 35,
+    "id": 38,
+    "activity": 39,
+    "collection": "directus_operations",
+    "item": "89125be2-8205-4ad0-a77f-bd3e984202b3",
+    "data": {
+      "id": "89125be2-8205-4ad0-a77f-bd3e984202b3",
+      "name": "Write",
+      "key": "write",
+      "type": "directus-labs-ai-writer-operation",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "apiKey": "{{globals.openai_api_key}}",
+        "model": "gpt-4o-mini",
+        "promptKey": "custom",
+        "system": "You are an expert in writing blog posts that are valuable for readers.\n\n## Rules\n- You are a human content writer. Avoid AI words like \"empower\". Avoid using prolix. Sound human.\n- ALWAYS output a JSON object that matches the sample below.\n{\n\"title\": \"Article Title\",\n\"slug\": \"formatted-slug\",\n\"description\": \"Short summary of the article to entice readers\",\n\"content\": \"Article content goes here. This needs to be properly encoded HTML string with proper line breaks, etc.\"\n}",
+        "json_mode": true,
+        "text": "Write an article based on this prompt.\n{{$trigger.body.prompt}}\n\n\n## Voice\nMatch this style and tone of voice when writing.\n{{ $trigger.body.voice }}",
+        "aiProvider": "openai",
+        "apiKeyOpenAi": "{{globals.openai_api_key}}",
+        "maxToken": 8192
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+      "date_created": "2024-09-13T03:52:01.514Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "89125be2-8205-4ad0-a77f-bd3e984202b3",
+      "name": "Write",
+      "key": "write",
+      "type": "directus-labs-ai-writer-operation",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "apiKey": "{{globals.openai_api_key}}",
+        "model": "gpt-4o-mini",
+        "promptKey": "custom",
+        "system": "You are an expert in writing blog posts that are valuable for readers.\n\n## Rules\n- You are a human content writer. Avoid AI words like \"empower\". Avoid using prolix. Sound human.\n- ALWAYS output a JSON object that matches the sample below.\n{\n\"title\": \"Article Title\",\n\"slug\": \"formatted-slug\",\n\"description\": \"Short summary of the article to entice readers\",\n\"content\": \"Article content goes here. This needs to be properly encoded HTML string with proper line breaks, etc.\"\n}",
+        "json_mode": true,
+        "text": "Write an article based on this prompt.\n{{$trigger.body.prompt}}\n\n\n## Voice\nMatch this style and tone of voice when writing.\n{{ $trigger.body.voice }}",
+        "aiProvider": "openai",
+        "apiKeyOpenAi": "{{globals.openai_api_key}}",
+        "maxToken": 8192
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+      "date_created": "2024-09-13T03:52:01.514Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 39,
+    "activity": 40,
     "collection": "directus_operations",
     "item": "9039e7fa-8dcb-4a2f-935c-b0d8dec7bd61",
     "data": {
@@ -2070,8 +2498,48 @@
     "version": null
   },
   {
-    "id": 35,
-    "activity": 36,
+    "id": 40,
+    "activity": 41,
+    "collection": "directus_operations",
+    "item": "a16e81d1-4177-443e-a292-786a66faee8a",
+    "data": {
+      "id": "a16e81d1-4177-443e-a292-786a66faee8a",
+      "name": "Globals",
+      "key": "globals",
+      "type": "trigger",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "flow": "69e87d0b-df14-4779-bdc8-abc05f2f1e97"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "date_created": "2025-04-02T19:28:58.499Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "a16e81d1-4177-443e-a292-786a66faee8a",
+      "name": "Globals",
+      "key": "globals",
+      "type": "trigger",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "flow": "69e87d0b-df14-4779-bdc8-abc05f2f1e97"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "date_created": "2025-04-02T19:28:58.499Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 41,
+    "activity": 42,
     "collection": "directus_operations",
     "item": "aecbd95c-e882-4ceb-acef-b806eaa25770",
     "data": {
@@ -2084,7 +2552,7 @@
       "options": {
         "code": "/**\n* Page Duplication Flow Function\n* \n* This function handles the duplication of a Directus page, including all its content blocks.\n* It allows specifying a new title and permalink, or automatically creates them with \"-Copy\" suffix.\n* The duplicated page is always set to draft status for review before publishing.\n* \n* @param {Object} data - Data object from Directus Flow\n* @param {Object} data.$trigger.body - Optional data passed to the flow (new title/permalink)\n* @param {Object} data.item - The original page being duplicated with all its properties\n* @returns {Object} Modified page data for creating the duplicate\n*/\nmodule.exports = function(data) {\n   // Get the data submitted with the flow trigger (if any)\n   const triggerData = data.$trigger.body;\n   \n   // Get the full data of the existing page to duplicate\n   const existingData = data.item;\n   \n   // Set the title for the duplicate:\n   // - Use the provided title if it exists in the trigger data\n   // - Otherwise, append \"- Copy\" to the original page title\n   existingData.title = triggerData.title ?? existingData.title + ' - Copy';\n   \n   // Set the permalink for the duplicate:\n   // - Use the provided permalink if it exists in the trigger data\n   // - Otherwise, append \"-copy\" to the original permalink\n   existingData.permalink = triggerData.permalink ?? existingData.permalink + '-copy';\n   \n   // Always set the duplicate page to draft status\n   // This prevents accidental publishing of duplicate content\n   existingData.status = 'draft';\n   \n   // Return the modified data to create the duplicate page\n   // Note: Directus will handle copying all related blocks/components\n   return existingData;\n}"
       },
-      "resolve": "396d13ef-af98-49c1-8237-2070549a8cd0",
+      "resolve": null,
       "reject": null,
       "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
       "date_created": "2025-05-04T14:20:32.310Z",
@@ -2100,7 +2568,7 @@
       "options": {
         "code": "/**\n* Page Duplication Flow Function\n* \n* This function handles the duplication of a Directus page, including all its content blocks.\n* It allows specifying a new title and permalink, or automatically creates them with \"-Copy\" suffix.\n* The duplicated page is always set to draft status for review before publishing.\n* \n* @param {Object} data - Data object from Directus Flow\n* @param {Object} data.$trigger.body - Optional data passed to the flow (new title/permalink)\n* @param {Object} data.item - The original page being duplicated with all its properties\n* @returns {Object} Modified page data for creating the duplicate\n*/\nmodule.exports = function(data) {\n   // Get the data submitted with the flow trigger (if any)\n   const triggerData = data.$trigger.body;\n   \n   // Get the full data of the existing page to duplicate\n   const existingData = data.item;\n   \n   // Set the title for the duplicate:\n   // - Use the provided title if it exists in the trigger data\n   // - Otherwise, append \"- Copy\" to the original page title\n   existingData.title = triggerData.title ?? existingData.title + ' - Copy';\n   \n   // Set the permalink for the duplicate:\n   // - Use the provided permalink if it exists in the trigger data\n   // - Otherwise, append \"-copy\" to the original permalink\n   existingData.permalink = triggerData.permalink ?? existingData.permalink + '-copy';\n   \n   // Always set the duplicate page to draft status\n   // This prevents accidental publishing of duplicate content\n   existingData.status = 'draft';\n   \n   // Return the modified data to create the duplicate page\n   // Note: Directus will handle copying all related blocks/components\n   return existingData;\n}"
       },
-      "resolve": "396d13ef-af98-49c1-8237-2070549a8cd0",
+      "resolve": null,
       "reject": null,
       "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
       "date_created": "2025-05-04T14:20:32.310Z",
@@ -2110,8 +2578,50 @@
     "version": null
   },
   {
-    "id": 36,
-    "activity": 37,
+    "id": 42,
+    "activity": 43,
+    "collection": "directus_operations",
+    "item": "bb1b1e3f-032e-48b7-b260-1cf3af4a116c",
+    "data": {
+      "id": "bb1b1e3f-032e-48b7-b260-1cf3af4a116c",
+      "name": "Read Globals",
+      "key": "read_globals",
+      "type": "item-read",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "permissions": "$full",
+        "collection": "globals"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "69e87d0b-df14-4779-bdc8-abc05f2f1e97",
+      "date_created": "2024-02-26T13:03:38.721Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "bb1b1e3f-032e-48b7-b260-1cf3af4a116c",
+      "name": "Read Globals",
+      "key": "read_globals",
+      "type": "item-read",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "permissions": "$full",
+        "collection": "globals"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "69e87d0b-df14-4779-bdc8-abc05f2f1e97",
+      "date_created": "2024-02-26T13:03:38.721Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 43,
+    "activity": 44,
     "collection": "directus_operations",
     "item": "bc71ca4e-d979-4ef9-a449-af100a7e1b3b",
     "data": {
@@ -2132,7 +2642,7 @@
           }
         ]
       },
-      "resolve": "2adf33da-7fd7-42f7-a6fe-48409463d51b",
+      "resolve": null,
       "reject": null,
       "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
       "date_created": "2024-09-13T04:12:38.612Z",
@@ -2156,7 +2666,7 @@
           }
         ]
       },
-      "resolve": "2adf33da-7fd7-42f7-a6fe-48409463d51b",
+      "resolve": null,
       "reject": null,
       "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
       "date_created": "2024-09-13T04:12:38.612Z",
@@ -2166,8 +2676,8 @@
     "version": null
   },
   {
-    "id": 37,
-    "activity": 38,
+    "id": 44,
+    "activity": 45,
     "collection": "directus_operations",
     "item": "c02bfa07-a395-48df-a0c9-e5acace6da40",
     "data": {
@@ -2186,7 +2696,7 @@
         "key": "{{$trigger.body.keys}}",
         "collection": "{{$trigger.body.collection}}"
       },
-      "resolve": "aecbd95c-e882-4ceb-acef-b806eaa25770",
+      "resolve": null,
       "reject": null,
       "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
       "date_created": "2025-05-04T14:20:32.324Z",
@@ -2208,7 +2718,7 @@
         "key": "{{$trigger.body.keys}}",
         "collection": "{{$trigger.body.collection}}"
       },
-      "resolve": "aecbd95c-e882-4ceb-acef-b806eaa25770",
+      "resolve": null,
       "reject": null,
       "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
       "date_created": "2025-05-04T14:20:32.324Z",
@@ -2218,8 +2728,56 @@
     "version": null
   },
   {
-    "id": 38,
-    "activity": 39,
+    "id": 45,
+    "activity": 46,
+    "collection": "directus_operations",
+    "item": "c846f644-e7c1-43c9-8bb7-81181de0cd60",
+    "data": {
+      "id": "c846f644-e7c1-43c9-8bb7-81181de0cd60",
+      "name": "Render Template",
+      "key": "render",
+      "type": "liquidjs-operation",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "publicUrl": "http://localhost:8001/",
+        "mode": "custom",
+        "operationMode": "single",
+        "template": "{{ $trigger.template }}",
+        "data": "{{ $trigger.data }}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
+      "date_created": "2024-09-25T13:15:05.717Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "c846f644-e7c1-43c9-8bb7-81181de0cd60",
+      "name": "Render Template",
+      "key": "render",
+      "type": "liquidjs-operation",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "publicUrl": "http://localhost:8001/",
+        "mode": "custom",
+        "operationMode": "single",
+        "template": "{{ $trigger.template }}",
+        "data": "{{ $trigger.data }}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
+      "date_created": "2024-09-25T13:15:05.717Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 46,
+    "activity": 47,
     "collection": "directus_operations",
     "item": "d6f73e98-19ef-47d6-8d1f-99d77137d36b",
     "data": {
@@ -2235,7 +2793,7 @@
         "size": "landscape",
         "prompt": "{{prompt}}"
       },
-      "resolve": "bc71ca4e-d979-4ef9-a449-af100a7e1b3b",
+      "resolve": null,
       "reject": null,
       "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
       "date_created": "2024-09-13T04:12:38.623Z",
@@ -2254,7 +2812,7 @@
         "size": "landscape",
         "prompt": "{{prompt}}"
       },
-      "resolve": "bc71ca4e-d979-4ef9-a449-af100a7e1b3b",
+      "resolve": null,
       "reject": null,
       "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
       "date_created": "2024-09-13T04:12:38.623Z",
@@ -2264,8 +2822,152 @@
     "version": null
   },
   {
-    "id": 39,
-    "activity": 40,
+    "id": 47,
+    "activity": 48,
+    "collection": "directus_operations",
+    "item": "d7f64e04-ab43-4d77-b8e8-379b41af2d3a",
+    "data": {
+      "id": "d7f64e04-ab43-4d77-b8e8-379b41af2d3a",
+      "name": "Format Payload",
+      "key": "format_payload",
+      "type": "exec",
+      "position_x": 73,
+      "position_y": 1,
+      "options": {
+        "code": "/**\n * Automatic Redirect Generator for Content URL Changes\n * \n * This function generates redirect objects when published content URLs change.\n * It works with both posts and pages collections to maintain SEO value\n * and prevent broken links when content is moved or renamed.\n */\nconst map = {\n  // Configuration for blog posts\n  posts: {\n    slugField: \"slug\",        // Field that contains the URL identifier for posts\n    routePrefix: \"/blog/\",    // Prefix added to all post URLs (e.g., /blog/my-post)\n  },\n  // Configuration for pages\n  pages: {\n    slugField: \"permalink\",   // Field that contains the URL identifier for pages\n    routePrefix: \"\",          // No prefix for pages (e.g., /about-us)\n  },\n};\n\n/**\n * Flow function executed when content URL changes\n * @param {Object} data - Data object from Directus Flow\n * @param {Object} data.$trigger - Information about what triggered the flow\n * @param {string} data.$trigger.collection - Collection name (posts/pages)\n * @param {Object} data.$trigger.payload - New data being saved\n * @param {Object} data.item - Previous version of the item before changes\n * @returns {Object} Redirect configuration object\n */\nmodule.exports = function (data) {\n  // Get the collection configuration based on whether this is a page or post\n  const collection = map[data.$trigger.collection];\n\n  const oldSlug = data.item[collection.slugField];\n  const newSlug = data.$trigger.payload[collection.slugField];\n  \n  // Build the old URL by combining the route prefix with the previous slug/permalink\n  const oldUrl = `${collection.routePrefix}${oldSlug}`;\n  \n  // Build the new URL by combining the route prefix with the new slug/permalink\n  const newUrl = `${collection.routePrefix}${newSlug}`;\n    \n  // Add a note\n  const note = `Created by Redirect automation on ${new Date().toLocaleDateString(\"en-US\")} at ${new Date().toLocaleTimeString(\"en-US\")} when a ${data.$trigger.collection} ${collection.slugField} was updated from \"${oldSlug}\" to \"${newSlug}\"`\n  \n  // Return a redirect object that will be saved to the redirects collection\n  return {\n    response_code: 301,       // Permanent redirect (best for SEO)\n    url_from: oldUrl,         // Where users were going before\n    url_to: newUrl,           // Where they should be sent now\n    note,\n  };\n};"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-05-02T20:47:12.265Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "d7f64e04-ab43-4d77-b8e8-379b41af2d3a",
+      "name": "Format Payload",
+      "key": "format_payload",
+      "type": "exec",
+      "position_x": 73,
+      "position_y": 1,
+      "options": {
+        "code": "/**\n * Automatic Redirect Generator for Content URL Changes\n * \n * This function generates redirect objects when published content URLs change.\n * It works with both posts and pages collections to maintain SEO value\n * and prevent broken links when content is moved or renamed.\n */\nconst map = {\n  // Configuration for blog posts\n  posts: {\n    slugField: \"slug\",        // Field that contains the URL identifier for posts\n    routePrefix: \"/blog/\",    // Prefix added to all post URLs (e.g., /blog/my-post)\n  },\n  // Configuration for pages\n  pages: {\n    slugField: \"permalink\",   // Field that contains the URL identifier for pages\n    routePrefix: \"\",          // No prefix for pages (e.g., /about-us)\n  },\n};\n\n/**\n * Flow function executed when content URL changes\n * @param {Object} data - Data object from Directus Flow\n * @param {Object} data.$trigger - Information about what triggered the flow\n * @param {string} data.$trigger.collection - Collection name (posts/pages)\n * @param {Object} data.$trigger.payload - New data being saved\n * @param {Object} data.item - Previous version of the item before changes\n * @returns {Object} Redirect configuration object\n */\nmodule.exports = function (data) {\n  // Get the collection configuration based on whether this is a page or post\n  const collection = map[data.$trigger.collection];\n\n  const oldSlug = data.item[collection.slugField];\n  const newSlug = data.$trigger.payload[collection.slugField];\n  \n  // Build the old URL by combining the route prefix with the previous slug/permalink\n  const oldUrl = `${collection.routePrefix}${oldSlug}`;\n  \n  // Build the new URL by combining the route prefix with the new slug/permalink\n  const newUrl = `${collection.routePrefix}${newSlug}`;\n    \n  // Add a note\n  const note = `Created by Redirect automation on ${new Date().toLocaleDateString(\"en-US\")} at ${new Date().toLocaleTimeString(\"en-US\")} when a ${data.$trigger.collection} ${collection.slugField} was updated from \"${oldSlug}\" to \"${newSlug}\"`\n  \n  // Return a redirect object that will be saved to the redirects collection\n  return {\n    response_code: 301,       // Permanent redirect (best for SEO)\n    url_from: oldUrl,         // Where users were going before\n    url_to: newUrl,           // Where they should be sent now\n    note,\n  };\n};"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-05-02T20:47:12.265Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 48,
+    "activity": 49,
+    "collection": "directus_operations",
+    "item": "dc181cb9-3853-41b9-98bf-6901472bc1af",
+    "data": {
+      "id": "dc181cb9-3853-41b9-98bf-6901472bc1af",
+      "name": "Get User",
+      "key": "get_user",
+      "type": "item-read",
+      "position_x": 57,
+      "position_y": 1,
+      "options": {
+        "permissions": "$full",
+        "collection": "directus_users",
+        "key": [
+          "{{$accountability.user}}"
+        ],
+        "query": {
+          "fields": [
+            "id",
+            "first_name",
+            "last_name",
+            "email"
+          ]
+        }
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "date_created": "2025-04-02T19:12:25.011Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "dc181cb9-3853-41b9-98bf-6901472bc1af",
+      "name": "Get User",
+      "key": "get_user",
+      "type": "item-read",
+      "position_x": 57,
+      "position_y": 1,
+      "options": {
+        "permissions": "$full",
+        "collection": "directus_users",
+        "key": [
+          "{{$accountability.user}}"
+        ],
+        "query": {
+          "fields": [
+            "id",
+            "first_name",
+            "last_name",
+            "email"
+          ]
+        }
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "date_created": "2025-04-02T19:12:25.011Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 49,
+    "activity": 50,
+    "collection": "directus_operations",
+    "item": "dff1a702-bcc0-4528-905e-309feb880111",
+    "data": {
+      "id": "dff1a702-bcc0-4528-905e-309feb880111",
+      "name": "Format",
+      "key": "format",
+      "type": "exec",
+      "position_x": 19,
+      "position_y": 18,
+      "options": {
+        "code": "/**\n * Prepares email template data by matching trigger values with form fields\n * @param {Object} trigger - The trigger object containing payload values\n * @param {Object} form - The form object containing fields and email templates\n * @returns {Array} Array of prepared email template objects\n * @throws {Error} If required data is missing or invalid\n */\nfunction prepareEmailTemplateData(trigger, form) {\n  // Validate input parameters\n  if (!trigger?.payload?.values || !Array.isArray(trigger.payload.values)) {\n    throw new Error('Invalid trigger payload values');\n  }\n  \n  if (!form?.fields || !Array.isArray(form.fields)) {\n    throw new Error('Invalid form fields');\n  }\n  \n  if (!form?.emails || !Array.isArray(form.emails)) {\n    throw new Error('Invalid form emails');\n  }\n\n  // Create an object to store the field name-value pairs\n  const data = {};\n  \n  // Iterate through the trigger values and match them with form fields\n  trigger.payload.values.forEach(item => {\n    if (!item || typeof item !== 'object') {\n      throw new Error('Invalid trigger value item');\n    }\n\n    // Ensure required properties exist\n    if (!item.field && !item.field_name) {\n      throw new Error('Missing field identifier in trigger value');\n    }\n    \n    if (item.value === undefined) {\n      throw new Error('Missing value in trigger value');\n    }\n\n    // Find the corresponding field in the form\n    const formField = form.fields.find(field => field.id === item.field);\n    \n    // If a matching field is found, use its name as the key\n    if (formField && formField.name) {\n      data[formField.name] = item.value;\n    } else {\n      // Fallback to using the field_name from the trigger if no match is found\n      data[item.field_name || item.field] = item.value;\n    }\n  });\n\n  // Process and validate all email templates\n  const emailTemplates = form.emails.map(email => {\n    // Validate required email template properties\n    if (!email.subject) {\n      throw new Error('Missing email subject');\n    }\n    \n    if (!email.message) {\n      throw new Error('Missing email message template');\n    }\n    \n    if (!email.to) {\n      throw new Error('Missing email recipient');\n    }\n\n    // Normalize 'to' field to always be an array\n    const toField = Array.isArray(email.to) ? email.to : [email.to];\n    \n    // Validate each email address\n    toField.forEach(recipient => {\n      if (typeof recipient !== 'string' || !recipient.trim()) {\n        throw new Error('Invalid email recipient');\n      }\n    });\n\n    return {\n      to: toField,\n      subject: email.subject,\n      template: email.message,\n      data: data\n    };\n  });\n\n  return emailTemplates;\n}\n\nmodule.exports = function(data) {\n  if (!data?.$trigger || !data?.form) {\n    throw new Error('Missing required data');\n  }\n  \n  return prepareEmailTemplateData(data.$trigger, data.form);\n};"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+      "date_created": "2024-09-13T03:41:36.144Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "dff1a702-bcc0-4528-905e-309feb880111",
+      "name": "Format",
+      "key": "format",
+      "type": "exec",
+      "position_x": 19,
+      "position_y": 18,
+      "options": {
+        "code": "/**\n * Prepares email template data by matching trigger values with form fields\n * @param {Object} trigger - The trigger object containing payload values\n * @param {Object} form - The form object containing fields and email templates\n * @returns {Array} Array of prepared email template objects\n * @throws {Error} If required data is missing or invalid\n */\nfunction prepareEmailTemplateData(trigger, form) {\n  // Validate input parameters\n  if (!trigger?.payload?.values || !Array.isArray(trigger.payload.values)) {\n    throw new Error('Invalid trigger payload values');\n  }\n  \n  if (!form?.fields || !Array.isArray(form.fields)) {\n    throw new Error('Invalid form fields');\n  }\n  \n  if (!form?.emails || !Array.isArray(form.emails)) {\n    throw new Error('Invalid form emails');\n  }\n\n  // Create an object to store the field name-value pairs\n  const data = {};\n  \n  // Iterate through the trigger values and match them with form fields\n  trigger.payload.values.forEach(item => {\n    if (!item || typeof item !== 'object') {\n      throw new Error('Invalid trigger value item');\n    }\n\n    // Ensure required properties exist\n    if (!item.field && !item.field_name) {\n      throw new Error('Missing field identifier in trigger value');\n    }\n    \n    if (item.value === undefined) {\n      throw new Error('Missing value in trigger value');\n    }\n\n    // Find the corresponding field in the form\n    const formField = form.fields.find(field => field.id === item.field);\n    \n    // If a matching field is found, use its name as the key\n    if (formField && formField.name) {\n      data[formField.name] = item.value;\n    } else {\n      // Fallback to using the field_name from the trigger if no match is found\n      data[item.field_name || item.field] = item.value;\n    }\n  });\n\n  // Process and validate all email templates\n  const emailTemplates = form.emails.map(email => {\n    // Validate required email template properties\n    if (!email.subject) {\n      throw new Error('Missing email subject');\n    }\n    \n    if (!email.message) {\n      throw new Error('Missing email message template');\n    }\n    \n    if (!email.to) {\n      throw new Error('Missing email recipient');\n    }\n\n    // Normalize 'to' field to always be an array\n    const toField = Array.isArray(email.to) ? email.to : [email.to];\n    \n    // Validate each email address\n    toField.forEach(recipient => {\n      if (typeof recipient !== 'string' || !recipient.trim()) {\n        throw new Error('Invalid email recipient');\n      }\n    });\n\n    return {\n      to: toField,\n      subject: email.subject,\n      template: email.message,\n      data: data\n    };\n  });\n\n  return emailTemplates;\n}\n\nmodule.exports = function(data) {\n  if (!data?.$trigger || !data?.form) {\n    throw new Error('Missing required data');\n  }\n  \n  return prepareEmailTemplateData(data.$trigger, data.form);\n};"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+      "date_created": "2024-09-13T03:41:36.144Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 50,
+    "activity": 51,
     "collection": "directus_operations",
     "item": "e12b95db-a408-4e7e-b30b-264f7fa8baa3",
     "data": {
@@ -2306,8 +3008,8 @@
     "version": null
   },
   {
-    "id": 40,
-    "activity": 41,
+    "id": 51,
+    "activity": 52,
     "collection": "directus_operations",
     "item": "e6c50f84-e229-4f15-8119-c7708256e825",
     "data": {
@@ -2356,8 +3058,8 @@
     "version": null
   },
   {
-    "id": 41,
-    "activity": 42,
+    "id": 52,
+    "activity": 53,
     "collection": "directus_operations",
     "item": "edc5e1ae-a3ed-45af-ae77-10409a66cd03",
     "data": {
@@ -2396,8 +3098,54 @@
     "version": null
   },
   {
-    "id": 42,
-    "activity": 43,
+    "id": 53,
+    "activity": 54,
+    "collection": "directus_operations",
+    "item": "f491233d-f942-4c8a-bc9d-9074fce45844",
+    "data": {
+      "id": "f491233d-f942-4c8a-bc9d-9074fce45844",
+      "name": "Read Item",
+      "key": "item",
+      "type": "item-read",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "permissions": "$trigger",
+        "emitEvents": false,
+        "collection": "{{$trigger.collection}}",
+        "key": "{{$trigger.keys}}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-05-02T20:33:51.968Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "delta": {
+      "id": "f491233d-f942-4c8a-bc9d-9074fce45844",
+      "name": "Read Item",
+      "key": "item",
+      "type": "item-read",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "permissions": "$trigger",
+        "emitEvents": false,
+        "collection": "{{$trigger.collection}}",
+        "key": "{{$trigger.keys}}"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-05-02T20:33:51.968Z",
+      "user_created": "d56956bf-6ed0-465e-bb4a-ec9bde65c5f0"
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 54,
+    "activity": 55,
     "collection": "directus_operations",
     "item": "f6ae03f7-014d-43d1-8d69-cf122da302c0",
     "data": {
@@ -2450,8 +3198,8 @@
     "version": null
   },
   {
-    "id": 43,
-    "activity": 44,
+    "id": 55,
+    "activity": 56,
     "collection": "directus_operations",
     "item": "f6b8abc3-20bd-4d05-9bec-b7c759559e13",
     "data": {
@@ -2496,8 +3244,8 @@
     "version": null
   },
   {
-    "id": 44,
-    "activity": 45,
+    "id": 56,
+    "activity": 57,
     "collection": "directus_operations",
     "item": "fbf696ea-c6af-4230-8f62-c663beebd6d9",
     "data": {
@@ -2511,7 +3259,7 @@
         "flow": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
         "payload": "{{ format }}"
       },
-      "resolve": "e12b95db-a408-4e7e-b30b-264f7fa8baa3",
+      "resolve": null,
       "reject": null,
       "flow": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
       "date_created": "2024-09-25T13:29:26.743Z",
@@ -2528,7 +3276,7 @@
         "flow": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
         "payload": "{{ format }}"
       },
-      "resolve": "e12b95db-a408-4e7e-b30b-264f7fa8baa3",
+      "resolve": null,
       "reject": null,
       "flow": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
       "date_created": "2024-09-25T13:29:26.743Z",
@@ -2538,8 +3286,8 @@
     "version": null
   },
   {
-    "id": 45,
-    "activity": 46,
+    "id": 57,
+    "activity": 58,
     "collection": "directus_operations",
     "item": "fd271542-fac2-42d8-aa10-a02520c3753f",
     "data": {
@@ -2578,525 +3326,29 @@
     "version": null
   },
   {
-    "id": 46,
-    "activity": 47,
-    "collection": "directus_permissions",
-    "item": "0",
-    "data": {
-      "collection": "directus_files",
-      "action": "read",
-      "permissions": {
-        "_and": [
-          {
-            "_or": [
-              {
-                "folder": {
-                  "name": {
-                    "_contains": "Public"
-                  }
-                }
-              },
-              {
-                "folder": {
-                  "parent": {
-                    "name": {
-                      "_contains": "Public"
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        ]
-      },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "abf8a154-5b1c-4a46-ac9c-7300570f4f17",
-      "id": 0
-    },
-    "delta": {
-      "collection": "directus_files",
-      "action": "read",
-      "permissions": {
-        "_and": [
-          {
-            "_or": [
-              {
-                "folder": {
-                  "name": {
-                    "_contains": "Public"
-                  }
-                }
-              },
-              {
-                "folder": {
-                  "parent": {
-                    "name": {
-                      "_contains": "Public"
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        ]
-      },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "abf8a154-5b1c-4a46-ac9c-7300570f4f17",
-      "id": 0
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 47,
-    "activity": 48,
-    "collection": "directus_permissions",
-    "item": "1",
-    "data": {
-      "collection": "directus_dashboards",
-      "action": "create",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 1
-    },
-    "delta": {
-      "collection": "directus_dashboards",
-      "action": "create",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 1
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 48,
-    "activity": 49,
-    "collection": "directus_permissions",
-    "item": "2",
-    "data": {
-      "collection": "directus_dashboards",
-      "action": "read",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 2
-    },
-    "delta": {
-      "collection": "directus_dashboards",
-      "action": "read",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 2
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 49,
-    "activity": 50,
-    "collection": "directus_permissions",
-    "item": "3",
-    "data": {
-      "collection": "directus_dashboards",
-      "action": "update",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 3
-    },
-    "delta": {
-      "collection": "directus_dashboards",
-      "action": "update",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 3
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 50,
-    "activity": 51,
-    "collection": "directus_permissions",
-    "item": "4",
-    "data": {
-      "collection": "directus_dashboards",
-      "action": "delete",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 4
-    },
-    "delta": {
-      "collection": "directus_dashboards",
-      "action": "delete",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 4
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 51,
-    "activity": 52,
-    "collection": "directus_permissions",
-    "item": "5",
-    "data": {
-      "collection": "directus_panels",
-      "action": "create",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 5
-    },
-    "delta": {
-      "collection": "directus_panels",
-      "action": "create",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 5
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 52,
-    "activity": 53,
-    "collection": "directus_permissions",
-    "item": "6",
-    "data": {
-      "collection": "directus_panels",
-      "action": "read",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 6
-    },
-    "delta": {
-      "collection": "directus_panels",
-      "action": "read",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 6
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 53,
-    "activity": 54,
-    "collection": "directus_permissions",
-    "item": "7",
-    "data": {
-      "collection": "directus_panels",
-      "action": "update",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 7
-    },
-    "delta": {
-      "collection": "directus_panels",
-      "action": "update",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 7
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 54,
-    "activity": 55,
-    "collection": "directus_permissions",
-    "item": "8",
-    "data": {
-      "collection": "directus_panels",
-      "action": "delete",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 8
-    },
-    "delta": {
-      "collection": "directus_panels",
-      "action": "delete",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 8
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 55,
-    "activity": 56,
-    "collection": "directus_permissions",
-    "item": "9",
-    "data": {
-      "collection": "directus_users",
-      "action": "read",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 9
-    },
-    "delta": {
-      "collection": "directus_users",
-      "action": "read",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 9
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 56,
-    "activity": 57,
-    "collection": "directus_permissions",
-    "item": "10",
-    "data": {
-      "collection": "directus_users",
-      "action": "update",
-      "permissions": {
-        "id": {
-          "_eq": "$CURRENT_USER"
-        }
-      },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "first_name",
-        "last_name",
-        "email",
-        "password",
-        "location",
-        "title",
-        "description",
-        "avatar",
-        "language",
-        "appearance",
-        "theme_light",
-        "theme_dark",
-        "theme_light_overrides",
-        "theme_dark_overrides",
-        "tfa_secret"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 10
-    },
-    "delta": {
-      "collection": "directus_users",
-      "action": "update",
-      "permissions": {
-        "id": {
-          "_eq": "$CURRENT_USER"
-        }
-      },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "first_name",
-        "last_name",
-        "email",
-        "password",
-        "location",
-        "title",
-        "description",
-        "avatar",
-        "language",
-        "appearance",
-        "theme_light",
-        "theme_dark",
-        "theme_light_overrides",
-        "theme_dark_overrides",
-        "tfa_secret"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 10
-    },
-    "parent": null,
-    "version": null
-  },
-  {
-    "id": 57,
-    "activity": 58,
-    "collection": "directus_permissions",
-    "item": "11",
-    "data": {
-      "collection": "directus_roles",
-      "action": "read",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 11
-    },
-    "delta": {
-      "collection": "directus_roles",
-      "action": "read",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 11
-    },
-    "parent": null,
-    "version": null
-  },
-  {
     "id": 58,
     "activity": 59,
-    "collection": "directus_permissions",
-    "item": "12",
+    "collection": "directus_operations",
+    "item": "0cf30253-f9ed-413f-ac27-7a0ecffa9ee4",
     "data": {
-      "collection": "directus_shares",
-      "action": "read",
-      "permissions": {
-        "_or": [
-          {
-            "role": {
-              "_eq": "$CURRENT_ROLE"
-            }
-          },
-          {
-            "role": {
-              "_null": true
-            }
-          }
-        ]
+      "id": "0cf30253-f9ed-413f-ac27-7a0ecffa9ee4",
+      "name": "Globals",
+      "key": "globals",
+      "type": "trigger",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "flow": "69e87d0b-df14-4779-bdc8-abc05f2f1e97"
       },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 12
+      "resolve": "5df25cf8-b407-4fef-9d3b-c328f89f1561",
+      "reject": null,
+      "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "date_created": "2025-08-10T07:09:41.209Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_shares",
-      "action": "read",
-      "permissions": {
-        "_or": [
-          {
-            "role": {
-              "_eq": "$CURRENT_ROLE"
-            }
-          },
-          {
-            "role": {
-              "_null": true
-            }
-          }
-        ]
-      },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 12
+      "resolve": "5df25cf8-b407-4fef-9d3b-c328f89f1561",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3104,31 +3356,37 @@
   {
     "id": 59,
     "activity": 60,
-    "collection": "directus_permissions",
-    "item": "13",
+    "collection": "directus_operations",
+    "item": "1bb8a2e2-c98a-4a52-9224-78b4100ec087",
     "data": {
-      "collection": "directus_shares",
-      "action": "create",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 13
+      "id": "1bb8a2e2-c98a-4a52-9224-78b4100ec087",
+      "name": "Duplication Fields",
+      "key": "duplication_fields",
+      "type": "item-read",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "permissions": "$trigger",
+        "emitEvents": false,
+        "query": {
+          "fields": [
+            "item_duplication_fields"
+          ]
+        },
+        "collection": "directus_collections",
+        "key": [
+          "{{$trigger.body.collection}}"
+        ]
+      },
+      "resolve": "c02bfa07-a395-48df-a0c9-e5acace6da40",
+      "reject": null,
+      "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+      "date_created": "2025-08-10T07:09:41.216Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_shares",
-      "action": "create",
-      "permissions": {},
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 13
+      "resolve": "c02bfa07-a395-48df-a0c9-e5acace6da40",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3136,39 +3394,48 @@
   {
     "id": 60,
     "activity": 61,
-    "collection": "directus_permissions",
-    "item": "14",
+    "collection": "directus_operations",
+    "item": "282f9a77-5519-460e-bb54-4dc6e30b059a",
     "data": {
-      "collection": "directus_shares",
-      "action": "update",
-      "permissions": {
-        "user_created": {
-          "_eq": "$CURRENT_USER"
+      "id": "282f9a77-5519-460e-bb54-4dc6e30b059a",
+      "name": "Did Slug Change",
+      "key": "slug_changed",
+      "type": "condition",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "filter": {
+          "_or": [
+            {
+              "$trigger": {
+                "payload": {
+                  "slug": {
+                    "_nnull": true
+                  }
+                }
+              }
+            },
+            {
+              "$trigger": {
+                "payload": {
+                  "permalink": {
+                    "_nnull": true
+                  }
+                }
+              }
+            }
+          ]
         }
       },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 14
+      "resolve": "f491233d-f942-4c8a-bc9d-9074fce45844",
+      "reject": "78f34568-e64e-457b-b680-59d9a40a1a22",
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-08-10T07:09:41.220Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_shares",
-      "action": "update",
-      "permissions": {
-        "user_created": {
-          "_eq": "$CURRENT_USER"
-        }
-      },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 14
+      "resolve": "f491233d-f942-4c8a-bc9d-9074fce45844",
+      "reject": "78f34568-e64e-457b-b680-59d9a40a1a22"
     },
     "parent": null,
     "version": null
@@ -3176,39 +3443,37 @@
   {
     "id": 61,
     "activity": 62,
-    "collection": "directus_permissions",
-    "item": "15",
+    "collection": "directus_operations",
+    "item": "2d441500-54d0-4519-a813-b16e0bbf1c08",
     "data": {
-      "collection": "directus_shares",
-      "action": "delete",
-      "permissions": {
-        "user_created": {
-          "_eq": "$CURRENT_USER"
+      "id": "2d441500-54d0-4519-a813-b16e0bbf1c08",
+      "name": "Is Published",
+      "key": "is_published",
+      "type": "condition",
+      "position_x": 55,
+      "position_y": 1,
+      "options": {
+        "filter": {
+          "_and": [
+            {
+              "item": {
+                "status": {
+                  "_eq": "published"
+                }
+              }
+            }
+          ]
         }
       },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 15
+      "resolve": "d7f64e04-ab43-4d77-b8e8-379b41af2d3a",
+      "reject": "9039e7fa-8dcb-4a2f-935c-b0d8dec7bd61",
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-08-10T07:09:41.232Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_shares",
-      "action": "delete",
-      "permissions": {
-        "user_created": {
-          "_eq": "$CURRENT_USER"
-        }
-      },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 15
+      "resolve": "d7f64e04-ab43-4d77-b8e8-379b41af2d3a",
+      "reject": "9039e7fa-8dcb-4a2f-935c-b0d8dec7bd61"
     },
     "parent": null,
     "version": null
@@ -3216,51 +3481,27 @@
   {
     "id": 62,
     "activity": 63,
-    "collection": "directus_permissions",
-    "item": "16",
+    "collection": "directus_operations",
+    "item": "3b7d004a-1dba-43c4-b902-a44fd71602ae",
     "data": {
-      "collection": "directus_flows",
-      "action": "read",
-      "permissions": {
-        "trigger": {
-          "_eq": "manual"
-        }
+      "id": "3b7d004a-1dba-43c4-b902-a44fd71602ae",
+      "name": "Format",
+      "key": "format",
+      "type": "exec",
+      "position_x": 55,
+      "position_y": 1,
+      "options": {
+        "code": "module.exports = function(data) {\n    const aiResponse = JSON.parse(data.write)\n\tconst payload = {}\n    payload.title = aiResponse.title\n    payload.description = aiResponse.description\n    payload.content = aiResponse.content\n    payload.slug = aiResponse.slug\n    return payload\n}"
       },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "id",
-        "status",
-        "name",
-        "icon",
-        "color",
-        "options",
-        "trigger"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 16
+      "resolve": "e6c50f84-e229-4f15-8119-c7708256e825",
+      "reject": null,
+      "flow": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+      "date_created": "2025-08-10T07:09:41.238Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_flows",
-      "action": "read",
-      "permissions": {
-        "trigger": {
-          "_eq": "manual"
-        }
-      },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "id",
-        "status",
-        "name",
-        "icon",
-        "color",
-        "options",
-        "trigger"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 16
+      "resolve": "e6c50f84-e229-4f15-8119-c7708256e825",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3268,51 +3509,29 @@
   {
     "id": 63,
     "activity": 64,
-    "collection": "directus_permissions",
-    "item": "17",
+    "collection": "directus_operations",
+    "item": "4b46b1e9-1ca0-47c3-86a8-68826136664e",
     "data": {
-      "collection": "directus_files",
-      "action": "create",
-      "permissions": null,
-      "validation": {
-        "_and": [
-          {
-            "filesize": {
-              "_lte": "5000000"
-            }
-          }
-        ]
+      "id": "4b46b1e9-1ca0-47c3-86a8-68826136664e",
+      "name": "Get Post",
+      "key": "get_post",
+      "type": "item-read",
+      "position_x": 19,
+      "position_y": 19,
+      "options": {
+        "permissions": "$full",
+        "collection": "{{$trigger.body.collection}}",
+        "key": "{{$trigger.body.keys}}"
       },
-      "presets": {
-        "folder": "e6308546-92fb-4b10-b586-eefaf1d97f7f"
-      },
-      "fields": [
-        "*"
-      ],
-      "policy": "ee1055a2-7c03-4b0b-9b65-ca68491b6329",
-      "id": 17
+      "resolve": "f6ae03f7-014d-43d1-8d69-cf122da302c0",
+      "reject": null,
+      "flow": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "date_created": "2025-08-10T07:09:41.242Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_files",
-      "action": "create",
-      "permissions": null,
-      "validation": {
-        "_and": [
-          {
-            "filesize": {
-              "_lte": "5000000"
-            }
-          }
-        ]
-      },
-      "presets": {
-        "folder": "e6308546-92fb-4b10-b586-eefaf1d97f7f"
-      },
-      "fields": [
-        "*"
-      ],
-      "policy": "ee1055a2-7c03-4b0b-9b65-ca68491b6329",
-      "id": 17
+      "resolve": "f6ae03f7-014d-43d1-8d69-cf122da302c0",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3320,55 +3539,37 @@
   {
     "id": 64,
     "activity": 65,
-    "collection": "directus_permissions",
-    "item": "18",
+    "collection": "directus_operations",
+    "item": "599b80e4-7c74-4496-b243-da198c8613d9",
     "data": {
-      "collection": "directus_users",
-      "action": "read",
-      "permissions": {
-        "_and": [
-          {
-            "posts": {
-              "_nnull": true
-            }
-          }
-        ]
+      "id": "599b80e4-7c74-4496-b243-da198c8613d9",
+      "name": "Form",
+      "key": "form",
+      "type": "item-read",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "collection": "forms",
+        "key": [
+          "{{$trigger.payload.form}}"
+        ],
+        "query": {
+          "fields": [
+            "*",
+            "fields.*"
+          ]
+        },
+        "permissions": "$full"
       },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "first_name",
-        "last_name",
-        "avatar",
-        "title",
-        "id"
-      ],
-      "policy": "abf8a154-5b1c-4a46-ac9c-7300570f4f17",
-      "id": 18
+      "resolve": "dff1a702-bcc0-4528-905e-309feb880111",
+      "reject": null,
+      "flow": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+      "date_created": "2025-08-10T07:09:41.250Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_users",
-      "action": "read",
-      "permissions": {
-        "_and": [
-          {
-            "posts": {
-              "_nnull": true
-            }
-          }
-        ]
-      },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "first_name",
-        "last_name",
-        "avatar",
-        "title",
-        "id"
-      ],
-      "policy": "abf8a154-5b1c-4a46-ac9c-7300570f4f17",
-      "id": 18
+      "resolve": "dff1a702-bcc0-4528-905e-309feb880111",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3376,47 +3577,27 @@
   {
     "id": 65,
     "activity": 66,
-    "collection": "directus_permissions",
-    "item": "19",
+    "collection": "directus_operations",
+    "item": "5d667ac5-2594-4f16-a863-3847d8917caa",
     "data": {
-      "collection": "directus_files",
-      "action": "read",
-      "permissions": {
-        "_and": [
-          {
-            "folder": {
-              "_eq": "e6308546-92fb-4b10-b586-eefaf1d97f7f"
-            }
-          }
-        ]
+      "id": "5d667ac5-2594-4f16-a863-3847d8917caa",
+      "name": "Globals",
+      "key": "globals",
+      "type": "trigger",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "flow": "69e87d0b-df14-4779-bdc8-abc05f2f1e97"
       },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "id"
-      ],
-      "policy": "ee1055a2-7c03-4b0b-9b65-ca68491b6329",
-      "id": 19
+      "resolve": "89125be2-8205-4ad0-a77f-bd3e984202b3",
+      "reject": null,
+      "flow": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+      "date_created": "2025-08-10T07:09:41.252Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_files",
-      "action": "read",
-      "permissions": {
-        "_and": [
-          {
-            "folder": {
-              "_eq": "e6308546-92fb-4b10-b586-eefaf1d97f7f"
-            }
-          }
-        ]
-      },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "id"
-      ],
-      "policy": "ee1055a2-7c03-4b0b-9b65-ca68491b6329",
-      "id": 19
+      "resolve": "89125be2-8205-4ad0-a77f-bd3e984202b3",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3424,31 +3605,33 @@
   {
     "id": 66,
     "activity": 67,
-    "collection": "directus_permissions",
-    "item": "20",
+    "collection": "directus_operations",
+    "item": "5df25cf8-b407-4fef-9d3b-c328f89f1561",
     "data": {
-      "collection": "directus_folders",
-      "action": "read",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 20
+      "id": "5df25cf8-b407-4fef-9d3b-c328f89f1561",
+      "name": "Prompt",
+      "key": "prompt",
+      "type": "directus-labs-ai-writer-operation",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "apiKey": "{{globals.openai_api_key}}",
+        "promptKey": "custom",
+        "system": "You are an expert in writing prompts for generating images through Dall•E 3. \n\n## Rules\nReturn only the prompt text",
+        "text": "Use the following information and context to write a prompt to generate an image for a blog post.\n\nImage Style:\n{{ $trigger.body.prompt }}\n\nAspect Ratio: \n{{ $trigger.body.aspect_ratio }}\n\nColor Palette:\n{{ $trigger.body.colors }}",
+        "model": "gpt-4o-mini",
+        "aiProvider": "openai",
+        "apiKeyOpenAi": "{{globals.openai_api_key}}"
+      },
+      "resolve": "d6f73e98-19ef-47d6-8d1f-99d77137d36b",
+      "reject": null,
+      "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "date_created": "2025-08-10T07:09:41.255Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_folders",
-      "action": "read",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 20
+      "resolve": "d6f73e98-19ef-47d6-8d1f-99d77137d36b",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3456,31 +3639,33 @@
   {
     "id": 67,
     "activity": 68,
-    "collection": "directus_permissions",
-    "item": "21",
+    "collection": "directus_operations",
+    "item": "6efe1572-6cdd-4c80-a063-eb71b7f1e519",
     "data": {
-      "collection": "directus_files",
-      "action": "read",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 21
+      "id": "6efe1572-6cdd-4c80-a063-eb71b7f1e519",
+      "name": "Verify To",
+      "key": "verify_to",
+      "type": "condition",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "filter": {
+          "$trigger": {
+            "to": {
+              "_nnull": true
+            }
+          }
+        }
+      },
+      "resolve": "8673740a-f7f8-44dd-9abd-5a714e0d6c74",
+      "reject": "0beeeb1a-2338-4ab4-95f5-0757bf3e43be",
+      "flow": "7c8732cd-9d9e-44be-a3f6-89c0d42c7687",
+      "date_created": "2025-08-10T07:09:41.258Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_files",
-      "action": "read",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "52598a64-071d-4071-96fa-4b620d6189b5",
-      "id": 21
+      "resolve": "8673740a-f7f8-44dd-9abd-5a714e0d6c74",
+      "reject": "0beeeb1a-2338-4ab4-95f5-0757bf3e43be"
     },
     "parent": null,
     "version": null
@@ -3488,31 +3673,39 @@
   {
     "id": 68,
     "activity": 69,
-    "collection": "directus_permissions",
-    "item": "22",
+    "collection": "directus_operations",
+    "item": "823ee957-6d5a-412c-886d-74d18de73864",
     "data": {
-      "collection": "directus_folders",
-      "action": "create",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 22
+      "id": "823ee957-6d5a-412c-886d-74d18de73864",
+      "name": "Get Editor",
+      "key": "get_editor",
+      "type": "item-read",
+      "position_x": 38,
+      "position_y": 1,
+      "options": {
+        "permissions": "$full",
+        "collection": "directus_users",
+        "key": [
+          "{{$trigger.body.editor.key}}"
+        ],
+        "query": {
+          "fields": [
+            "id",
+            "first_name",
+            "last_name",
+            "email"
+          ]
+        }
+      },
+      "resolve": "dc181cb9-3853-41b9-98bf-6901472bc1af",
+      "reject": null,
+      "flow": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "date_created": "2025-08-10T07:09:41.266Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_folders",
-      "action": "create",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 22
+      "resolve": "dc181cb9-3853-41b9-98bf-6901472bc1af",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3520,31 +3713,35 @@
   {
     "id": 69,
     "activity": 70,
-    "collection": "directus_permissions",
-    "item": "23",
+    "collection": "directus_operations",
+    "item": "89125be2-8205-4ad0-a77f-bd3e984202b3",
     "data": {
-      "collection": "directus_folders",
-      "action": "read",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 23
+      "id": "89125be2-8205-4ad0-a77f-bd3e984202b3",
+      "name": "Write",
+      "key": "write",
+      "type": "directus-labs-ai-writer-operation",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "apiKey": "{{globals.openai_api_key}}",
+        "model": "gpt-4o-mini",
+        "promptKey": "custom",
+        "system": "You are an expert in writing blog posts that are valuable for readers.\n\n## Rules\n- You are a human content writer. Avoid AI words like \"empower\". Avoid using prolix. Sound human.\n- ALWAYS output a JSON object that matches the sample below.\n{\n\"title\": \"Article Title\",\n\"slug\": \"formatted-slug\",\n\"description\": \"Short summary of the article to entice readers\",\n\"content\": \"Article content goes here. This needs to be properly encoded HTML string with proper line breaks, etc.\"\n}",
+        "json_mode": true,
+        "text": "Write an article based on this prompt.\n{{$trigger.body.prompt}}\n\n\n## Voice\nMatch this style and tone of voice when writing.\n{{ $trigger.body.voice }}",
+        "aiProvider": "openai",
+        "apiKeyOpenAi": "{{globals.openai_api_key}}",
+        "maxToken": 8192
+      },
+      "resolve": "3b7d004a-1dba-43c4-b902-a44fd71602ae",
+      "reject": null,
+      "flow": "5915dd55-fff8-4d47-b48c-a0e42e5033c1",
+      "date_created": "2025-08-10T07:09:41.273Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_folders",
-      "action": "read",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 23
+      "resolve": "3b7d004a-1dba-43c4-b902-a44fd71602ae",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3552,31 +3749,27 @@
   {
     "id": 70,
     "activity": 71,
-    "collection": "directus_permissions",
-    "item": "24",
+    "collection": "directus_operations",
+    "item": "a16e81d1-4177-443e-a292-786a66faee8a",
     "data": {
-      "collection": "directus_folders",
-      "action": "update",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 24
+      "id": "a16e81d1-4177-443e-a292-786a66faee8a",
+      "name": "Globals",
+      "key": "globals",
+      "type": "trigger",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "flow": "69e87d0b-df14-4779-bdc8-abc05f2f1e97"
+      },
+      "resolve": "823ee957-6d5a-412c-886d-74d18de73864",
+      "reject": null,
+      "flow": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "date_created": "2025-08-10T07:09:41.278Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_folders",
-      "action": "update",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 24
+      "resolve": "823ee957-6d5a-412c-886d-74d18de73864",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3584,31 +3777,27 @@
   {
     "id": 71,
     "activity": 72,
-    "collection": "directus_permissions",
-    "item": "25",
+    "collection": "directus_operations",
+    "item": "aecbd95c-e882-4ceb-acef-b806eaa25770",
     "data": {
-      "collection": "directus_folders",
-      "action": "delete",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 25
+      "id": "aecbd95c-e882-4ceb-acef-b806eaa25770",
+      "name": "Format Payload",
+      "key": "payload",
+      "type": "exec",
+      "position_x": 55,
+      "position_y": 1,
+      "options": {
+        "code": "/**\n* Page Duplication Flow Function\n* \n* This function handles the duplication of a Directus page, including all its content blocks.\n* It allows specifying a new title and permalink, or automatically creates them with \"-Copy\" suffix.\n* The duplicated page is always set to draft status for review before publishing.\n* \n* @param {Object} data - Data object from Directus Flow\n* @param {Object} data.$trigger.body - Optional data passed to the flow (new title/permalink)\n* @param {Object} data.item - The original page being duplicated with all its properties\n* @returns {Object} Modified page data for creating the duplicate\n*/\nmodule.exports = function(data) {\n   // Get the data submitted with the flow trigger (if any)\n   const triggerData = data.$trigger.body;\n   \n   // Get the full data of the existing page to duplicate\n   const existingData = data.item;\n   \n   // Set the title for the duplicate:\n   // - Use the provided title if it exists in the trigger data\n   // - Otherwise, append \"- Copy\" to the original page title\n   existingData.title = triggerData.title ?? existingData.title + ' - Copy';\n   \n   // Set the permalink for the duplicate:\n   // - Use the provided permalink if it exists in the trigger data\n   // - Otherwise, append \"-copy\" to the original permalink\n   existingData.permalink = triggerData.permalink ?? existingData.permalink + '-copy';\n   \n   // Always set the duplicate page to draft status\n   // This prevents accidental publishing of duplicate content\n   existingData.status = 'draft';\n   \n   // Return the modified data to create the duplicate page\n   // Note: Directus will handle copying all related blocks/components\n   return existingData;\n}"
+      },
+      "resolve": "396d13ef-af98-49c1-8237-2070549a8cd0",
+      "reject": null,
+      "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+      "date_created": "2025-08-10T07:09:41.281Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_folders",
-      "action": "delete",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 25
+      "resolve": "396d13ef-af98-49c1-8237-2070549a8cd0",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3616,31 +3805,28 @@
   {
     "id": 72,
     "activity": 73,
-    "collection": "directus_permissions",
-    "item": "26",
+    "collection": "directus_operations",
+    "item": "bb1b1e3f-032e-48b7-b260-1cf3af4a116c",
     "data": {
-      "collection": "directus_files",
-      "action": "create",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 26
+      "id": "bb1b1e3f-032e-48b7-b260-1cf3af4a116c",
+      "name": "Read Globals",
+      "key": "read_globals",
+      "type": "item-read",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "permissions": "$full",
+        "collection": "globals"
+      },
+      "resolve": "fd271542-fac2-42d8-aa10-a02520c3753f",
+      "reject": null,
+      "flow": "69e87d0b-df14-4779-bdc8-abc05f2f1e97",
+      "date_created": "2025-08-10T07:09:41.285Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_files",
-      "action": "create",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 26
+      "resolve": "fd271542-fac2-42d8-aa10-a02520c3753f",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3648,31 +3834,35 @@
   {
     "id": 73,
     "activity": 74,
-    "collection": "directus_permissions",
-    "item": "27",
+    "collection": "directus_operations",
+    "item": "bc71ca4e-d979-4ef9-a449-af100a7e1b3b",
     "data": {
-      "collection": "directus_files",
-      "action": "read",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 27
+      "id": "bc71ca4e-d979-4ef9-a449-af100a7e1b3b",
+      "name": "Import",
+      "key": "import",
+      "type": "request",
+      "position_x": 74,
+      "position_y": 1,
+      "options": {
+        "method": "POST",
+        "url": "{{globals.directus_url}}/files/import",
+        "body": "{\n  \"url\": \"{{image}}\"\n}",
+        "headers": [
+          {
+            "header": "Authorization",
+            "value": "Bearer fT6_R5in_QUpUSXlLqGIhYtbRlBnopFe"
+          }
+        ]
+      },
+      "resolve": "2adf33da-7fd7-42f7-a6fe-48409463d51b",
+      "reject": null,
+      "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "date_created": "2025-08-10T07:09:41.289Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_files",
-      "action": "read",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 27
+      "resolve": "2adf33da-7fd7-42f7-a6fe-48409463d51b",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3680,31 +3870,33 @@
   {
     "id": 74,
     "activity": 75,
-    "collection": "directus_permissions",
-    "item": "28",
+    "collection": "directus_operations",
+    "item": "c02bfa07-a395-48df-a0c9-e5acace6da40",
     "data": {
-      "collection": "directus_files",
-      "action": "update",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 28
+      "id": "c02bfa07-a395-48df-a0c9-e5acace6da40",
+      "name": "Item",
+      "key": "item",
+      "type": "item-read",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "permissions": "$trigger",
+        "emitEvents": false,
+        "query": {
+          "fields": "{{duplication_fields.item_duplication_fields}}"
+        },
+        "key": "{{$trigger.body.keys}}",
+        "collection": "{{$trigger.body.collection}}"
+      },
+      "resolve": "aecbd95c-e882-4ceb-acef-b806eaa25770",
+      "reject": null,
+      "flow": "a23110e1-700b-41b8-9f9e-ca0998b84a76",
+      "date_created": "2025-08-10T07:09:41.293Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_files",
-      "action": "update",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 28
+      "resolve": "aecbd95c-e882-4ceb-acef-b806eaa25770",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3712,31 +3904,31 @@
   {
     "id": 75,
     "activity": 76,
-    "collection": "directus_permissions",
-    "item": "29",
+    "collection": "directus_operations",
+    "item": "c846f644-e7c1-43c9-8bb7-81181de0cd60",
     "data": {
-      "collection": "directus_files",
-      "action": "delete",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 29
+      "id": "c846f644-e7c1-43c9-8bb7-81181de0cd60",
+      "name": "Render Template",
+      "key": "render",
+      "type": "liquidjs-operation",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "publicUrl": "http://localhost:8001/",
+        "mode": "custom",
+        "operationMode": "single",
+        "template": "{{ $trigger.template }}",
+        "data": "{{ $trigger.data }}"
+      },
+      "resolve": "edc5e1ae-a3ed-45af-ae77-10409a66cd03",
+      "reject": null,
+      "flow": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
+      "date_created": "2025-08-10T07:09:41.298Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_files",
-      "action": "delete",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-      "id": 29
+      "resolve": "edc5e1ae-a3ed-45af-ae77-10409a66cd03",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3744,31 +3936,30 @@
   {
     "id": 76,
     "activity": 77,
-    "collection": "directus_permissions",
-    "item": "30",
+    "collection": "directus_operations",
+    "item": "d6f73e98-19ef-47d6-8d1f-99d77137d36b",
     "data": {
-      "collection": "directus_files",
-      "action": "create",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
-      "id": 30
+      "id": "d6f73e98-19ef-47d6-8d1f-99d77137d36b",
+      "name": "Image",
+      "key": "image",
+      "type": "directus-labs-ai-image-generation",
+      "position_x": 56,
+      "position_y": 1,
+      "options": {
+        "apiKey": "{{globals.openai_api_key}}",
+        "quality": "hd",
+        "size": "landscape",
+        "prompt": "{{prompt}}"
+      },
+      "resolve": "bc71ca4e-d979-4ef9-a449-af100a7e1b3b",
+      "reject": null,
+      "flow": "d4bbac48-a444-49e0-aedb-9af5273b88df",
+      "date_created": "2025-08-10T07:09:41.300Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_files",
-      "action": "create",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
-      "id": 30
+      "resolve": "bc71ca4e-d979-4ef9-a449-af100a7e1b3b",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3776,31 +3967,27 @@
   {
     "id": 77,
     "activity": 78,
-    "collection": "directus_permissions",
-    "item": "31",
+    "collection": "directus_operations",
+    "item": "d7f64e04-ab43-4d77-b8e8-379b41af2d3a",
     "data": {
-      "collection": "directus_files",
-      "action": "read",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
-      "id": 31
+      "id": "d7f64e04-ab43-4d77-b8e8-379b41af2d3a",
+      "name": "Format Payload",
+      "key": "format_payload",
+      "type": "exec",
+      "position_x": 73,
+      "position_y": 1,
+      "options": {
+        "code": "/**\n * Automatic Redirect Generator for Content URL Changes\n * \n * This function generates redirect objects when published content URLs change.\n * It works with both posts and pages collections to maintain SEO value\n * and prevent broken links when content is moved or renamed.\n */\nconst map = {\n  // Configuration for blog posts\n  posts: {\n    slugField: \"slug\",        // Field that contains the URL identifier for posts\n    routePrefix: \"/blog/\",    // Prefix added to all post URLs (e.g., /blog/my-post)\n  },\n  // Configuration for pages\n  pages: {\n    slugField: \"permalink\",   // Field that contains the URL identifier for pages\n    routePrefix: \"\",          // No prefix for pages (e.g., /about-us)\n  },\n};\n\n/**\n * Flow function executed when content URL changes\n * @param {Object} data - Data object from Directus Flow\n * @param {Object} data.$trigger - Information about what triggered the flow\n * @param {string} data.$trigger.collection - Collection name (posts/pages)\n * @param {Object} data.$trigger.payload - New data being saved\n * @param {Object} data.item - Previous version of the item before changes\n * @returns {Object} Redirect configuration object\n */\nmodule.exports = function (data) {\n  // Get the collection configuration based on whether this is a page or post\n  const collection = map[data.$trigger.collection];\n\n  const oldSlug = data.item[collection.slugField];\n  const newSlug = data.$trigger.payload[collection.slugField];\n  \n  // Build the old URL by combining the route prefix with the previous slug/permalink\n  const oldUrl = `${collection.routePrefix}${oldSlug}`;\n  \n  // Build the new URL by combining the route prefix with the new slug/permalink\n  const newUrl = `${collection.routePrefix}${newSlug}`;\n    \n  // Add a note\n  const note = `Created by Redirect automation on ${new Date().toLocaleDateString(\"en-US\")} at ${new Date().toLocaleTimeString(\"en-US\")} when a ${data.$trigger.collection} ${collection.slugField} was updated from \"${oldSlug}\" to \"${newSlug}\"`\n  \n  // Return a redirect object that will be saved to the redirects collection\n  return {\n    response_code: 301,       // Permanent redirect (best for SEO)\n    url_from: oldUrl,         // Where users were going before\n    url_to: newUrl,           // Where they should be sent now\n    note,\n  };\n};"
+      },
+      "resolve": "f6b8abc3-20bd-4d05-9bec-b7c759559e13",
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-08-10T07:09:41.303Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_files",
-      "action": "read",
-      "permissions": null,
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
-      "id": 31
+      "resolve": "f6b8abc3-20bd-4d05-9bec-b7c759559e13",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3808,47 +3995,39 @@
   {
     "id": 78,
     "activity": 79,
-    "collection": "directus_permissions",
-    "item": "32",
+    "collection": "directus_operations",
+    "item": "dc181cb9-3853-41b9-98bf-6901472bc1af",
     "data": {
-      "collection": "directus_files",
-      "action": "update",
-      "permissions": {
-        "_and": [
-          {
-            "uploaded_by": {
-              "_eq": "$CURRENT_USER"
-            }
-          }
-        ]
+      "id": "dc181cb9-3853-41b9-98bf-6901472bc1af",
+      "name": "Get User",
+      "key": "get_user",
+      "type": "item-read",
+      "position_x": 57,
+      "position_y": 1,
+      "options": {
+        "permissions": "$full",
+        "collection": "directus_users",
+        "key": [
+          "{{$accountability.user}}"
+        ],
+        "query": {
+          "fields": [
+            "id",
+            "first_name",
+            "last_name",
+            "email"
+          ]
+        }
       },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
-      "id": 32
+      "resolve": "4b46b1e9-1ca0-47c3-86a8-68826136664e",
+      "reject": null,
+      "flow": "3172d021-0b0f-4d4d-bcca-c5c46eb8fadf",
+      "date_created": "2025-08-10T07:09:41.308Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_files",
-      "action": "update",
-      "permissions": {
-        "_and": [
-          {
-            "uploaded_by": {
-              "_eq": "$CURRENT_USER"
-            }
-          }
-        ]
-      },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
-      "id": 32
+      "resolve": "4b46b1e9-1ca0-47c3-86a8-68826136664e",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3856,47 +4035,27 @@
   {
     "id": 79,
     "activity": 80,
-    "collection": "directus_permissions",
-    "item": "33",
+    "collection": "directus_operations",
+    "item": "dff1a702-bcc0-4528-905e-309feb880111",
     "data": {
-      "collection": "directus_files",
-      "action": "delete",
-      "permissions": {
-        "_and": [
-          {
-            "uploaded_by": {
-              "_eq": "$CURRENT_USER"
-            }
-          }
-        ]
+      "id": "dff1a702-bcc0-4528-905e-309feb880111",
+      "name": "Format",
+      "key": "format",
+      "type": "exec",
+      "position_x": 19,
+      "position_y": 18,
+      "options": {
+        "code": "/**\n * Prepares email template data by matching trigger values with form fields\n * @param {Object} trigger - The trigger object containing payload values\n * @param {Object} form - The form object containing fields and email templates\n * @returns {Array} Array of prepared email template objects\n * @throws {Error} If required data is missing or invalid\n */\nfunction prepareEmailTemplateData(trigger, form) {\n  // Validate input parameters\n  if (!trigger?.payload?.values || !Array.isArray(trigger.payload.values)) {\n    throw new Error('Invalid trigger payload values');\n  }\n  \n  if (!form?.fields || !Array.isArray(form.fields)) {\n    throw new Error('Invalid form fields');\n  }\n  \n  if (!form?.emails || !Array.isArray(form.emails)) {\n    throw new Error('Invalid form emails');\n  }\n\n  // Create an object to store the field name-value pairs\n  const data = {};\n  \n  // Iterate through the trigger values and match them with form fields\n  trigger.payload.values.forEach(item => {\n    if (!item || typeof item !== 'object') {\n      throw new Error('Invalid trigger value item');\n    }\n\n    // Ensure required properties exist\n    if (!item.field && !item.field_name) {\n      throw new Error('Missing field identifier in trigger value');\n    }\n    \n    if (item.value === undefined) {\n      throw new Error('Missing value in trigger value');\n    }\n\n    // Find the corresponding field in the form\n    const formField = form.fields.find(field => field.id === item.field);\n    \n    // If a matching field is found, use its name as the key\n    if (formField && formField.name) {\n      data[formField.name] = item.value;\n    } else {\n      // Fallback to using the field_name from the trigger if no match is found\n      data[item.field_name || item.field] = item.value;\n    }\n  });\n\n  // Process and validate all email templates\n  const emailTemplates = form.emails.map(email => {\n    // Validate required email template properties\n    if (!email.subject) {\n      throw new Error('Missing email subject');\n    }\n    \n    if (!email.message) {\n      throw new Error('Missing email message template');\n    }\n    \n    if (!email.to) {\n      throw new Error('Missing email recipient');\n    }\n\n    // Normalize 'to' field to always be an array\n    const toField = Array.isArray(email.to) ? email.to : [email.to];\n    \n    // Validate each email address\n    toField.forEach(recipient => {\n      if (typeof recipient !== 'string' || !recipient.trim()) {\n        throw new Error('Invalid email recipient');\n      }\n    });\n\n    return {\n      to: toField,\n      subject: email.subject,\n      template: email.message,\n      data: data\n    };\n  });\n\n  return emailTemplates;\n}\n\nmodule.exports = function(data) {\n  if (!data?.$trigger || !data?.form) {\n    throw new Error('Missing required data');\n  }\n  \n  return prepareEmailTemplateData(data.$trigger, data.form);\n};"
       },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
-      "id": 33
+      "resolve": "fbf696ea-c6af-4230-8f62-c663beebd6d9",
+      "reject": null,
+      "flow": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+      "date_created": "2025-08-10T07:09:41.310Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
     },
     "delta": {
-      "collection": "directus_files",
-      "action": "delete",
-      "permissions": {
-        "_and": [
-          {
-            "uploaded_by": {
-              "_eq": "$CURRENT_USER"
-            }
-          }
-        ]
-      },
-      "validation": null,
-      "presets": null,
-      "fields": [
-        "*"
-      ],
-      "policy": "a15b697e-29d5-4164-8d24-eb228ba901e3",
-      "id": 33
+      "resolve": "fbf696ea-c6af-4230-8f62-c663beebd6d9",
+      "reject": null
     },
     "parent": null,
     "version": null
@@ -3904,6 +4063,66 @@
   {
     "id": 80,
     "activity": 81,
+    "collection": "directus_operations",
+    "item": "f491233d-f942-4c8a-bc9d-9074fce45844",
+    "data": {
+      "id": "f491233d-f942-4c8a-bc9d-9074fce45844",
+      "name": "Read Item",
+      "key": "item",
+      "type": "item-read",
+      "position_x": 37,
+      "position_y": 1,
+      "options": {
+        "permissions": "$trigger",
+        "emitEvents": false,
+        "collection": "{{$trigger.collection}}",
+        "key": "{{$trigger.keys}}"
+      },
+      "resolve": "2d441500-54d0-4519-a813-b16e0bbf1c08",
+      "reject": null,
+      "flow": "c62ceaa5-bd09-4158-8329-98792debc5d5",
+      "date_created": "2025-08-10T07:09:41.324Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
+    },
+    "delta": {
+      "resolve": "2d441500-54d0-4519-a813-b16e0bbf1c08",
+      "reject": null
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 81,
+    "activity": 82,
+    "collection": "directus_operations",
+    "item": "fbf696ea-c6af-4230-8f62-c663beebd6d9",
+    "data": {
+      "id": "fbf696ea-c6af-4230-8f62-c663beebd6d9",
+      "name": "Render",
+      "key": "render",
+      "type": "trigger",
+      "position_x": 41,
+      "position_y": 1,
+      "options": {
+        "flow": "5429ccb0-7e97-4ef5-9d65-2bbcf964f9a6",
+        "payload": "{{ format }}"
+      },
+      "resolve": "e12b95db-a408-4e7e-b30b-264f7fa8baa3",
+      "reject": null,
+      "flow": "61757ab0-b139-4079-b5eb-4e05bb8142ac",
+      "date_created": "2025-08-10T07:09:41.334Z",
+      "user_created": "209036be-69b4-4455-b225-58760209052a"
+    },
+    "delta": {
+      "resolve": "e12b95db-a408-4e7e-b30b-264f7fa8baa3",
+      "reject": null
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 82,
+    "activity": 83,
     "collection": "posts",
     "item": "399a9a1b-bad5-4b5b-86e4-291ad1676e91",
     "data": {
@@ -3942,8 +4161,8 @@
     "version": null
   },
   {
-    "id": 81,
-    "activity": 82,
+    "id": 83,
+    "activity": 84,
     "collection": "posts",
     "item": "a5068543-fdd1-4773-b6c3-43b4c222d377",
     "data": {
@@ -3982,8 +4201,8 @@
     "version": null
   },
   {
-    "id": 82,
-    "activity": 83,
+    "id": 84,
+    "activity": 85,
     "collection": "posts",
     "item": "ba559a1e-5b0c-4932-ab97-b1ab4ca69955",
     "data": {
@@ -4022,8 +4241,8 @@
     "version": null
   },
   {
-    "id": 83,
-    "activity": 84,
+    "id": 85,
+    "activity": 86,
     "collection": "posts",
     "item": "c96b64b4-9567-46f6-8eb5-ac2f37c4918d",
     "data": {
@@ -4062,8 +4281,8 @@
     "version": null
   },
   {
-    "id": 84,
-    "activity": 85,
+    "id": 86,
+    "activity": 87,
     "collection": "posts",
     "item": "ddf1003f-6b9a-460c-83fd-d985d6defbd6",
     "data": {
@@ -4102,8 +4321,8 @@
     "version": null
   },
   {
-    "id": 85,
-    "activity": 86,
+    "id": 87,
+    "activity": 88,
     "collection": "posts",
     "item": "f7845a69-edcb-4163-a2a9-fb82b64475c5",
     "data": {
@@ -4139,6 +4358,352 @@
       "seo": null
     },
     "parent": null,
+    "version": null
+  },
+  {
+    "id": 88,
+    "activity": 93,
+    "collection": "directus_policies",
+    "item": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+    "data": {
+      "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+      "name": "Administrator (CMS)",
+      "icon": "verified",
+      "description": "Cấp quyền truy cập quản trị viên đầy đủ cho toàn bộ CMS.",
+      "ip_access": null,
+      "enforce_tfa": true,
+      "admin_access": true,
+      "app_access": true
+    },
+    "delta": {
+      "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+      "name": "Administrator (CMS)",
+      "icon": "verified",
+      "description": "Cấp quyền truy cập quản trị viên đầy đủ cho toàn bộ CMS.",
+      "ip_access": null,
+      "enforce_tfa": true,
+      "admin_access": true,
+      "app_access": true
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 89,
+    "activity": 94,
+    "collection": "directus_policies",
+    "item": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+    "data": {
+      "id": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "name": "Content - Manage",
+      "icon": "edit",
+      "description": "Cấp khả năng đọc và chỉnh sửa TẤT CẢ nội dung. Dành cho Editors.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": true
+    },
+    "delta": {
+      "id": "8ba4ed6f-d330-4675-ae46-119c533a0928",
+      "name": "Content - Manage",
+      "icon": "edit",
+      "description": "Cấp khả năng đọc và chỉnh sửa TẤT CẢ nội dung. Dành cho Editors.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": true
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 90,
+    "activity": 95,
+    "collection": "directus_policies",
+    "item": "a15b697e-29d5-4164-8d24-eb228ba901e3",
+    "data": {
+      "id": "a15b697e-29d5-4164-8d24-eb228ba901e3",
+      "name": "Content - Self",
+      "icon": "self_improvement",
+      "description": "Cấp khả năng cho người dùng CHỈ chỉnh sửa nội dung của chính họ. Không thể xuất bản nội dung. Dành cho Writers/Authors.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": true
+    },
+    "delta": {
+      "id": "a15b697e-29d5-4164-8d24-eb228ba901e3",
+      "name": "Content - Self",
+      "icon": "self_improvement",
+      "description": "Cấp khả năng cho người dùng CHỈ chỉnh sửa nội dung của chính họ. Không thể xuất bản nội dung. Dành cho Writers/Authors.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": true
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 91,
+    "activity": 96,
+    "collection": "directus_policies",
+    "item": "b3f07a72-4d0f-4e0f-9f7e-1a5e1c0d4a9c",
+    "data": {
+      "id": "b3f07a72-4d0f-4e0f-9f7e-1a5e1c0d4a9c",
+      "name": "Content - Contribute",
+      "icon": "post_add",
+      "description": "Chỉ cấp khả năng tạo nội dung mới. Không có quyền chỉnh sửa nội dung đã tạo. Dành cho Contributors.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": true
+    },
+    "delta": {
+      "id": "b3f07a72-4d0f-4e0f-9f7e-1a5e1c0d4a9c",
+      "name": "Content - Contribute",
+      "icon": "post_add",
+      "description": "Chỉ cấp khả năng tạo nội dung mới. Không có quyền chỉnh sửa nội dung đã tạo. Dành cho Contributors.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": true
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 92,
+    "activity": 97,
+    "collection": "directus_policies",
+    "item": "c9e2b1d3-5a0b-4c2d-9e8a-2b4f5d6a7c8e",
+    "data": {
+      "id": "c9e2b1d3-5a0b-4c2d-9e8a-2b4f5d6a7c8e",
+      "name": "Content - Moderate",
+      "icon": "reviews",
+      "description": "Cấp khả năng quản lý và kiểm duyệt các nội dung do người dùng tạo. Dành cho Moderators.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": true
+    },
+    "delta": {
+      "id": "c9e2b1d3-5a0b-4c2d-9e8a-2b4f5d6a7c8e",
+      "name": "Content - Moderate",
+      "icon": "reviews",
+      "description": "Cấp khả năng quản lý và kiểm duyệt các nội dung do người dùng tạo. Dành cho Moderators.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": true
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 93,
+    "activity": 98,
+    "collection": "directus_policies",
+    "item": "52598a64-071d-4071-96fa-4b620d6189b5",
+    "data": {
+      "id": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "name": "Team - App Access",
+      "icon": "badge",
+      "description": "Cấp quyền truy cập Directus Studio cho các thành viên trong nhóm.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": true
+    },
+    "delta": {
+      "id": "52598a64-071d-4071-96fa-4b620d6189b5",
+      "name": "Team - App Access",
+      "icon": "badge",
+      "description": "Cấp quyền truy cập Directus Studio cho các thành viên trong nhóm.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": true
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 94,
+    "activity": 99,
+    "collection": "directus_access",
+    "item": "fb18c1bb-7b55-4318-b4b9-d70df68ff6af",
+    "data": {
+      "role": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+      "policy": {
+        "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66"
+      },
+      "sort": 1
+    },
+    "delta": {
+      "role": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66",
+      "policy": {
+        "id": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66"
+      },
+      "sort": 1
+    },
+    "parent": null,
+    "version": null
+  },
+  {
+    "id": 95,
+    "activity": 102,
+    "collection": "directus_permissions",
+    "item": "1",
+    "data": {
+      "collection": "directus_comments",
+      "action": "read",
+      "permissions": {},
+      "fields": [
+        "*"
+      ],
+      "policy": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66"
+    },
+    "delta": {
+      "collection": "directus_comments",
+      "action": "read",
+      "permissions": {},
+      "fields": [
+        "*"
+      ],
+      "policy": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66"
+    },
+    "parent": 142,
+    "version": null
+  },
+  {
+    "id": 96,
+    "activity": 103,
+    "collection": "directus_permissions",
+    "item": "2",
+    "data": {
+      "collection": "directus_files",
+      "action": "create",
+      "permissions": {},
+      "fields": [
+        "*"
+      ],
+      "policy": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66"
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "create",
+      "permissions": {},
+      "fields": [
+        "*"
+      ],
+      "policy": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66"
+    },
+    "parent": 142,
+    "version": null
+  },
+  {
+    "id": 97,
+    "activity": 104,
+    "collection": "directus_permissions",
+    "item": "3",
+    "data": {
+      "collection": "directus_files",
+      "action": "read",
+      "permissions": {},
+      "fields": [
+        "*"
+      ],
+      "policy": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66"
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "read",
+      "permissions": {},
+      "fields": [
+        "*"
+      ],
+      "policy": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66"
+    },
+    "parent": 142,
+    "version": null
+  },
+  {
+    "id": 98,
+    "activity": 105,
+    "collection": "directus_permissions",
+    "item": "4",
+    "data": {
+      "collection": "directus_files",
+      "action": "update",
+      "permissions": {},
+      "fields": [
+        "*"
+      ],
+      "policy": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66"
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "update",
+      "permissions": {},
+      "fields": [
+        "*"
+      ],
+      "policy": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66"
+    },
+    "parent": 142,
+    "version": null
+  },
+  {
+    "id": 99,
+    "activity": 106,
+    "collection": "directus_permissions",
+    "item": "5",
+    "data": {
+      "collection": "directus_files",
+      "action": "delete",
+      "permissions": {},
+      "fields": [
+        "*"
+      ],
+      "policy": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66"
+    },
+    "delta": {
+      "collection": "directus_files",
+      "action": "delete",
+      "permissions": {},
+      "fields": [
+        "*"
+      ],
+      "policy": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66"
+    },
+    "parent": 142,
+    "version": null
+  },
+  {
+    "id": 100,
+    "activity": 107,
+    "collection": "directus_permissions",
+    "item": "6",
+    "data": {
+      "collection": "directus_dashboards",
+      "action": "create",
+      "permissions": {},
+      "fields": [
+        "*"
+      ],
+      "policy": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66"
+    },
+    "delta": {
+      "collection": "directus_dashboards",
+      "action": "create",
+      "permissions": {},
+      "fields": [
+        "*"
+      ],
+      "policy": "ef049c8b-546b-4bbc-9cd7-b05d77e58b66"
+    },
+    "parent": 142,
     "version": null
   }
 ]

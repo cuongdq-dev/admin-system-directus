@@ -368,5 +368,140 @@
     "filter": null,
     "icon": "bookmark",
     "color": null
+  },
+  {
+    "id": 12,
+    "bookmark": null,
+    "user": "209036be-69b4-4455-b225-58760209052a",
+    "role": null,
+    "collection": "directus_users",
+    "search": null,
+    "layout": "cards",
+    "layout_query": {
+      "cards": {
+        "sort": [
+          "email"
+        ],
+        "page": 1
+      }
+    },
+    "layout_options": {
+      "cards": {
+        "icon": "account_circle",
+        "title": "{{ first_name }} {{ last_name }}",
+        "subtitle": "{{ email }}",
+        "size": 4
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null
+  },
+  {
+    "id": 13,
+    "bookmark": null,
+    "user": "39ed614e-da9e-45f0-b5f4-4aed3469823d",
+    "role": null,
+    "collection": "directus_users",
+    "search": null,
+    "layout": "cards",
+    "layout_query": {
+      "cards": {
+        "sort": [
+          "email"
+        ],
+        "page": 1
+      }
+    },
+    "layout_options": {
+      "cards": {
+        "icon": "account_circle",
+        "title": "{{ first_name }} {{ last_name }}",
+        "subtitle": "{{ email }}",
+        "size": 4
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null
+  },
+  {
+    "id": 14,
+    "bookmark": null,
+    "user": "209036be-69b4-4455-b225-58760209052a",
+    "role": null,
+    "collection": "directus_users",
+    "search": null,
+    "layout": "cards",
+    "layout_query": {
+      "cards": {
+        "sort": [
+          "email"
+        ],
+        "page": 1
+      }
+    },
+    "layout_options": {
+      "cards": {
+        "icon": "account_circle",
+        "title": "{{ first_name }} {{ last_name }}",
+        "subtitle": "{{ email }}",
+        "size": 4
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null
+  },
+  {
+    "id": 15,
+    "bookmark": null,
+    "user": "8c1a596b-3376-4b80-8754-18c99aa62737",
+    "role": null,
+    "collection": "directus_users",
+    "search": null,
+    "layout": "cards",
+    "layout_query": {
+      "cards": {
+        "sort": [
+          "email"
+        ],
+        "page": 1
+      }
+    },
+    "layout_options": {
+      "cards": {
+        "icon": "account_circle",
+        "title": "{{ first_name }} {{ last_name }}",
+        "subtitle": "{{ email }}",
+        "size": 4
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null
+  },
+  {
+    "id": 16,
+    "bookmark": null,
+    "user": "209036be-69b4-4455-b225-58760209052a",
+    "role": null,
+    "collection": "teams",
+    "search": null,
+    "layout": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1
+      }
+    },
+    "layout_options": null,
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null
   }
 ]

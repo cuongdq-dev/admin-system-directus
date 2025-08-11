@@ -1,5 +1,194 @@
 [
   {
+    "collection": "teams",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "teams_user_created_foreign",
+      "table": "teams",
+      "column": "user_created",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "id": 5,
+      "many_collection": "teams",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "posts",
+    "field": "team",
+    "related_collection": "teams",
+    "schema": {
+      "constraint_name": "posts_team_foreign",
+      "table": "posts",
+      "column": "team",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "teams",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "id": 9,
+      "many_collection": "posts",
+      "many_field": "team",
+      "one_collection": "teams",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "posts",
+    "field": "image",
+    "related_collection": "directus_files",
+    "schema": {
+      "constraint_name": "posts_image_foreign",
+      "table": "posts",
+      "column": "image",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_files",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "id": 1,
+      "many_collection": "posts",
+      "many_field": "image",
+      "one_collection": "directus_files",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "posts",
+    "field": "author",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "posts_author_foreign",
+      "table": "posts",
+      "column": "author",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "id": 2,
+      "many_collection": "posts",
+      "many_field": "author",
+      "one_collection": "directus_users",
+      "one_field": "posts",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": "sort",
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "posts",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "posts_user_created_foreign",
+      "table": "posts",
+      "column": "user_created",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "id": 3,
+      "many_collection": "posts",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "posts",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "posts_user_updated_foreign",
+      "table": "posts",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "id": 4,
+      "many_collection": "posts",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "teams",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "teams_user_updated_foreign",
+      "table": "teams",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "id": 6,
+      "many_collection": "teams",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
     "collection": "directus_files",
     "field": "uploaded_by",
     "related_collection": "directus_users",
@@ -537,6 +726,60 @@
       "junction_field": null,
       "sort_field": null,
       "system": true
+    }
+  },
+  {
+    "collection": "teams_posts",
+    "field": "posts_id",
+    "related_collection": "posts",
+    "schema": {
+      "constraint_name": "teams_posts_posts_id_foreign",
+      "table": "teams_posts",
+      "column": "posts_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "posts",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "id": 7,
+      "many_collection": "teams_posts",
+      "many_field": "posts_id",
+      "one_collection": "posts",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "teams_id",
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "teams_posts",
+    "field": "teams_id",
+    "related_collection": "teams",
+    "schema": {
+      "constraint_name": "teams_posts_teams_id_foreign",
+      "table": "teams_posts",
+      "column": "teams_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "teams",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "id": 8,
+      "many_collection": "teams_posts",
+      "many_field": "teams_id",
+      "one_collection": "teams",
+      "one_field": "posts",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "posts_id",
+      "sort_field": null,
+      "one_deselect_action": "nullify"
     }
   },
   {
@@ -1158,114 +1401,6 @@
       "junction_field": null,
       "sort_field": null,
       "system": true
-    }
-  },
-  {
-    "collection": "posts",
-    "field": "image",
-    "related_collection": "directus_files",
-    "schema": {
-      "constraint_name": "posts_image_foreign",
-      "table": "posts",
-      "column": "image",
-      "foreign_key_schema": "public",
-      "foreign_key_table": "directus_files",
-      "foreign_key_column": "id",
-      "on_update": "NO ACTION",
-      "on_delete": "NO ACTION"
-    },
-    "meta": {
-      "id": 1,
-      "many_collection": "posts",
-      "many_field": "image",
-      "one_collection": "directus_files",
-      "one_field": null,
-      "one_collection_field": null,
-      "one_allowed_collections": null,
-      "junction_field": null,
-      "sort_field": null,
-      "one_deselect_action": "nullify"
-    }
-  },
-  {
-    "collection": "posts",
-    "field": "author",
-    "related_collection": "directus_users",
-    "schema": {
-      "constraint_name": "posts_author_foreign",
-      "table": "posts",
-      "column": "author",
-      "foreign_key_schema": "public",
-      "foreign_key_table": "directus_users",
-      "foreign_key_column": "id",
-      "on_update": "NO ACTION",
-      "on_delete": "SET NULL"
-    },
-    "meta": {
-      "id": 2,
-      "many_collection": "posts",
-      "many_field": "author",
-      "one_collection": "directus_users",
-      "one_field": "posts",
-      "one_collection_field": null,
-      "one_allowed_collections": null,
-      "junction_field": null,
-      "sort_field": "sort",
-      "one_deselect_action": "nullify"
-    }
-  },
-  {
-    "collection": "posts",
-    "field": "user_created",
-    "related_collection": "directus_users",
-    "schema": {
-      "constraint_name": "posts_user_created_foreign",
-      "table": "posts",
-      "column": "user_created",
-      "foreign_key_schema": "public",
-      "foreign_key_table": "directus_users",
-      "foreign_key_column": "id",
-      "on_update": "NO ACTION",
-      "on_delete": "SET NULL"
-    },
-    "meta": {
-      "id": 3,
-      "many_collection": "posts",
-      "many_field": "user_created",
-      "one_collection": "directus_users",
-      "one_field": null,
-      "one_collection_field": null,
-      "one_allowed_collections": null,
-      "junction_field": null,
-      "sort_field": null,
-      "one_deselect_action": "nullify"
-    }
-  },
-  {
-    "collection": "posts",
-    "field": "user_updated",
-    "related_collection": "directus_users",
-    "schema": {
-      "constraint_name": "posts_user_updated_foreign",
-      "table": "posts",
-      "column": "user_updated",
-      "foreign_key_schema": "public",
-      "foreign_key_table": "directus_users",
-      "foreign_key_column": "id",
-      "on_update": "NO ACTION",
-      "on_delete": "SET NULL"
-    },
-    "meta": {
-      "id": 4,
-      "many_collection": "posts",
-      "many_field": "user_updated",
-      "one_collection": "directus_users",
-      "one_field": null,
-      "one_collection_field": null,
-      "one_allowed_collections": null,
-      "junction_field": null,
-      "sort_field": null,
-      "one_deselect_action": "nullify"
     }
   },
   {

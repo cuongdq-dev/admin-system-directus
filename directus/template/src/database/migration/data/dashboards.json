@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "6756aeb1-aa5e-4358-b1b8-ef801e4065eb",
+    "name": "test",
+    "icon": "space_dashboard",
+    "note": null,
+    "date_created": "2025-08-10T09:19:31.750Z",
+    "user_created": "209036be-69b4-4455-b225-58760209052a",
+    "color": null,
+    "panels": []
+  }
+]
